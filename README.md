@@ -86,7 +86,7 @@ docker-compose up -d
 
 | 서비스 | URL | 설명 |
 |--------|-----|------|
-| Wiki | http://wiki.localhost:3000 | Docusaurus 문서 사이트 |
+| Wiki | http://localhost:4000 | Docusaurus 문서 사이트 |
 | LMS | http://lms.localhost:8000 | Open edX 학습 관리 시스템 |
 | Studio | http://studio.localhost:8001 | 코스 제작 도구 |
 
