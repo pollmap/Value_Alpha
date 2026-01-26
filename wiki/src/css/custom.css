@@ -1,0 +1,430 @@
+/**
+ * Valuation Academy 커스텀 테마
+ * DCF부터 디지털자산까지, 모든 밸류에이션의 시작
+ */
+
+/* ========================================
+   CSS 변수 (Light Mode)
+   ======================================== */
+:root {
+  /* 브랜드 컬러 */
+  --ifm-color-primary: #1a56db;
+  --ifm-color-primary-dark: #1648c0;
+  --ifm-color-primary-darker: #1543b5;
+  --ifm-color-primary-darkest: #113795;
+  --ifm-color-primary-light: #2563eb;
+  --ifm-color-primary-lighter: #3b82f6;
+  --ifm-color-primary-lightest: #60a5fa;
+
+  /* 금융 테마 악센트 */
+  --va-accent-green: #10b981;
+  --va-accent-red: #ef4444;
+  --va-accent-gold: #f59e0b;
+  --va-accent-purple: #8b5cf6;
+
+  /* 타이포그래피 */
+  --ifm-font-family-base: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-font-weight: 700;
+
+  /* 레이아웃 */
+  --ifm-container-width-xl: 1400px;
+  --doc-sidebar-width: 300px;
+
+  /* 기타 */
+  --ifm-global-radius: 8px;
+}
+
+/* ========================================
+   다크 모드
+   ======================================== */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-navbar-background-color: #0f172a;
+  --ifm-footer-background-color: #0f172a;
+}
+
+/* ========================================
+   공식 블록 스타일
+   ======================================== */
+.formula-block {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 1.1rem;
+  overflow-x: auto;
+}
+
+[data-theme='dark'] .formula-block {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.formula-block code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* ========================================
+   핵심 용어 하이라이트
+   ======================================== */
+.key-term {
+  background-color: #fef3c7;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .key-term {
+  background-color: #78350f;
+  color: #fef3c7;
+}
+
+/* ========================================
+   계산기 컨테이너
+   ======================================== */
+.calculator-container {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-container h2 {
+  margin-top: 0;
+}
+
+/* ========================================
+   수익/손실 색상
+   ======================================== */
+.profit {
+  color: var(--va-accent-green);
+  font-weight: 600;
+}
+
+.loss {
+  color: var(--va-accent-red);
+  font-weight: 600;
+}
+
+/* ========================================
+   관련 코스 링크 박스
+   ======================================== */
+.course-link-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg, #dbeafe 0%, #ede9fe 100%);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: inherit;
+}
+
+.course-link-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+[data-theme='dark'] .course-link-box {
+  background: linear-gradient(90deg, #1e3a5f 0%, #312e81 100%);
+}
+
+/* ========================================
+   거장 인용구
+   ======================================== */
+.master-quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  border-left: 4px solid var(--va-accent-gold);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.master-quote .author {
+  display: block;
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--va-accent-gold);
+  font-size: 1rem;
+}
+
+/* ========================================
+   AI 챗봇 플로팅 버튼
+   ======================================== */
+.ai-chat-fab {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--va-accent-purple) 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.ai-chat-fab:hover {
+  transform: scale(1.1);
+}
+
+/* ========================================
+   난이도 배지
+   ======================================== */
+.difficulty-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+
+.difficulty-beginner {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.difficulty-intermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.difficulty-advanced {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+[data-theme='dark'] .difficulty-beginner {
+  background: #065f46;
+  color: #d1fae5;
+}
+
+[data-theme='dark'] .difficulty-intermediate {
+  background: #92400e;
+  color: #fef3c7;
+}
+
+[data-theme='dark'] .difficulty-advanced {
+  background: #991b1b;
+  color: #fee2e2;
+}
+
+/* ========================================
+   테이블 스타일
+   ======================================== */
+.responsive-table {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.responsive-table table {
+  min-width: 600px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+table th,
+table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* ========================================
+   Admonition (경고/팁 박스) 커스텀
+   ======================================== */
+.admonition {
+  border-radius: 8px;
+}
+
+.admonition-heading h5 {
+  font-size: 1rem;
+}
+
+/* ========================================
+   코드 블록
+   ======================================== */
+pre {
+  border-radius: 8px;
+}
+
+code {
+  border-radius: 4px;
+}
+
+/* ========================================
+   검색 결과 하이라이트
+   ======================================== */
+.search-result-match {
+  background-color: #fef08a;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+[data-theme='dark'] .search-result-match {
+  background-color: #854d0e;
+}
+
+/* ========================================
+   네비게이션 개선
+   ======================================== */
+.navbar__link--active {
+  font-weight: 600;
+}
+
+.navbar__item {
+  font-weight: 500;
+}
+
+/* ========================================
+   푸터
+   ======================================== */
+.footer__title {
+  font-weight: 700;
+}
+
+.footer__link-item {
+  transition: color 0.2s;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* ========================================
+   입력 필드 스타일
+   ======================================== */
+input[type="number"],
+input[type="text"],
+textarea {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.1);
+}
+
+/* ========================================
+   버튼 스타일
+   ======================================== */
+.btn-primary {
+  background: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ========================================
+   카드 그리드
+   ======================================== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+}
+
+/* ========================================
+   반응형
+   ======================================== */
+@media (max-width: 996px) {
+  .ai-chat-fab {
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .calculator-container {
+    padding: 1rem;
+  }
+
+  .formula-block {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}

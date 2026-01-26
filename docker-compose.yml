@@ -1,0 +1,164 @@
+version: "3.8"
+
+services:
+  # ===================
+  # Open edX (Tutor)
+  # ===================
+  openedx-lms:
+    image: overhangio/openedx:17.0.0
+    container_name: valuation-lms
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./openedx/config:/openedx/config
+      - ./openedx/themes:/openedx/themes
+      - openedx-data:/openedx/data
+    environment:
+      - LMS_HOST=${LMS_HOST:-lms.localhost}
+      - CMS_HOST=${CMS_HOST:-studio.localhost}
+      - PLATFORM_NAME=Valuation Academy
+    depends_on:
+      - mysql
+      - mongodb
+      - redis
+      - elasticsearch
+    networks:
+      - valuation-net
+
+  openedx-cms:
+    image: overhangio/openedx:17.0.0
+    container_name: valuation-cms
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./openedx/config:/openedx/config
+      - ./openedx/themes:/openedx/themes
+    environment:
+      - LMS_HOST=${LMS_HOST:-lms.localhost}
+      - CMS_HOST=${CMS_HOST:-studio.localhost}
+    depends_on:
+      - openedx-lms
+    networks:
+      - valuation-net
+
+  # ===================
+  # Docusaurus Wiki
+  # ===================
+  wiki:
+    build:
+      context: ./wiki
+      dockerfile: Dockerfile
+    container_name: valuation-wiki
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./wiki:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - LMS_URL=http://lms.localhost:8000
+      - CLAUDE_API_KEY=${CLAUDE_API_KEY}
+    networks:
+      - valuation-net
+
+  # ===================
+  # 데이터베이스
+  # ===================
+  mysql:
+    image: mysql:8.0
+    container_name: valuation-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD:-secretpassword}
+      - MYSQL_DATABASE=openedx
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - valuation-net
+
+  mongodb:
+    image: mongo:4.4
+    container_name: valuation-mongo
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - valuation-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: valuation-redis
+    networks:
+      - valuation-net
+
+  elasticsearch:
+    image: elasticsearch:7.17.0
+    container_name: valuation-es
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    networks:
+      - valuation-net
+
+  # ===================
+  # Keycloak (SSO)
+  # ===================
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0
+    container_name: valuation-keycloak
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=${KEYCLOAK_PASSWORD:-admin}
+      - KC_DB=postgres
+      - KC_DB_URL_HOST=keycloak-db
+      - KC_DB_URL_DATABASE=keycloak
+      - KC_DB_USERNAME=keycloak
+      - KC_DB_PASSWORD=${KC_DB_PASSWORD:-keycloak}
+    ports:
+      - "8080:8080"
+    command: start-dev
+    depends_on:
+      - keycloak-db
+    networks:
+      - valuation-net
+
+  keycloak-db:
+    image: postgres:15-alpine
+    container_name: valuation-keycloak-db
+    environment:
+      - POSTGRES_DB=keycloak
+      - POSTGRES_USER=keycloak
+      - POSTGRES_PASSWORD=${KC_DB_PASSWORD:-keycloak}
+    volumes:
+      - keycloak-db-data:/var/lib/postgresql/data
+    networks:
+      - valuation-net
+
+  # ===================
+  # Nginx Reverse Proxy
+  # ===================
+  nginx:
+    image: nginx:alpine
+    container_name: valuation-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - openedx-lms
+      - wiki
+    networks:
+      - valuation-net
+
+volumes:
+  openedx-data:
+  mysql-data:
+  mongo-data:
+  es-data:
+  keycloak-db-data:
+
+networks:
+  valuation-net:
+    driver: bridge
