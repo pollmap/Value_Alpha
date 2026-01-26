@@ -7,11 +7,13 @@ const config = {
   tagline: 'DCF부터 디지털자산까지, 모든 밸류에이션의 시작',
   favicon: 'img/favicon.ico',
 
-  url: 'https://wiki.valuation-academy.com',
-  baseUrl: '/',
+  url: 'https://pollmap.github.io',
+  baseUrl: '/Value_Alpha/',
 
-  organizationName: 'valuation-academy',
-  projectName: 'wiki',
+  organizationName: 'pollmap',
+  projectName: 'Value_Alpha',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -68,10 +70,10 @@ const config = {
             label: '기술적 분석',
             position: 'left',
             items: [
-              { to: '/technical/overview', label: '개요' },
-              { to: '/technical/indicators/rsi', label: '기술적 지표' },
-              { to: '/technical/patterns/head-shoulders', label: '차트 패턴' },
-              { to: '/technical/elliott-wave', label: '엘리엇 파동' },
+              { to: '/technical/intro', label: '개요' },
+              { to: '/technical/candlestick', label: '캔들차트' },
+              { to: '/technical/moving-average', label: '이동평균선' },
+              { to: '/technical/trend', label: '추세 분석' },
             ],
           },
           {
@@ -79,15 +81,15 @@ const config = {
             label: '자산별 분석',
             position: 'left',
             items: [
-              { to: '/assets/real-estate/income-approach', label: '부동산' },
-              { to: '/assets/crypto/on-chain', label: '디지털자산' },
-              { to: '/assets/bonds/pricing', label: '채권' },
+              { to: '/assets/real-estate/intro', label: '부동산' },
+              { to: '/assets/crypto/intro', label: '암호화폐' },
+              { to: '/assets/bonds/intro', label: '채권' },
               { to: '/assets/derivatives/options-basics', label: '파생상품' },
             ],
           },
           {
             type: 'dropdown',
-            label: '투자 거장',
+            label: '투자 대가',
             position: 'left',
             items: [
               { to: '/masters/graham', label: '벤자민 그레이엄' },
@@ -98,13 +100,10 @@ const config = {
             ],
           },
           { to: '/calculators/dcf', label: '계산기', position: 'left' },
+          { to: '/glossary/a-c', label: '용어사전', position: 'left' },
           {
-            href: 'https://lms.valuation-academy.com',
-            label: '코스 학습',
-            position: 'right',
-          },
-          {
-            type: 'search',
+            href: 'https://github.com/pollmap/Value_Alpha',
+            label: 'GitHub',
             position: 'right',
           },
         ],
