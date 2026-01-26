@@ -281,5 +281,5 @@ def magic_formula_screen(stocks):
 
 - [벤저민 그레이엄](/masters/graham) - 가치투자의 원조
 - [워렌 버핏](/masters/buffett) - ROIC 중시 투자
-- [DCF 밸류에이션](/valuation/dcf/intro) - 내재가치 산정
+- [DCF 밸류에이션](/valuation/dcf/overview) - 내재가치 산정
 - [EV/EBITDA](/valuation/relative/ev-ebitda) - 기업가치 평가

@@ -276,5 +276,5 @@ D    │ 채무불이행
 ## 관련 학습
 
 - [WACC](/valuation/dcf/wacc) - 부채 비용 계산
-- [DCF 밸류에이션](/valuation/dcf/intro) - 현금흐름 할인
+- [DCF 밸류에이션](/valuation/dcf/overview) - 현금흐름 할인
 - [채권 계산기](/calculators/bond) - 채권 가격 계산

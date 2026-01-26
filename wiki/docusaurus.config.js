@@ -30,9 +30,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/valuation-academy/wiki/tree/main/',
+          editUrl: 'https://github.com/pollmap/Value_Alpha/tree/main/wiki/',
           showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           routeBasePath: '/',
         },
         blog: false,
@@ -49,10 +49,6 @@ const config = {
       image: 'img/valuation-academy-social.png',
       navbar: {
         title: 'Valuation Academy',
-        logo: {
-          alt: 'VA Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'dropdown',
@@ -130,12 +126,12 @@ const config = {
           {
             title: '커뮤니티',
             items: [
-              { label: 'GitHub', href: 'https://github.com/valuation-academy' },
-              { label: 'Discord', href: 'https://discord.gg/valuation' },
+              { label: 'GitHub', href: 'https://github.com/pollmap/Value_Alpha' },
+              { label: '금융자격증 카페', href: 'https://cafe.naver.com/dokkm' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Valuation Academy. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 이찬희 (Chanhee Lee). Built with Docusaurus.`,
       },
       prism: {
         theme: themes.github,

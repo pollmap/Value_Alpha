@@ -273,6 +273,6 @@ HODL Waves:
 
 ## 관련 학습
 
-- [DCF 밸류에이션](/valuation/dcf/intro) - 수익 프로토콜 분석
+- [DCF 밸류에이션](/valuation/dcf/overview) - 수익 프로토콜 분석
 - [상대가치평가](/valuation/relative/intro) - 유사 프로젝트 비교
 - [기술적 분석](/technical/intro) - 가격 차트 분석

@@ -256,6 +256,6 @@ Cash-on-Cash = 2,900만/3억 = 9.7%
 
 ## 관련 학습
 
-- [DCF 밸류에이션](/valuation/dcf/intro)
+- [DCF 밸류에이션](/valuation/dcf/overview)
 - [수익률 분석](/assets/real-estate/returns)
 - [레이 달리오](/masters/dalio) - 자산배분과 부동산

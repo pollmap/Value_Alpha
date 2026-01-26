@@ -203,4 +203,4 @@ keywords: [필립 피셔, 성장주, 스커틀버트, 질적분석, 장기투자
 - [워렌 버핏](/masters/buffett) - 피셔 철학을 계승한 투자자
 - [피터 린치](/masters/lynch) - 성장주 투자의 현대적 적용
 - [벤저민 그레이엄](/masters/graham) - 가치투자의 대비되는 관점
-- [DCF 밸류에이션](/valuation/dcf/intro) - 성장주 가치평가
+- [DCF 밸류에이션](/valuation/dcf/overview) - 성장주 가치평가
