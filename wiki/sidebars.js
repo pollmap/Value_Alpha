@@ -44,6 +44,12 @@ const sidebars = {
         'technical/moving-average',
         'technical/trend',
         'technical/indicators',
+        'technical/bollinger',
+        'technical/volume',
+        'technical/fibonacci',
+        'technical/stochastic',
+        'technical/adx',
+        'technical/atr',
       ],
     },
     {
@@ -55,6 +61,8 @@ const sidebars = {
           label: '부동산',
           items: [
             'assets/real-estate/intro',
+            'assets/real-estate/residential',
+            'assets/real-estate/commercial',
           ],
         },
         {
@@ -62,6 +70,9 @@ const sidebars = {
           label: '암호화폐',
           items: [
             'assets/crypto/intro',
+            'assets/crypto/bitcoin',
+            'assets/crypto/ethereum',
+            'assets/crypto/altcoins',
           ],
         },
         {

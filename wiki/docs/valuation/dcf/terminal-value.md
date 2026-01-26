@@ -8,7 +8,7 @@ keywords: [터미널 가치, Terminal Value, Gordon Growth, Exit Multiple, DCF]
 
 # 터미널 가치 (Terminal Value)
 
-<span className="difficulty-badge difficulty-intermediate">중급</span>
+터미널 가치는 DCF 분석에서 명시적 예측 기간 이후 기업이 영속적으로 창출할 가치를 나타냅니다. 전체 기업가치의 상당 부분을 차지하므로, 가장 신중하게 다뤄야 할 부분입니다.
 
 ## 정의
 
@@ -22,11 +22,9 @@ keywords: [터미널 가치, Terminal Value, Gordon Growth, Exit Multiple, DCF]
 
 ### 1. Gordon Growth Model (영구성장모형)
 
-<div className="formula-block">
+Gordon Growth Model은 기업이 영원히 일정한 비율로 성장한다는 가정 하에 터미널 가치를 계산합니다.
 
-**TV = FCFn × (1+g) / (WACC - g)**
-
-</div>
+**공식: TV = FCFn × (1+g) / (WACC - g)**
 
 | 변수 | 의미 | 주의점 |
 |------|------|--------|
@@ -49,11 +47,9 @@ keywords: [터미널 가치, Terminal Value, Gordon Growth, Exit Multiple, DCF]
 
 ### 2. Exit Multiple Method (출구배수법)
 
-<div className="formula-block">
+Exit Multiple Method는 예측 기간 말에 기업을 매각한다고 가정하고, 당시 예상되는 EBITDA에 적절한 배수를 곱하여 터미널 가치를 계산합니다.
 
-**TV = EBITDAn × Exit Multiple**
-
-</div>
+**공식: TV = EBITDAn × Exit Multiple**
 
 | 변수 | 의미 | 결정 방법 |
 |------|------|----------|
@@ -62,9 +58,7 @@ keywords: [터미널 가치, Terminal Value, Gordon Growth, Exit Multiple, DCF]
 
 #### Exit Multiple 결정 기준
 
-1. **현재 Comparable 평균**: 동종업계 현재 EV/EBITDA
-2. **과거 평균**: 산업의 장기 평균 배수
-3. **예상 성장성 반영**: 고성장 → 높은 배수
+첫째, **현재 Comparable 평균**으로 동종업계의 현재 EV/EBITDA를 참고합니다. 둘째, **과거 평균**으로 산업의 장기 평균 배수를 사용합니다. 셋째, **예상 성장성 반영**으로 고성장이 예상되면 더 높은 배수를 적용합니다.
 
 ### 두 방법 비교
 
@@ -88,91 +82,68 @@ keywords: [터미널 가치, Terminal Value, Gordon Growth, Exit Multiple, DCF]
 
 ### Gordon Growth 방식
 
-<div className="formula-block">
-
 TV = 100 × (1 + 0.03) / (0.10 - 0.03) = 103 / 0.07 = **1,471억원**
-
-</div>
 
 ### Exit Multiple 방식
 
-<div className="formula-block">
-
 TV = 150 × 8 = **1,200억원**
-
-</div>
 
 ### 현재가치 환산
 
-<div className="formula-block">
+터미널 가치는 미래 시점의 가치이므로 현재가치로 환산해야 합니다.
 
 PV(TV) = TV / (1 + WACC)^5
 
-Gordon: 1,471 / (1.10)^5 = **914억원**
-
-Exit: 1,200 / (1.10)^5 = **745억원**
-
-</div>
+- Gordon Growth: 1,471 / (1.10)^5 = **914억원**
+- Exit Multiple: 1,200 / (1.10)^5 = **745억원**
 
 ## 터미널 가치의 함정
 
 ### 1. 과도한 TV 의존도
 
-TV가 전체 가치의 80%를 넘으면 위험 신호입니다.
+TV가 전체 가치의 80%를 넘으면 위험 신호입니다. 이는 명시적 예측 기간의 현금흐름보다 불확실한 미래 가치에 지나치게 의존하고 있음을 의미합니다.
 
-**해결책:**
-- 예측 기간 연장 (5년 → 10년)
-- 가정의 합리성 재검토
-- 민감도 분석 필수
+**해결책:** 예측 기간을 5년에서 10년으로 연장하거나, 가정의 합리성을 재검토하고, 민감도 분석을 필수적으로 수행합니다.
 
 ### 2. WACC ≤ g 오류
 
-<div className="formula-block">
-
-TV = FCF × (1+g) / (WACC - g)
-
-</div>
-
-WACC가 g보다 작거나 같으면 TV가 **무한대 또는 음수**가 됩니다.
+Gordon Growth 공식에서 WACC가 영구성장률 g보다 작거나 같으면 터미널 가치가 무한대 또는 음수가 됩니다. 이는 수학적으로 불가능한 상황이며, 가정 자체에 문제가 있음을 나타냅니다.
 
 ### 3. 정상화되지 않은 FCF
 
 마지막 연도 FCF가 비정상적이면 TV도 왜곡됩니다.
 
 **체크포인트:**
-- CapEx = 감가상각비 (유지보수 수준)
-- 마진이 산업 평균 수렴
-- 이상적 일회성 항목 제거
+- CapEx가 감가상각비 수준인지 (유지보수 수준)
+- 마진이 산업 평균에 수렴하는지
+- 일회성 항목이 제거되었는지
 
 ## 실무 베스트 프랙티스
 
 ### 1. 두 방법 병행
 
-```
-┌─────────────────────────────────────────┐
-│          터미널 가치 검증               │
-├─────────────────────────────────────────┤
-│ Gordon Growth TV:     1,471억원         │
-│ Exit Multiple TV:     1,200억원         │
-├─────────────────────────────────────────┤
-│ 차이: 271억원 (22.6%)                   │
-│ → 차이가 20% 이상이면 가정 재검토       │
-└─────────────────────────────────────────┘
-```
+Gordon Growth와 Exit Multiple 두 방법으로 각각 계산하여 결과를 비교합니다.
+
+**검증 예시:**
+- Gordon Growth TV: 1,471억원
+- Exit Multiple TV: 1,200억원
+- 차이: 271억원 (22.6%)
+
+두 방법의 결과 차이가 20% 이상이면 가정을 재검토해야 합니다. 어느 방법의 가정이 더 합리적인지 판단하고 필요시 조정합니다.
 
 ### 2. 내재 Exit Multiple 계산
 
-Gordon Growth로 계산한 TV에서 내재된 배수를 역산:
+Gordon Growth로 계산한 TV에서 내재된 배수를 역산하여 검증합니다.
 
-<div className="formula-block">
+**Implied EV/EBITDA = TV / EBITDAn = 1,471 / 150 = 9.8x**
 
-Implied EV/EBITDA = TV / EBITDAn = 1,471 / 150 = **9.8x**
-
-</div>
-
-이 배수가 합리적인지 검증합니다.
+이 배수가 현재 시장이나 과거 평균과 비교하여 합리적인지 검토합니다. 너무 높거나 낮다면 영구성장률 가정을 재검토해야 합니다.
 
 ### 3. 민감도 분석 필수
+
+WACC와 영구성장률의 변화에 따른 터미널 가치 민감도를 분석합니다.
+
+**WACC vs 영구성장률 민감도 테이블 (TV, 억원):**
 
 | WACC \ g | 2.0% | 2.5% | 3.0% | 3.5% | 4.0% |
 |----------|------|------|------|------|------|
@@ -181,6 +152,8 @@ Implied EV/EBITDA = TV / EBITDAn = 1,471 / 150 = **9.8x**
 | **10.0%** | 1,275 | 1,371 | 1,479 | 1,600 | 1,738 |
 | **10.5%** | 1,200 | 1,286 | 1,382 | 1,489 | 1,609 |
 | **11.0%** | 1,133 | 1,211 | 1,297 | 1,393 | 1,500 |
+
+위 테이블에서 WACC와 영구성장률이 각각 1%p 변할 때 터미널 가치가 수백억 원 변동하는 것을 확인할 수 있습니다. 이러한 민감도를 인지하고 보수적인 가정을 사용하는 것이 바람직합니다.
 
 ## 관련 학습
 
