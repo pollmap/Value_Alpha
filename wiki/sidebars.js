@@ -6,6 +6,84 @@ const sidebars = {
     'certifications',
     {
       type: 'category',
+      label: '기초 회계',
+      collapsed: false,
+      items: [
+        'foundation/overview',
+        {
+          type: 'category',
+          label: '회계 기초',
+          items: [
+            'foundation/accounting-basics/intro',
+            'foundation/accounting-basics/accrual-vs-cash',
+            'foundation/accounting-basics/accounting-equation',
+            'foundation/accounting-basics/double-entry',
+            'foundation/accounting-basics/k-gaap-vs-ifrs',
+          ],
+        },
+        {
+          type: 'category',
+          label: '재무상태표',
+          items: [
+            'foundation/balance-sheet/intro',
+            {
+              type: 'category',
+              label: '자산',
+              items: [
+                'foundation/balance-sheet/assets/current-assets',
+                'foundation/balance-sheet/assets/non-current-assets',
+                'foundation/balance-sheet/assets/intangibles',
+                'foundation/balance-sheet/assets/investment-property',
+              ],
+            },
+            {
+              type: 'category',
+              label: '부채',
+              items: [
+                'foundation/balance-sheet/liabilities/current-liabilities',
+                'foundation/balance-sheet/liabilities/non-current-liabilities',
+                'foundation/balance-sheet/liabilities/provisions',
+                'foundation/balance-sheet/liabilities/lease-liabilities',
+              ],
+            },
+            {
+              type: 'category',
+              label: '자본',
+              items: [
+                'foundation/balance-sheet/equity/components',
+                'foundation/balance-sheet/equity/retained-earnings',
+                'foundation/balance-sheet/equity/treasury-stock',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: '손익계산서',
+          items: [
+            'foundation/income-statement/intro',
+            'foundation/income-statement/operating-income',
+          ],
+        },
+        {
+          type: 'category',
+          label: '현금흐름표',
+          items: [
+            'foundation/cash-flow/intro',
+            'foundation/cash-flow/fcf-derivation',
+          ],
+        },
+        {
+          type: 'category',
+          label: '3표 연결',
+          items: [
+            'foundation/three-statement-link/intro',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: '기업 밸류에이션',
       collapsed: false,
       items: [
