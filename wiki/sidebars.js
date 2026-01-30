@@ -245,7 +245,37 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 3: 리스크 관리 & 매매 전략
+    // 대 카테고리 3: 보험 계리
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '보험 계리',
+      collapsed: true,
+      items: [
+        'actuarial/overview',
+        'actuarial/ifrs17',
+        'actuarial/risk-capital',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 3.5: 기업 케이스 스터디
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '기업 케이스 스터디',
+      collapsed: true,
+      items: [
+        'case-studies/samsung-electronics',
+        'case-studies/sk-hynix',
+        'case-studies/hyundai-motor',
+        'case-studies/naver',
+        'case-studies/celltrion',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 4: 리스크 관리 & 매매 전략
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -330,7 +360,22 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 5: 학습 퀴즈
+    // 대 카테고리 5: 모델링 도구
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '모델링 도구',
+      collapsed: true,
+      items: [
+        'modeling-tools/overview',
+        'modeling-tools/excel-financial-modeling',
+        'modeling-tools/python-for-finance',
+        'modeling-tools/professional-analysis',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 6: 학습 퀴즈
     // ─────────────────────────────────────────────
     {
       type: 'category',
