@@ -4,6 +4,7 @@ const sidebars = {
     'intro',
     'curriculum',
     'certifications',
+    'finance-mbti',
 
     // ─────────────────────────────────────────────
     // 대 카테고리 1: 투자분석 체계 (4-Layer)
@@ -245,21 +246,64 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 3: 보험 계리
+    // 대 카테고리 3: 금융 산업 지식
     // ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '보험 계리',
+      label: '금융 산업 지식',
       collapsed: true,
       items: [
-        'actuarial/overview',
-        'actuarial/ifrs17',
-        'actuarial/risk-capital',
+        'banking-industry/index',
+        'insurance-industry/index',
+        {
+          type: 'category',
+          label: '보험 계리',
+          items: [
+            'actuarial/overview',
+            'actuarial/ifrs17',
+            'actuarial/risk-capital',
+          ],
+        },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 3.5: 기업 케이스 스터디
+    // 대 카테고리 4: 금융권 기업 총람
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '금융권 기업 총람',
+      collapsed: true,
+      items: [
+        'companies/index',
+        'companies/banks',
+        'companies/securities',
+        'companies/insurance',
+        'companies/cards-capital',
+        'companies/savings-asset',
+        'companies/vc-fintech',
+        'companies/public-infra',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 5: 금융권 취업 가이드
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '금융권 취업 가이드',
+      collapsed: true,
+      items: [
+        'career/index',
+        'career/job-categories',
+        'career/requirements',
+        'career/competitions',
+        'career/roadmap',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 6: 기업 케이스 스터디
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -275,7 +319,7 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 4: 리스크 관리 & 매매 전략
+    // 대 카테고리 7: 리스크 관리 & 매매 전략
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -296,13 +340,19 @@ const sidebars = {
           label: '매매 전략',
           items: [
             'trading-strategies/overview',
+            'trading-strategies/value-investing',
+            'trading-strategies/momentum',
+            'trading-strategies/swing-trading',
+            'trading-strategies/quant',
+            'trading-strategies/event-driven',
+            'trading-strategies/market-microstructure',
           ],
         },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 4: 분석 도구
+    // 대 카테고리 8: 분석 도구
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -360,7 +410,7 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 5: 모델링 도구
+    // 대 카테고리 9: 모델링 도구
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -375,7 +425,7 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 6: 학습 퀴즈
+    // 대 카테고리 10: 학습 퀴즈
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -389,7 +439,7 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 6: 참고 자료
+    // 대 카테고리 11: 참고 자료
     // ─────────────────────────────────────────────
     {
       type: 'category',

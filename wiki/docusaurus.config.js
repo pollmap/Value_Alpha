@@ -93,6 +93,34 @@ module.exports = async function createConfigAsync() {
             },
             {
               type: 'dropdown',
+              label: '금융 산업 & 기업',
+              position: 'left',
+              items: [
+                { to: '/banking-industry/', label: '은행 산업 가이드' },
+                { to: '/insurance-industry/', label: '보험 산업 가이드' },
+                { to: '/actuarial/overview', label: '보험 계리' },
+                { to: '/companies-overview', label: '금융권 기업 총람' },
+                { to: '/companies-banks', label: '은행' },
+                { to: '/companies-securities', label: '증권사' },
+                { to: '/companies-insurance', label: '보험사' },
+              ],
+            },
+            {
+              type: 'dropdown',
+              label: '취업 & 커리어',
+              position: 'left',
+              items: [
+                { to: '/career-overview', label: '취업 종합 가이드' },
+                { to: '/career-job-categories', label: '직무 종류 및 특성' },
+                { to: '/career-requirements', label: '합격 요건 분석' },
+                { to: '/career-competitions', label: '대회 & 포트폴리오' },
+                { to: '/career-roadmap', label: '취업 로드맵' },
+                { to: '/certifications', label: '자격증 가이드' },
+                { to: '/finance-mbti', label: '금융 성향 테스트' },
+              ],
+            },
+            {
+              type: 'dropdown',
               label: '분석 도구',
               position: 'left',
               items: [
@@ -100,34 +128,17 @@ module.exports = async function createConfigAsync() {
                 { to: '/calculators/dcf', label: 'DCF 계산기' },
                 { to: '/calculators/wacc', label: 'WACC 계산기' },
                 { to: '/calculators/graham-number', label: '그레이엄 넘버' },
+                { to: '/modeling-tools/overview', label: '모델링 도구' },
               ],
             },
             {
               type: 'dropdown',
-              label: '리스크 & 매매',
-              position: 'left',
-              items: [
-                { to: '/risk-management/overview', label: '리스크 관리' },
-                { to: '/risk-management/position-sizing', label: '포지션 사이징' },
-                { to: '/risk-management/portfolio-construction', label: '포트폴리오 구성' },
-                { to: '/trading-strategies/overview', label: '매매 전략' },
-              ],
-            },
-            {
-              type: 'dropdown',
-              label: '실전 & 도구',
+              label: '실전 & 참고',
               position: 'left',
               items: [
                 { to: '/case-studies/samsung-electronics', label: '기업 케이스 스터디' },
-                { to: '/modeling-tools/overview', label: '모델링 도구' },
-                { to: '/actuarial/overview', label: '보험 계리' },
-              ],
-            },
-            {
-              type: 'dropdown',
-              label: '참고 자료',
-              position: 'left',
-              items: [
+                { to: '/risk-management/overview', label: '리스크 관리' },
+                { to: '/trading-strategies/overview', label: '매매 전략' },
                 { to: '/assets/real-estate/intro', label: '부동산' },
                 { to: '/assets/crypto/intro', label: '암호화폐' },
                 { to: '/assets/bonds/intro', label: '채권' },
@@ -152,6 +163,16 @@ module.exports = async function createConfigAsync() {
                 { label: '시작하기', to: '/intro' },
                 { label: '커리큘럼', to: '/curriculum' },
                 { label: '자격증 가이드', to: '/certifications' },
+                { label: '금융 성향 테스트', to: '/finance-mbti' },
+              ],
+            },
+            {
+              title: '취업 & 커리어',
+              items: [
+                { label: '취업 종합 가이드', to: '/career-overview' },
+                { label: '금융권 기업 총람', to: '/companies-overview' },
+                { label: '직무 종류', to: '/career-job-categories' },
+                { label: '취업 로드맵', to: '/career-roadmap' },
               ],
             },
             {
