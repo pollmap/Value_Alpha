@@ -10,6 +10,8 @@ interface Scenario {
   year: string;
   title: string;
   period: string;
+  targetAsset: string; // 매매 대상 자산
+  assetDetail: string; // 자산 상세 설명
   headline: string;
   description: string;
   chartDescription: string;
@@ -46,6 +48,8 @@ const scenarios: Scenario[] = [
     year: '1997년 10월',
     title: 'IMF 외환위기 전야',
     period: '1997 IMF 위기',
+    targetAsset: 'KOSPI 대형주 (삼성전자, 현대자동차, SK텔레콤)',
+    assetDetail: '시가총액 상위 대형 수출주 포트폴리오',
     headline: '태국 바트화 폭락, 아시아 금융위기 확산 우려',
     description:
       '동남아시아에서 시작된 외환위기가 한국으로 번질 조짐을 보이고 있습니다. 기업 부채비율이 400%를 넘는 대기업이 속출하고, 외환보유고가 급격히 감소하고 있습니다. 한보철강, 삼미그룹 등이 이미 부도 처리되었습니다.',
@@ -64,6 +68,8 @@ const scenarios: Scenario[] = [
     year: '1998년 9월',
     title: 'IMF 위기 바닥권',
     period: '1998 IMF 회복 초기',
+    targetAsset: '금융주 (국민은행, 신한금융, 하나은행)',
+    assetDetail: '구조조정 수혜가 예상되는 은행·금융지주 종목',
     headline: 'IMF 구제금융 이후, 구조조정 본격화 - 금 모으기 운동 확산',
     description:
       'IMF 구제금융 이후 강도 높은 구조조정이 진행 중입니다. 실업률이 7%를 돌파했지만, 금 모으기 운동 등 국민적 노력이 계속되고 있습니다. 환율이 안정화 조짐을 보이기 시작합니다.',
@@ -82,6 +88,8 @@ const scenarios: Scenario[] = [
     year: '2000년 3월',
     title: 'IT 버블 정점',
     period: '2000 닷컴 버블',
+    targetAsset: '코스닥 IT주 (새롬기술, 골드뱅크, 다음커뮤니케이션)',
+    assetDetail: '인터넷·벤처 관련 코스닥 상장 IT 기업',
     headline: '인터넷 혁명! 코스닥 벤처기업 주가 하늘 모르고 상승',
     description:
       '인터넷 관련 기업들의 주가가 매일 상한가를 기록하고 있습니다. 새롬기술, 골드뱅크 등 IT 벤처기업의 시가총액이 전통 대기업을 추월했습니다. "이번에는 다르다"는 분위기가 지배적입니다.',
@@ -100,6 +108,8 @@ const scenarios: Scenario[] = [
     year: '2003년 3월',
     title: '카드 대란과 이라크 전쟁',
     period: '2003 카드사태',
+    targetAsset: 'KOSPI 내수주 (LG전자, 삼성SDI, 포스코)',
+    assetDetail: '내수 경기에 민감한 중대형주 포트폴리오',
     headline: '신용카드 부실 위기, 이라크 전쟁 발발 - 시장 공포 확산',
     description:
       '신용카드 남발로 인한 대규모 부실이 터지고 있습니다. LG카드가 유동성 위기에 빠졌고, 미국의 이라크 침공이 시작되었습니다. 이중 악재에 시장이 크게 흔들리고 있습니다.',
@@ -118,6 +128,8 @@ const scenarios: Scenario[] = [
     year: '2007년 10월',
     title: '중국발 세계 호황 정점',
     period: '2007 글로벌 호황',
+    targetAsset: '조선·철강·해운주 (현대중공업, POSCO, 한진해운)',
+    assetDetail: '중국 특수 수혜 수출 업종 대표주',
     headline: 'KOSPI 사상 첫 2,000 돌파! 중국 특수에 수출 기업 실적 최고',
     description:
       '중국 경제성장에 힘입어 한국 수출 기업들의 실적이 사상 최고를 기록하고 있습니다. KOSPI가 처음으로 2,000을 돌파했으며, "3,000은 시간문제"라는 전망이 나옵니다.',
@@ -136,6 +148,8 @@ const scenarios: Scenario[] = [
     year: '2008년 10월',
     title: '글로벌 금융위기 공포',
     period: '2008 금융위기',
+    targetAsset: '삼성전자 (반도체·IT 대장주)',
+    assetDetail: '한국 시가총액 1위, 반도체 글로벌 리더',
     headline: '리먼브라더스 파산! 세계 금융시장 붕괴 - 공포지수 사상 최고',
     description:
       '미국 투자은행 리먼브라더스가 파산하며 글로벌 금융시스템이 마비되고 있습니다. 각국 정부가 긴급 구제금융에 나서고 있지만, 공포가 걷히지 않고 있습니다. 원화 가치가 급락하고 있습니다.',
@@ -154,6 +168,8 @@ const scenarios: Scenario[] = [
     year: '2011년 8월',
     title: '유럽 재정위기',
     period: '2011 유럽 위기',
+    targetAsset: '현대자동차 (자동차·수출 대표주)',
+    assetDetail: '글로벌 판매 확대 중인 한국 대표 수출 기업',
     headline: '그리스 디폴트 우려, 유럽 재정위기 확산 - 미국 신용등급 강등',
     description:
       '그리스, 이탈리아 등 남유럽 국가들의 재정위기가 심화되고 있습니다. 미국도 S&P로부터 사상 최초의 신용등급 강등을 받았습니다. 글로벌 경기 더블딥(이중침체) 우려가 커지고 있습니다.',
@@ -172,6 +188,8 @@ const scenarios: Scenario[] = [
     year: '2020년 3월',
     title: 'COVID-19 팬데믹 공포',
     period: '2020 코로나 폭락',
+    targetAsset: 'KODEX 200 ETF (KOSPI 200 추종)',
+    assetDetail: 'KOSPI 200 지수를 추종하는 국내 대표 ETF',
     headline: '코로나19 세계적 대유행 선언! 경제 셧다운 - 전세계 동시 폭락',
     description:
       'WHO가 코로나19 팬데믹을 선언했습니다. 전 세계적으로 봉쇄 조치가 시행되며 경제활동이 마비되고 있습니다. KOSPI는 한 달 만에 35% 이상 폭락했습니다.',
@@ -190,6 +208,8 @@ const scenarios: Scenario[] = [
     year: '2021년 6월',
     title: '동학개미 열풍과 과열 논란',
     period: '2021 과열장',
+    targetAsset: '2차전지·바이오주 (LG에너지솔루션, 삼성바이오로직스, 카카오)',
+    assetDetail: '개인투자자 집중 매수 업종의 고평가 성장주',
     headline: 'KOSPI 3,300 목전! 개인투자자 열풍 - "이번엔 진짜 다르다"',
     description:
       '동학개미운동과 서학개미 열풍이 이어지며 주식시장이 과열 양상을 보이고 있습니다. 빚투(신용거래)가 사상 최고치를 기록하고, 20~30대 젊은 투자자들이 대거 유입되었습니다. "주식만이 답"이라는 분위기입니다.',
@@ -208,6 +228,8 @@ const scenarios: Scenario[] = [
     year: '2022년 9월',
     title: '금리 인상 충격과 경기침체 우려',
     period: '2022 긴축 충격',
+    targetAsset: 'SK하이닉스 (반도체·메모리)',
+    assetDetail: '글로벌 메모리 반도체 2위, 경기 민감 대형주',
     headline: '미국 기준금리 4% 돌파! 강달러 폭풍 - 원화 1,400원 돌파',
     description:
       '미 연준이 자이언트 스텝(75bp 금리 인상)을 연달아 단행하고 있습니다. 원달러 환율이 1,400원을 돌파하며 13년 만의 최고치를 기록했습니다. 글로벌 경기침체 공포가 확산되고 있습니다.',
@@ -1078,6 +1100,29 @@ export default function MarketSurvivor(): JSX.Element {
 
         <h3 style={styles.scenarioTitle}>{scenario.title}</h3>
 
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            padding: '10px 14px',
+            background: 'var(--ifm-color-primary-contrast-background, #e6f6ed)',
+            borderRadius: 8,
+            marginBottom: 12,
+            border: '1px solid var(--ifm-color-primary-light, #4caf7c)',
+          }}
+        >
+          <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--ifm-color-primary-dark, #277148)' }}>
+            매매 대상:
+          </span>
+          <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--ifm-font-color-base, #1c1e21)' }}>
+            {scenario.targetAsset}
+          </span>
+        </div>
+        <p style={{ fontSize: 13, color: 'var(--ifm-color-emphasis-600, #666)', margin: '0 0 12px 0' }}>
+          {scenario.assetDetail}
+        </p>
+
         <div style={styles.headline}>{scenario.headline}</div>
 
         <p style={styles.descriptionText}>{scenario.description}</p>
@@ -1178,6 +1223,9 @@ export default function MarketSurvivor(): JSX.Element {
                   : currentChange < 0
                     ? '손실 발생'
                     : '변동 없음'}
+              </p>
+              <p style={styles.resultText}>
+                <strong>매매 대상:</strong> {scenario.targetAsset}
               </p>
               <p style={styles.resultText}>
                 <strong>나의 결정:</strong>{' '}

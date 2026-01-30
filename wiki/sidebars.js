@@ -1,11 +1,11 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   mainSidebar: [
+    // ─────────────────────────────────────────────
+    // 시작하기
+    // ─────────────────────────────────────────────
     'intro',
     'curriculum',
-    'certifications',
-    'finance-mbti',
-    'market-survivor',
 
     // ─────────────────────────────────────────────
     // 대 카테고리 1: 투자분석 체계 (4-Layer)
@@ -13,7 +13,7 @@ const sidebars = {
     {
       type: 'category',
       label: '투자분석 체계',
-      collapsed: false,
+      collapsed: true,
       items: [
         // Layer 1: 기초 회계
         {
@@ -247,67 +247,40 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 3: 금융 산업 지식
+    // 대 카테고리 3: 매매 전략 & 리스크 관리
     // ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '금융 산업 지식',
+      label: '매매 전략 & 리스크 관리',
       collapsed: true,
       items: [
-        'banking-industry/banking-industry',
-        'securities-industry/securities-industry',
-        'insurance-industry/insurance-industry',
-        'card-capital-industry/card-capital-industry',
-        'asset-management-industry/asset-management-industry',
         {
           type: 'category',
-          label: '보험 계리',
+          label: '매매 전략',
           items: [
-            'actuarial/overview',
-            'actuarial/ifrs17',
-            'actuarial/risk-capital',
+            'trading-strategies/overview',
+            'trading-strategies/value-investing-strategies',
+            'trading-strategies/momentum-strategies',
+            'trading-strategies/swing-trading',
+            'trading-strategies/quant-strategies',
+            'trading-strategies/event-driven',
+            'trading-strategies/market-microstructure',
+          ],
+        },
+        {
+          type: 'category',
+          label: '리스크 관리',
+          items: [
+            'risk-management/overview',
+            'risk-management/position-sizing',
+            'risk-management/portfolio-construction',
           ],
         },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 4: 금융권 기업 총람
-    // ─────────────────────────────────────────────
-    {
-      type: 'category',
-      label: '금융권 기업 총람',
-      collapsed: true,
-      items: [
-        'companies/companies-overview',
-        'companies/companies-banks',
-        'companies/companies-securities',
-        'companies/companies-insurance',
-        'companies/companies-cards-capital',
-        'companies/companies-savings-asset',
-        'companies/companies-vc-fintech',
-        'companies/companies-public-infra',
-      ],
-    },
-
-    // ─────────────────────────────────────────────
-    // 대 카테고리 5: 금융권 취업 가이드
-    // ─────────────────────────────────────────────
-    {
-      type: 'category',
-      label: '금융권 취업 가이드',
-      collapsed: true,
-      items: [
-        'career/career-overview',
-        'career/career-job-categories',
-        'career/career-requirements',
-        'career/career-competitions',
-        'career/career-roadmap',
-      ],
-    },
-
-    // ─────────────────────────────────────────────
-    // 대 카테고리 6: 기업 케이스 스터디
+    // 대 카테고리 4: 기업 케이스 스터디
     // ─────────────────────────────────────────────
     {
       type: 'category',
@@ -323,44 +296,73 @@ const sidebars = {
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 7: 리스크 관리 & 매매 전략
+    // 대 카테고리 5: 금융 산업 & 기업
     // ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '리스크 관리 & 매매',
+      label: '금융 산업 & 기업',
       collapsed: true,
       items: [
         {
           type: 'category',
-          label: '리스크 관리',
+          label: '산업 가이드',
           items: [
-            'risk-management/overview',
-            'risk-management/position-sizing',
-            'risk-management/portfolio-construction',
+            'banking-industry/banking-industry',
+            'securities-industry/securities-industry',
+            'insurance-industry/insurance-industry',
+            'card-capital-industry/card-capital-industry',
+            'asset-management-industry/asset-management-industry',
+            {
+              type: 'category',
+              label: '보험 계리',
+              items: [
+                'actuarial/overview',
+                'actuarial/ifrs17',
+                'actuarial/risk-capital',
+              ],
+            },
           ],
         },
         {
           type: 'category',
-          label: '매매 전략',
+          label: '기업 총람',
           items: [
-            'trading-strategies/overview',
-            'trading-strategies/value-investing-strategies',
-            'trading-strategies/momentum-strategies',
-            'trading-strategies/swing-trading',
-            'trading-strategies/quant-strategies',
-            'trading-strategies/event-driven',
-            'trading-strategies/market-microstructure',
+            'companies/companies-overview',
+            'companies/companies-banks',
+            'companies/companies-securities',
+            'companies/companies-insurance',
+            'companies/companies-cards-capital',
+            'companies/companies-savings-asset',
+            'companies/companies-vc-fintech',
+            'companies/companies-public-infra',
           ],
         },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 8: 분석 도구
+    // 대 카테고리 6: 금융권 취업 & 커리어
     // ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '분석 도구',
+      label: '금융권 취업 & 커리어',
+      collapsed: true,
+      items: [
+        'career/career-overview',
+        'career/career-job-categories',
+        'career/career-requirements',
+        'career/career-competitions',
+        'career/career-roadmap',
+        'certifications',
+      ],
+    },
+
+    // ─────────────────────────────────────────────
+    // 대 카테고리 7: 분석 & 모델링 도구
+    // ─────────────────────────────────────────────
+    {
+      type: 'category',
+      label: '분석 & 모델링 도구',
       collapsed: true,
       items: [
         {
@@ -382,68 +384,65 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: '계산기',
+          label: '밸류에이션 계산기',
           items: [
-            {
-              type: 'category',
-              label: '밸류에이션 계산기',
-              items: [
-                'calculators/dcf',
-                'calculators/wacc',
-                'calculators/graham-number',
-                'calculators/dupont-calculator',
-                'calculators/roic-calculator',
-                'calculators/ddm-calculator',
-                'calculators/per-band-calculator',
-                'calculators/football-field-calculator',
-                'calculators/peg-screener',
-              ],
-            },
-            {
-              type: 'category',
-              label: '리스크 & 채권 계산기',
-              items: [
-                'calculators/kelly-calculator',
-                'calculators/bond-calculator',
-                'calculators/option-greeks',
-              ],
-            },
+            'calculators/dcf',
+            'calculators/wacc',
+            'calculators/graham-number',
+            'calculators/dupont-calculator',
+            'calculators/roic-calculator',
+            'calculators/ddm-calculator',
+            'calculators/per-band-calculator',
+            'calculators/football-field-calculator',
+            'calculators/peg-screener',
+          ],
+        },
+        {
+          type: 'category',
+          label: '리스크 & 채권 계산기',
+          items: [
+            'calculators/kelly-calculator',
+            'calculators/bond-calculator',
+            'calculators/option-greeks',
+          ],
+        },
+        {
+          type: 'category',
+          label: '모델링 도구',
+          items: [
+            'modeling-tools/overview',
+            'modeling-tools/excel-financial-modeling',
+            'modeling-tools/python-for-finance',
+            'modeling-tools/professional-analysis',
           ],
         },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 9: 모델링 도구
+    // 대 카테고리 8: 인터랙티브
     // ─────────────────────────────────────────────
     {
       type: 'category',
-      label: '모델링 도구',
+      label: '인터랙티브',
       collapsed: true,
       items: [
-        'modeling-tools/overview',
-        'modeling-tools/excel-financial-modeling',
-        'modeling-tools/python-for-finance',
-        'modeling-tools/professional-analysis',
+        'finance-mbti',
+        'market-survivor',
+        {
+          type: 'category',
+          label: '학습 퀴즈',
+          items: [
+            'quiz/accounting-basics',
+            'quiz/financial-analysis',
+            'quiz/valuation',
+          ],
+        },
       ],
     },
 
     // ─────────────────────────────────────────────
-    // 대 카테고리 10: 학습 퀴즈
-    // ─────────────────────────────────────────────
-    {
-      type: 'category',
-      label: '학습 퀴즈',
-      collapsed: true,
-      items: [
-        'quiz/accounting-basics',
-        'quiz/financial-analysis',
-        'quiz/valuation',
-      ],
-    },
-
-    // ─────────────────────────────────────────────
-    // 대 카테고리 11: 참고 자료
+    // 대 카테고리 9: 참고 자료
     // ─────────────────────────────────────────────
     {
       type: 'category',
