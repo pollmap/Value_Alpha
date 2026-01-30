@@ -214,8 +214,8 @@ A사는 연 매출 1,000억원 규모의 제조업체로, 안정적인 성장세
 
 ## 관련 학습
 
-DCF 분석의 세부 주제에 대해 더 깊이 학습하려면 다음 문서들을 참고하세요.
+DCF 분석의 세부 주제에 대해 더 깊이 학습하려면 다음 문서들을 참고하십시오.
 
 [FCFF와 FCFE](/valuation/dcf/fcff-fcfe)에서는 두 가지 잉여현금흐름의 차이점과 각각의 계산 방법을 상세히 다룹니다. [WACC 산정](/valuation/dcf/wacc)에서는 자기자본비용과 부채비용의 산정 방법, WACC 계산 시 주의사항을 설명합니다. [터미널 가치](/valuation/dcf/terminal-value)에서는 영구성장모형과 탈출배수법을 심도 있게 다룹니다. [민감도 분석](/valuation/dcf/sensitivity)에서는 가정 변화가 기업가치에 미치는 영향을 분석하는 방법을 배웁니다.
 
-직접 DCF 분석을 수행해보고 싶다면 [DCF 계산기](/calculators/dcf)를 활용하세요.
+직접 DCF 분석을 수행해보고 싶다면 [DCF 계산기](/calculators/dcf)를 활용하십시오.

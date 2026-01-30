@@ -1,6 +1,10 @@
-# DCF 실전 적용
+---
+id: dcf-practice
+title: "DCF 실전 적용"
+sidebar_label: "DCF 실전 적용"
+---
 
-> **Layer 4 - 밸류에이션 실전** | 난이도: 🔴심화 | 선수 지식: [재무 모델링](../quantitative/financial-modeling.md), [DCF 개요](../../valuation/dcf/overview.md)
+# DCF 실전 적용
 
 ## DCF 실전 프로세스
 
@@ -169,7 +173,7 @@ FCFF PV (명시적 예측기간) + TV PV (터미널밸류 현재가치)
 → 투자 의견: 매수
 ```
 
-## 📊 한국 기업 DCF 특수 고려
+## 한국 기업 DCF 특수 고려
 
 ### 한국 특유의 DCF 조정 사항
 
@@ -191,7 +195,7 @@ FCFF PV (명시적 예측기간) + TV PV (터미널밸류 현재가치)
 = 총 기업가치
 ```
 
-## 💡 실무 포인트
+## 실무 포인트
 
 ### DCF 실전 체크리스트
 

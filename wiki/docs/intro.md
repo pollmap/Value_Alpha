@@ -87,8 +87,8 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 재�
 
 ## 시작하기
 
-가치평가의 여정을 시작할 준비가 되셨다면, 좌측 사이드바에서 관심 있는 주제를 선택하거나, 아래의 추천 시작점을 참고하세요.
+가치평가의 여정을 시작할 준비가 되셨다면, 좌측 사이드바에서 관심 있는 주제를 선택하거나, 아래의 추천 시작점을 참고하십시오.
 
-처음이라면 [기초 회계 개요](./foundation/overview.md)에서 시작하세요. 재무제표를 이미 알고 있다면 [재무제표 분석](./financial-analysis/overview.md)으로 바로 진입하세요. DCF 분석을 배우고 싶다면 [DCF 분석 개요](/valuation/dcf/overview)에서 시작하세요. 실제 기업 분석을 하고 싶다면 [기업분석 개요](./company-analysis/overview.md)를 확인하세요. 산업별 분석 프레임워크가 필요하다면 [산업분석 개요](./industry-analysis/overview.md)를 참고하세요. 실습을 원한다면 [DCF 계산기](/calculators/dcf)를 바로 사용해볼 수 있습니다.
+처음이라면 [기초 회계 개요](./foundation/overview.md)에서 시작하십시오. 재무제표를 이미 알고 있다면 [재무제표 분석](./financial-analysis/overview.md)으로 바로 진입하십시오. DCF 분석을 배우고 싶다면 [DCF 분석 개요](/valuation/dcf/overview)에서 시작하십시오. 실제 기업 분석을 하고 싶다면 [기업분석 개요](./company-analysis/overview.md)를 확인하십시오. 산업별 분석 프레임워크가 필요하다면 [산업분석 개요](./industry-analysis/overview.md)를 참고하십시오. 실습을 원한다면 [DCF 계산기](/calculators/dcf)를 바로 사용해볼 수 있습니다.
 
 가치평가는 예술이자 과학입니다. 정해진 정답은 없지만, 체계적인 분석 프레임워크와 풍부한 경험을 통해 점점 더 정교한 판단을 내릴 수 있게 됩니다. 이 여정에 밸류에이션 아카데미가 함께하겠습니다.

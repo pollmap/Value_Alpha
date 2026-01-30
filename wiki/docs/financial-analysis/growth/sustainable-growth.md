@@ -1,6 +1,10 @@
-# 지속가능성장률 (SGR) 모델
+---
+id: sustainable-growth
+title: "지속가능성장률 (SGR) 모델"
+sidebar_label: "지속가능성장률 (SGR) 모델"
+---
 
-> **Layer 2 - 성장성** | 난이도: 🟡중급 | 선수 지식: [이익 성장률](./earnings-growth.md), [DuPont 분석](../profitability/dupont.md)
+# 지속가능성장률 (SGR) 모델
 
 ## 지속가능성장률이란?
 
@@ -66,7 +70,7 @@ $$\text{SGR} = \text{순이익률} \times \text{자산회전율} \times \text{�
 | **안정기** | 실제 < SGR | 잉여 현금 → 배당, 자사주 |
 | **쇠퇴기** | 실제 << SGR | 자산 매각, 구조조정 |
 
-## 📊 한국 기업 특성
+## 한국 기업 특성
 
 ### 한국 기업 SGR 특성
 
@@ -90,7 +94,7 @@ $$\text{SGR} = \text{순이익률} \times \text{자산회전율} \times \text{�
 - **비지배지분**: 연결 순이익에서 비지배지분 순이익 제외
 - **이상치 처리**: ROE가 비정상적 연도는 정상화 ROE 사용
 
-## 💡 실무 포인트
+## 실무 포인트
 
 ### SGR 분석 체크리스트
 

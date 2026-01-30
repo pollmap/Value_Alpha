@@ -1,6 +1,10 @@
-# 산업분석 개요
+---
+id: overview
+title: "산업분석 개요"
+sidebar_label: "산업분석 개요"
+---
 
-> **Layer 3** | 난이도: 🟡중급 → 🔴심화 | 선수 지식: [재무제표 분석](../financial-analysis/overview.md)
+# 산업분석 개요
 
 ## 이 섹션의 목적
 
@@ -72,7 +76,7 @@ GICS (Global Industry Classification Standard)는 MSCI와 S&P가 개발한 산�
 | 건설 | PER(수주기반) | 수주잔고 → 미래 매출 |
 | 소비재 | PER | 안정적 이익 |
 
-## 📊 한국 시장 산업 구조
+## 한국 시장 산업 구조
 
 ### KOSPI 섹터별 시가총액 비중
 
@@ -114,4 +118,4 @@ GICS (Global Industry Classification Standard)는 MSCI와 S&P가 개발한 산�
 
 ---
 
-**다음**: 관심 있는 섹터부터 시작하세요. 투자 초보자는 [금융](./financials/intro.md)이나 [필수소비재](./consumer-staples/intro.md)가 이해하기 쉽습니다.
+**다음**: 관심 있는 섹터부터 시작하십시오. 투자 초보자는 [금융](./financials/intro.md)이나 [필수소비재](./consumer-staples/intro.md)가 이해하기 쉽습니다.

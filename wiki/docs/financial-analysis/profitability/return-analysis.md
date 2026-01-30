@@ -1,6 +1,10 @@
-# 수익률 분석 (ROE / ROIC / ROA)
+---
+id: return-analysis
+title: "수익률 분석 (ROE / ROIC / ROA)"
+sidebar_label: "수익률 분석 (ROE / ROIC / ROA)"
+---
 
-> **Layer 2 - 수익성** | 난이도: 🟡중급 | 선수 지식: [마진 분석](./margin-analysis.md), [재무상태표](../../foundation/balance-sheet/intro.md)
+# 수익률 분석 (ROE / ROIC / ROA)
 
 ## 수익률 지표의 의미
 
@@ -107,7 +111,7 @@ $$\text{ROCE} = \frac{\text{EBIT}}{\text{Capital Employed}} \times 100$$
 
 **해석**: ROIC 스프레드가 안정적으로 양수 → 지속적 가치 창출 기업
 
-## 📊 한국 기업 특성
+## 한국 기업 특성
 
 ### 한국 시장 수익률 특성
 
@@ -129,7 +133,7 @@ $$\text{ROCE} = \frac{\text{EBIT}}{\text{Capital Employed}} \times 100$$
 2. 금감원 전자공시시스템에서 동종업체 비교 가능
 3. 한국은행 기업경영분석 자료에서 업종 평균 ROE 확인
 
-## 💡 실무 포인트
+## 실무 포인트
 
 ### 수익률 분석 체크리스트
 
