@@ -163,6 +163,47 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '기업분석',
+      collapsed: false,
+      items: [
+        'company-analysis/overview',
+        {
+          type: 'category',
+          label: '정성적 분석',
+          items: [
+            'company-analysis/qualitative/business-model',
+            'company-analysis/qualitative/competitive-advantage',
+            'company-analysis/qualitative/management',
+            'company-analysis/qualitative/governance',
+          ],
+        },
+        {
+          type: 'category',
+          label: '정량적 분석',
+          items: [
+            'company-analysis/quantitative/financial-modeling',
+            'company-analysis/quantitative/scenario-analysis',
+          ],
+        },
+        {
+          type: 'category',
+          label: '밸류에이션 실전',
+          items: [
+            'company-analysis/valuation-practice/dcf-practice',
+            'company-analysis/valuation-practice/sotp',
+          ],
+        },
+        {
+          type: 'category',
+          label: '보고서 작성',
+          items: [
+            'company-analysis/report-writing/equity-research',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: '기술적 분석',
       items: [
         'technical/intro',
