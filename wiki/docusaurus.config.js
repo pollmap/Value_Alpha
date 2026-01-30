@@ -56,6 +56,17 @@ const config = {
         items: [
           {
             type: 'dropdown',
+            label: '투자분석 체계',
+            position: 'left',
+            items: [
+              { to: '/foundation/overview', label: 'Layer 1 · 기초 회계' },
+              { to: '/financial-analysis/overview', label: 'Layer 2 · 재무제표 분석' },
+              { to: '/industry-analysis/overview', label: 'Layer 3 · 산업분석' },
+              { to: '/company-analysis/overview', label: 'Layer 4 · 기업분석' },
+            ],
+          },
+          {
+            type: 'dropdown',
             label: '밸류에이션',
             position: 'left',
             items: [
@@ -67,40 +78,27 @@ const config = {
           },
           {
             type: 'dropdown',
-            label: '기술적 분석',
+            label: '분석 도구',
             position: 'left',
             items: [
-              { to: '/technical/intro', label: '개요' },
-              { to: '/technical/candlestick', label: '캔들차트' },
-              { to: '/technical/moving-average', label: '이동평균선' },
-              { to: '/technical/trend', label: '추세 분석' },
+              { to: '/technical/intro', label: '기술적 분석' },
+              { to: '/calculators/dcf', label: 'DCF 계산기' },
+              { to: '/calculators/wacc', label: 'WACC 계산기' },
+              { to: '/calculators/graham-number', label: '그레이엄 넘버' },
             ],
           },
           {
             type: 'dropdown',
-            label: '자산별 분석',
+            label: '참고 자료',
             position: 'left',
             items: [
               { to: '/assets/real-estate/intro', label: '부동산' },
               { to: '/assets/crypto/intro', label: '암호화폐' },
               { to: '/assets/bonds/intro', label: '채권' },
-              { to: '/assets/derivatives/options-basics', label: '파생상품' },
+              { to: '/masters/graham', label: '투자 대가' },
+              { to: '/glossary/a-c', label: '용어사전' },
             ],
           },
-          {
-            type: 'dropdown',
-            label: '투자 대가',
-            position: 'left',
-            items: [
-              { to: '/masters/graham', label: '벤자민 그레이엄' },
-              { to: '/masters/buffett', label: '워렌 버핏' },
-              { to: '/masters/lynch', label: '피터 린치' },
-              { to: '/masters/dalio', label: '레이 달리오' },
-              { to: '/masters/marks', label: '하워드 막스' },
-            ],
-          },
-          { to: '/calculators/dcf', label: '계산기', position: 'left' },
-          { to: '/glossary/a-c', label: '용어사전', position: 'left' },
           {
             href: 'https://github.com/pollmap/Value_Alpha',
             label: 'GitHub',
