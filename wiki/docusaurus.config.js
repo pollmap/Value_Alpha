@@ -18,6 +18,10 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  markdown: {
+    format: 'detect',
+  },
+
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko', 'en'],
