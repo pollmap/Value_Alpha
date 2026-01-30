@@ -1,0 +1,42 @@
+---
+id: kelly-calculator
+title: "Kelly Criterion 포지션 사이징 계산기"
+sidebar_label: "Kelly Criterion"
+---
+
+import { KellyCalculator } from '@site/src/components/Calculator';
+
+# Kelly Criterion 포지션 사이징 계산기
+
+장기 복리 수익률을 극대화하는 **최적 투자 비중**을 수학적으로 산출합니다.
+
+- **Full Kelly**: 이론적 최적 비중 (실전에서는 과도한 변동성)
+- **Half Kelly**: 실전에서 가장 많이 사용되는 보수적 비중
+- **Quarter Kelly**: 추정치에 불확실성이 높을 때 사용
+
+가치투자, 모멘텀 전략, 트레이딩, 배당투자 프리셋으로 전략별 최적 비중을 비교해 보세요.
+
+<KellyCalculator />
+
+---
+
+## 활용 가이드
+
+### Kelly Criterion의 핵심 원리
+
+Kelly 공식은 **기하평균 수익률을 최대화**하는 비중을 찾습니다. 산술평균이 아니라 기하평균이기 때문에, 과도한 베팅은 오히려 장기 수익을 악화시킵니다.
+
+### 실전 적용 원칙
+
+| 원칙 | 설명 |
+|------|------|
+| Half Kelly 이하 | 추정 오차를 감안해 Full Kelly의 50% 이하로 투자 |
+| 분산 투자 | Kelly를 개별 종목이 아니라 포트폴리오 레벨에서 적용 |
+| 보수적 추정 | 승률과 손익비를 낙관적으로 추정하면 과대 베팅 위험 |
+| 점진적 조정 | 실적이 축적되면 승률/손익비 추정치를 업데이트 |
+
+:::danger 실전에서의 한계
+Kelly Criterion은 승률과 손익비를 **정확히 안다는 전제**입니다. 주식 투자에서는 이 값들이 추정치이므로, Full Kelly는 거의 항상 과대 베팅입니다. 에드 소프(Ed Thorp)조차 실전에서는 Half Kelly를 사용했습니다.
+:::
+
+**관련 페이지**: [포지션 사이징](../risk-management/position-sizing.md) | [포트폴리오 구성](../risk-management/portfolio-construction.md)

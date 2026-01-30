@@ -1,0 +1,41 @@
+---
+id: football-field-calculator
+title: "복합 밸류에이션 (Football Field) 계산기"
+sidebar_label: "Football Field"
+---
+
+import { FootballFieldCalculator } from '@site/src/components/Calculator';
+
+# 복합 밸류에이션 (Football Field) 계산기
+
+여러 밸류에이션 방법론의 결과를 **하나의 차트**에 통합하여, 현재 주가의 위치를 직관적으로 파악합니다.
+
+실무 애널리스트가 리서치 보고서에서 가장 많이 사용하는 밸류에이션 시각화 방법입니다.
+
+- DCF, PER, PBR, EV/EBITDA, 52주 범위를 동시에 비교
+- 각 방법론의 하단/중간/상단 목표가를 수평 바로 표시
+- 현재 주가를 수직선으로 표시하여 종합적 판단 지원
+
+<FootballFieldCalculator />
+
+---
+
+## 활용 가이드
+
+### Football Field 차트가 강력한 이유
+
+1. **방법론 간 교차 검증**: DCF만으로는 가정에 따라 아무 값이나 나올 수 있음. 여러 방법론이 비슷한 범위를 가리키면 신뢰도 상승
+2. **의사결정 시각화**: "5가지 방법 중 4가지가 현재가 대비 상승 여력을 보여준다"는 직관적 결론
+3. **리스크 인식**: 방법론 간 범위가 넓으면 불확실성이 높다는 의미
+
+### 실무 적용 팁
+
+- **보수적 접근**: 모든 방법론의 하단 값 중 중간값을 "보수적 적정가"로 설정
+- **합리적 접근**: 각 방법론 중간값의 평균 = "컨센서스 적정가"
+- **낙관적 접근**: 모든 방법론의 상단 값 중 중간값
+
+:::tip 실전 팁
+실무에서는 각 방법론에 동일 가중치를 부여하지 않습니다. 예를 들어 은행주는 PBR에 가중치를 높이고, 성장주는 DCF에 가중치를 높입니다. 업종 특성에 맞는 가중치 조정이 핵심입니다.
+:::
+
+**관련 페이지**: [DCF 실전](../company-analysis/valuation-practice/dcf-practice.md) | [SOTP 분석](../company-analysis/valuation-practice/sotp.md) | [상대가치평가](../valuation/relative/overview.md)
