@@ -427,4 +427,4 @@ DART는 한국 기업 경영진 분석에서 가장 중요한 정보 원천입�
 
 ---
 
-**다음**: [지배구조 분석](./governance.md) | **이전**: [경쟁 우위 분석](./competitive-advantage.md)
+**다음**: [지배구조 분석](./governance) | **이전**: [경쟁 우위 분석](./competitive-advantage)

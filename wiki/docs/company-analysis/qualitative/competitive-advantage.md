@@ -483,4 +483,4 @@ ROIC = NOPAT / 투하자본
 
 ---
 
-**다음**: [경영진 분석](./management.md) | **이전**: [비즈니스 모델](./business-model.md)
+**다음**: [경영진 분석](./management) | **이전**: [비즈니스 모델](./business-model)

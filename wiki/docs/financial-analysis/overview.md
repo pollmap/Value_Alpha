@@ -107,19 +107,19 @@ Layer 4: 개별 기업을 '분석'한다
 ## 학습 로드맵
 
 ### 입문 (1~2주)
-1. [수익성 분석](./profitability/margin-analysis.md) - 마진율 이해
-2. [성장성 분석](./growth/revenue-growth.md) - 매출/이익 성장률
-3. [안정성 분석](./stability/debt-ratio.md) - 부채비율 기초
+1. [수익성 분석](./profitability/margin-analysis) - 마진율 이해
+2. [성장성 분석](./growth/revenue-growth) - 매출/이익 성장률
+3. [안정성 분석](./stability/debt-ratio) - 부채비율 기초
 
 ### 중급 (2~3주)
-4. [ROE/ROIC 심화](./profitability/return-analysis.md) - 수익률 분석
-5. [DuPont 분석](./profitability/dupont.md) - ROE 분해
-6. [지속가능성장률](./growth/sustainable-growth.md) - SGR 모델
-7. [유동성 분석](./stability/liquidity.md) - 단기 안전성
-8. [효율성 분석](./efficiency/asset-turnover.md) - 자산 활용도
+4. [ROE/ROIC 심화](./profitability/return-analysis) - 수익률 분석
+5. [DuPont 분석](./profitability/dupont) - ROE 분해
+6. [지속가능성장률](./growth/sustainable-growth) - SGR 모델
+7. [유동성 분석](./stability/liquidity) - 단기 안전성
+8. [효율성 분석](./efficiency/asset-turnover) - 자산 활용도
 
 ### 심화 (3~4주)
-9. [밸류에이션 멀티플](./valuation-multiples/overview.md) - PER/PBR/EV 연결
+9. [밸류에이션 멀티플](./valuation-multiples/overview) - PER/PBR/EV 연결
 10. 종합 사례 분석 - 실제 한국 기업 적용
 
 ## 밸류에이션 연결 포인트
@@ -133,4 +133,4 @@ Layer 4: 개별 기업을 '분석'한다
 
 ---
 
-**다음 단계**: [수익성 분석 - 마진 분석](./profitability/margin-analysis.md)으로 시작하십시오.
+**다음 단계**: [수익성 분석 - 마진 분석](./profitability/margin-analysis)으로 시작하십시오.

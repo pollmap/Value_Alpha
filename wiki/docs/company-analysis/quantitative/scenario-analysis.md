@@ -486,4 +486,4 @@ $$f^* = \frac{0.75}{0.40} - \frac{0.25}{0.661} = 1.875 - 0.378 = 1.497$$
 
 ---
 
-**다음**: [DCF 실전 적용](../valuation-practice/dcf-practice.md) | **이전**: [재무 모델링](./financial-modeling.md)
+**다음**: [DCF 실전 적용](../valuation-practice/dcf-practice) | **이전**: [재무 모델링](./financial-modeling)

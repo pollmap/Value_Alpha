@@ -450,6 +450,6 @@ IT 관련주 5개에 분산투자했다고 생각하지만, 모두 반도체 업
 
 ## 다음 단계
 
-- [리스크 관리 개요](./overview.md) -- 리스크의 유형과 측정 지표
-- [포트폴리오 구성](./portfolio-construction.md) -- 자산배분과 분산투자 실전
-- [매매 전략](../trading-strategies/overview.md) -- 다양한 매매 방법론
+- [리스크 관리 개요](./overview) -- 리스크의 유형과 측정 지표
+- [포트폴리오 구성](./portfolio-construction) -- 자산배분과 분산투자 실전
+- [매매 전략](../trading-strategies/overview) -- 다양한 매매 방법론

@@ -511,4 +511,4 @@ DCF가 제공하는 것은 정확한 숫자가 아니라, 투자 의사결정의
 
 ---
 
-**다음**: [SOTP 밸류에이션](./sotp.md) | **이전**: [시나리오 분석](../quantitative/scenario-analysis.md)
+**다음**: [SOTP 밸류에이션](./sotp) | **이전**: [시나리오 분석](../quantitative/scenario-analysis)

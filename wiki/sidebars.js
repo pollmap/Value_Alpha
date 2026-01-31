@@ -433,6 +433,7 @@ const sidebars = {
             'modeling-tools/professional-analysis',
           ],
         },
+        'tools/templates',
       ],
     },
 
@@ -446,6 +447,18 @@ const sidebars = {
       items: [
         'finance-mbti',
         'market-survivor',
+        {
+          type: 'category',
+          label: '분석 도구',
+          items: [
+            'tools/market-overview',
+            'tools/economic-calendar',
+            'tools/company-comparison',
+            'tools/portfolio-simulator',
+            'tools/finance-timeline',
+            'tools/progress-tracker',
+          ],
+        },
         {
           type: 'category',
           label: '학습 퀴즈',

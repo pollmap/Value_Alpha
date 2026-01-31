@@ -351,4 +351,4 @@ $$g = r - \frac{1}{\text{PER}}$$
 
 ---
 
-**다음**: [이익 성장률 분석](./earnings-growth.md) | **상위**: [재무제표 분석 개요](../overview.md)
+**다음**: [이익 성장률 분석](./earnings-growth) | **상위**: [재무제표 분석 개요](../overview)

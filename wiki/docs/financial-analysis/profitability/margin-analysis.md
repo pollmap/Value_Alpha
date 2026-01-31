@@ -390,4 +390,4 @@ EBITDA 마진은 다음과 같은 상황에서 영업이익률보다 더 적합�
 
 ---
 
-**다음**: [수익률 분석 (ROE/ROIC)](./return-analysis.md) | **상위**: [재무제표 분석 개요](../overview.md)
+**다음**: [수익률 분석 (ROE/ROIC)](./return-analysis) | **상위**: [재무제표 분석 개요](../overview)

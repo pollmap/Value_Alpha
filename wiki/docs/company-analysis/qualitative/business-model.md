@@ -386,4 +386,4 @@ sidebar_label: "비즈니스 모델 분석"
 
 ---
 
-**다음**: [경쟁 우위 분석](./competitive-advantage.md) | **상위**: [기업분석 개요](../overview.md)
+**다음**: [경쟁 우위 분석](./competitive-advantage) | **상위**: [기업분석 개요](../overview)

@@ -329,8 +329,8 @@ $$\text{Value-Momentum Score} = \alpha \times Z_{\text{Value}} + (1-\alpha) \tim
 
 ## 관련 페이지
 
-- [매매 전략 개요](./overview.md) -- 전략 분류 체계와 기초
-- [가치투자 전략](./value-investing.md) -- 가치와 모멘텀의 결합
-- [퀀트 전략](./quant.md) -- 모멘텀 팩터의 체계적 활용
-- [스윙 트레이딩](./swing-trading.md) -- 단기 모멘텀의 활용
-- [시장 미시구조](./market-microstructure.md) -- 수급과 모멘텀의 관계
+- [매매 전략 개요](./overview) -- 전략 분류 체계와 기초
+- [가치투자 전략](./value-investing) -- 가치와 모멘텀의 결합
+- [퀀트 전략](./quant) -- 모멘텀 팩터의 체계적 활용
+- [스윙 트레이딩](./swing-trading) -- 단기 모멘텀의 활용
+- [시장 미시구조](./market-microstructure) -- 수급과 모멘텀의 관계

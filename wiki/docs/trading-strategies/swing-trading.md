@@ -383,8 +383,8 @@ $$\text{포지션 크기} = \frac{50,000,000 \times 0.01}{50,000 - 47,000} = \fr
 
 ## 관련 페이지
 
-- [매매 전략 개요](./overview.md) -- 전략 분류와 기초
-- [모멘텀 전략](./momentum.md) -- 가격 모멘텀의 활용
-- [시장 미시구조](./market-microstructure.md) -- 호가창과 수급 분석
-- [가치투자 전략](./value-investing.md) -- 장기 투자와의 비교
-- [퀀트 전략](./quant.md) -- 체계적 매매 시스템
+- [매매 전략 개요](./overview) -- 전략 분류와 기초
+- [모멘텀 전략](./momentum) -- 가격 모멘텀의 활용
+- [시장 미시구조](./market-microstructure) -- 호가창과 수급 분석
+- [가치투자 전략](./value-investing) -- 장기 투자와의 비교
+- [퀀트 전략](./quant) -- 체계적 매매 시스템

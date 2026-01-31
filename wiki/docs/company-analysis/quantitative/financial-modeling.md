@@ -563,4 +563,4 @@ NWC 변동 = 당기 NWC - 전기 NWC
 
 ---
 
-**다음**: [시나리오 분석](./scenario-analysis.md) | **이전**: [지배구조 분석](../qualitative/governance.md)
+**다음**: [시나리오 분석](./scenario-analysis) | **이전**: [지배구조 분석](../qualitative/governance)

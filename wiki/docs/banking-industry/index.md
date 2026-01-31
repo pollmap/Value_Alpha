@@ -520,10 +520,10 @@ ESG(환경·사회·지배구조) 금융은 은행업의 새로운 성장 동력
 
 ## 관련 페이지
 
-- [금융 산업 분석](/docs/industry-analysis/financials/intro) - 금융 섹터 전반의 산업 분석
-- [보험 산업 완벽 가이드](/docs/insurance-industry) - 보험업 심화 학습
-- [보험 계리 개요](/docs/actuarial/overview) - 보험 계리와 밸류에이션의 연계
-- [IFRS 17](/docs/actuarial/ifrs17) - 보험계약 회계기준의 이해
-- [채권 투자 기초](/docs/assets/bonds/intro) - 은행 채권투자 이해의 기반
-- [재무 분석 개요](/docs/financial-analysis/overview) - 은행 재무제표 분석
-- [리스크 관리 개요](/docs/risk-management/overview) - 금융 리스크 관리 프레임워크
+- [금융 산업 분석](/industry-analysis/financials/intro) - 금융 섹터 전반의 산업 분석
+- [보험 산업 완벽 가이드](/insurance-industry) - 보험업 심화 학습
+- [보험 계리 개요](/actuarial/overview) - 보험 계리와 밸류에이션의 연계
+- [IFRS 17](/actuarial/ifrs17) - 보험계약 회계기준의 이해
+- [채권 투자 기초](/assets/bonds/intro) - 은행 채권투자 이해의 기반
+- [재무 분석 개요](/financial-analysis/overview) - 은행 재무제표 분석
+- [리스크 관리 개요](/risk-management/overview) - 금융 리스크 관리 프레임워크
