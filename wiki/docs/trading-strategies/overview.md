@@ -634,6 +634,6 @@ IPO(기업공개)는 투자 기회이자 위험입니다.
 
 ## 다음 단계
 
-- [리스크 관리 개요](../risk-management/overview.md) -- 전략 실행의 대전제
-- [포지션 사이징](../risk-management/position-sizing.md) -- 자금 배분의 과학
-- [기술적 분석](../technical/intro.md) -- 차트 분석 기법 심화
+- [리스크 관리 개요](../risk-management/overview) -- 전략 실행의 대전제
+- [포지션 사이징](../risk-management/position-sizing) -- 자금 배분의 과학
+- [기술적 분석](../technical/intro) -- 차트 분석 기법 심화

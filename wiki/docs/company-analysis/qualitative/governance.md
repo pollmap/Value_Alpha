@@ -393,4 +393,4 @@ $$\text{적정 주가} = \text{NAV} \times (1 - \text{지배구조 할인율})$$
 
 ---
 
-**다음**: [재무 모델링 기초](../quantitative/financial-modeling.md) | **이전**: [경영진 분석](./management.md)
+**다음**: [재무 모델링 기초](../quantitative/financial-modeling) | **이전**: [경영진 분석](./management)

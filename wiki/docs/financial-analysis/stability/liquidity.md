@@ -385,4 +385,4 @@ CCC가 개선되는 기업은 매출 대비 영업운전자본 비율이 하락�
 
 ---
 
-**다음**: [효율성 분석 - 자산회전율](../efficiency/asset-turnover.md) | **이전**: [부채비율 분석](./debt-ratio.md)
+**다음**: [효율성 분석 - 자산회전율](../efficiency/asset-turnover) | **이전**: [부채비율 분석](./debt-ratio)

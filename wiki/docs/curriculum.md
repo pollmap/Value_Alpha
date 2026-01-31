@@ -20,25 +20,25 @@ keywords: [커리큘럼, 학습경로, 금융교육, 투자교육, 4-Layer]
 
 재무제표의 구조와 각 항목의 의미를 학습합니다. 모든 밸류에이션의 출발점이며, 경험자라도 복습을 권장합니다.
 
-- **회계 기초** — 발생주의, 회계 등식, 복식부기, K-GAAP vs IFRS → [바로가기](./foundation/accounting-basics/intro.md)
-- **재무상태표** — 자산/부채/자본의 분류, 유동성 배열법, 운전자본 → [바로가기](./foundation/balance-sheet/intro.md)
-- **손익계산서** — 수익인식 원칙, 비용 대응, 영업이익 vs 당기순이익 → [바로가기](./foundation/income-statement/intro.md)
-- **현금흐름표** — 직접법 vs 간접법, 잉여현금흐름(FCF) 산출 → [바로가기](./foundation/cash-flow/intro.md)
-- **3표 연결** — 세 재무제표의 상호 검증, 분식회계 적발 포인트 → [바로가기](./foundation/three-statement-link/intro.md)
+- **회계 기초** — 발생주의, 회계 등식, 복식부기, K-GAAP vs IFRS → [바로가기](./foundation/accounting-basics/intro)
+- **재무상태표** — 자산/부채/자본의 분류, 유동성 배열법, 운전자본 → [바로가기](./foundation/balance-sheet/intro)
+- **손익계산서** — 수익인식 원칙, 비용 대응, 영업이익 vs 당기순이익 → [바로가기](./foundation/income-statement/intro)
+- **현금흐름표** — 직접법 vs 간접법, 잉여현금흐름(FCF) 산출 → [바로가기](./foundation/cash-flow/intro)
+- **3표 연결** — 세 재무제표의 상호 검증, 분식회계 적발 포인트 → [바로가기](./foundation/three-statement-link/intro)
 
-[Layer 1 시작하기 →](./foundation/overview.md)
+[Layer 1 시작하기 →](./foundation/overview)
 
 ### 2단계: 재무제표 분석 (Layer 2) — 입문~중급
 
 Layer 1에서 읽은 숫자의 의미를 해석합니다. 4가지 차원의 재무비율 분석과 밸류에이션 멀티플의 이론적 근거를 학습합니다.
 
-- **수익성 분석** — 마진 분석, ROE/ROA/ROIC, DuPont 분석 → [바로가기](./financial-analysis/profitability/margin-analysis.md)
-- **성장성 분석** — 매출/이익 성장률, 지속가능성장률(SGR) → [바로가기](./financial-analysis/growth/revenue-growth.md)
-- **안정성 분석** — 부채비율, 이자보상배율, 유동성 비율 → [바로가기](./financial-analysis/stability/debt-ratio.md)
-- **효율성 분석** — 자산회전율, 현금전환주기(CCC) → [바로가기](./financial-analysis/efficiency/asset-turnover.md)
-- **밸류에이션 멀티플** — PER, PBR, EV/EBITDA의 이론적 근거 → [바로가기](./financial-analysis/valuation-multiples/overview.md)
+- **수익성 분석** — 마진 분석, ROE/ROA/ROIC, DuPont 분석 → [바로가기](./financial-analysis/profitability/margin-analysis)
+- **성장성 분석** — 매출/이익 성장률, 지속가능성장률(SGR) → [바로가기](./financial-analysis/growth/revenue-growth)
+- **안정성 분석** — 부채비율, 이자보상배율, 유동성 비율 → [바로가기](./financial-analysis/stability/debt-ratio)
+- **효율성 분석** — 자산회전율, 현금전환주기(CCC) → [바로가기](./financial-analysis/efficiency/asset-turnover)
+- **밸류에이션 멀티플** — PER, PBR, EV/EBITDA의 이론적 근거 → [바로가기](./financial-analysis/valuation-multiples/overview)
 
-[Layer 2 시작하기 →](./financial-analysis/overview.md)
+[Layer 2 시작하기 →](./financial-analysis/overview)
 
 ### 3단계: 밸류에이션 방법론 — 중급
 
@@ -75,34 +75,34 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 **산업분석 (Layer 3)**
 
-- **IT/반도체** — ASP, 출하량, 가동률 → [바로가기](./industry-analysis/it/intro.md)
-- **헬스케어** — 파이프라인, 임상 성공률 → [바로가기](./industry-analysis/healthcare/intro.md)
-- **금융** — NIM, 충당금, BIS비율 → [바로가기](./industry-analysis/financials/intro.md)
-- **경기소비재** — 동일점포 매출, 점유율 → [바로가기](./industry-analysis/consumer-discretionary/intro.md)
-- **필수소비재** — 시장점유율, 원가 전가력 → [바로가기](./industry-analysis/consumer-staples/intro.md)
-- **산업재** — 수주잔고, Book-to-Bill → [바로가기](./industry-analysis/industrials/intro.md)
-- **소재** — 제품 스프레드, 가동률 → [바로가기](./industry-analysis/materials/intro.md)
-- **에너지** — 유가, 매장량, 생산량 → [바로가기](./industry-analysis/energy/intro.md)
-- **유틸리티** — 전력 판매량, 규제 요금 → [바로가기](./industry-analysis/utilities/intro.md)
-- **부동산** — NAV, Cap Rate, 공실률 → [바로가기](./industry-analysis/real-estate-sector/intro.md)
-- **커뮤니케이션** — ARPU, MAU/DAU → [바로가기](./industry-analysis/communication-services/intro.md)
+- **IT/반도체** — ASP, 출하량, 가동률 → [바로가기](./industry-analysis/it/intro)
+- **헬스케어** — 파이프라인, 임상 성공률 → [바로가기](./industry-analysis/healthcare/intro)
+- **금융** — NIM, 충당금, BIS비율 → [바로가기](./industry-analysis/financials/intro)
+- **경기소비재** — 동일점포 매출, 점유율 → [바로가기](./industry-analysis/consumer-discretionary/intro)
+- **필수소비재** — 시장점유율, 원가 전가력 → [바로가기](./industry-analysis/consumer-staples/intro)
+- **산업재** — 수주잔고, Book-to-Bill → [바로가기](./industry-analysis/industrials/intro)
+- **소재** — 제품 스프레드, 가동률 → [바로가기](./industry-analysis/materials/intro)
+- **에너지** — 유가, 매장량, 생산량 → [바로가기](./industry-analysis/energy/intro)
+- **유틸리티** — 전력 판매량, 규제 요금 → [바로가기](./industry-analysis/utilities/intro)
+- **부동산** — NAV, Cap Rate, 공실률 → [바로가기](./industry-analysis/real-estate-sector/intro)
+- **커뮤니케이션** — ARPU, MAU/DAU → [바로가기](./industry-analysis/communication-services/intro)
 
-[Layer 3 시작하기 →](./industry-analysis/overview.md)
+[Layer 3 시작하기 →](./industry-analysis/overview)
 
 **기업분석 (Layer 4)**
 
-- 정성적 분석 — 비즈니스 모델, 경쟁 우위, 경영진, 지배구조 → [바로가기](./company-analysis/qualitative/business-model.md)
-- 정량적 분석 — 재무 모델링, 시나리오 분석 → [바로가기](./company-analysis/quantitative/financial-modeling.md)
-- 밸류에이션 실전 — DCF 실전 적용, SOTP 분석 → [바로가기](./company-analysis/valuation-practice/dcf-practice.md)
-- 보고서 작성 — 애널리스트 보고서 구조와 작성법 → [바로가기](./company-analysis/report-writing/equity-research.md)
+- 정성적 분석 — 비즈니스 모델, 경쟁 우위, 경영진, 지배구조 → [바로가기](./company-analysis/qualitative/business-model)
+- 정량적 분석 — 재무 모델링, 시나리오 분석 → [바로가기](./company-analysis/quantitative/financial-modeling)
+- 밸류에이션 실전 — DCF 실전 적용, SOTP 분석 → [바로가기](./company-analysis/valuation-practice/dcf-practice)
+- 보고서 작성 — 애널리스트 보고서 구조와 작성법 → [바로가기](./company-analysis/report-writing/equity-research)
 
-[Layer 4 시작하기 →](./company-analysis/overview.md)
+[Layer 4 시작하기 →](./company-analysis/overview)
 
 ### 5단계: 실전 적용 & 종합 — 심화
 
-- **기업 케이스 스터디** — 삼성전자, SK하이닉스, 현대차, 네이버, 셀트리온 실전 분석 → [바로가기](./case-studies/samsung-electronics.md)
+- **기업 케이스 스터디** — 삼성전자, SK하이닉스, 현대차, 네이버, 셀트리온 실전 분석 → [바로가기](./case-studies/samsung-electronics)
 - **투자 대가의 철학** — 그레이엄, 버핏, 린치, 달리오, 막스 등 8명의 투자 철학 → [바로가기](/masters/graham)
-- **매매 전략** — 가치투자, 모멘텀, 스윙, 퀀트, 이벤트 드리븐 등 6대 전략 → [바로가기](./trading-strategies/overview.md)
+- **매매 전략** — 가치투자, 모멘텀, 스윙, 퀀트, 이벤트 드리븐 등 6대 전략 → [바로가기](./trading-strategies/overview)
 - **리스크 관리** — 포지션 사이징, 포트폴리오 구성 → [바로가기](/risk-management/overview)
 
 ---
@@ -111,12 +111,12 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 금융시장을 움직이는 거시경제 변수와 정책을 체계적으로 학습합니다.
 
-- **거시경제 개요** — 경기 순환론, 주요 경제학파, 한국 경제 특성 → [바로가기](./macroeconomics/overview.md)
-- **경제 지표 완전 가이드** — GDP, 실업률, 샴의 법칙, CPI/PPI/PCE, PMI, 경기선행지수 등 → [바로가기](./macroeconomics/economic-indicators.md)
-- **중앙은행과 통화정책** — 연준(Fed) 해부, 한국은행, FOMC, QE/QT, 금리 정책 → [바로가기](./macroeconomics/central-banks.md)
-- **재정정책과 정부의 역할** — 세입/세출, 국가채무, 금융세제, 재정건전성 → [바로가기](./macroeconomics/fiscal-policy.md)
-- **화폐와 환율** — 화폐의 역사, 환율 결정 이론, 기축통화, 외환시장 → [바로가기](./macroeconomics/money-and-currency.md)
-- **경기 순환과 투자 전략** — 경기 4국면별 자산 배분, 인플레이션/디플레이션, 투자 시계 모델 → [바로가기](./macroeconomics/business-cycles.md)
+- **거시경제 개요** — 경기 순환론, 주요 경제학파, 한국 경제 특성 → [바로가기](./macroeconomics/overview)
+- **경제 지표 완전 가이드** — GDP, 실업률, 샴의 법칙, CPI/PPI/PCE, PMI, 경기선행지수 등 → [바로가기](./macroeconomics/economic-indicators)
+- **중앙은행과 통화정책** — 연준(Fed) 해부, 한국은행, FOMC, QE/QT, 금리 정책 → [바로가기](./macroeconomics/central-banks)
+- **재정정책과 정부의 역할** — 세입/세출, 국가채무, 금융세제, 재정건전성 → [바로가기](./macroeconomics/fiscal-policy)
+- **화폐와 환율** — 화폐의 역사, 환율 결정 이론, 기축통화, 외환시장 → [바로가기](./macroeconomics/money-and-currency)
+- **경기 순환과 투자 전략** — 경기 4국면별 자산 배분, 인플레이션/디플레이션, 투자 시계 모델 → [바로가기](./macroeconomics/business-cycles)
 
 ---
 
@@ -126,16 +126,16 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 **5대 금융 산업 가이드**
 
-- **은행** — 예대마진, BIS비율, NIM, 대출 심사 → [바로가기](./banking-industry/index.md)
-- **증권** — 브로커리지, IB, 자기매매, WM → [바로가기](./securities-industry/index.md)
-- **보험** — 언더라이팅, IFRS17, 보험계리 → [바로가기](./insurance-industry/index.md)
-- **여신금융** — 카드수수료, 리스, 할부금융 → [바로가기](./card-capital-industry/index.md)
-- **자산운용** — AUM, 펀드 구조, 운용 전략 → [바로가기](./asset-management-industry/index.md)
+- **은행** — 예대마진, BIS비율, NIM, 대출 심사 → [바로가기](./banking-industry/index)
+- **증권** — 브로커리지, IB, 자기매매, WM → [바로가기](./securities-industry/index)
+- **보험** — 언더라이팅, IFRS17, 보험계리 → [바로가기](./insurance-industry/index)
+- **여신금융** — 카드수수료, 리스, 할부금융 → [바로가기](./card-capital-industry/index)
+- **자산운용** — AUM, 펀드 구조, 운용 전략 → [바로가기](./asset-management-industry/index)
 
 **금융권 기업 총람** — 170개 이상의 한국 금융 기업 카테고리별 정리
 
-- [개요](./companies/index.md) · [은행](./companies/banks.md) · [증권사](./companies/securities.md) · [보험사](./companies/insurance.md)
-- [카드/캐피탈](./companies/cards-capital.md) · [저축은행/자산운용](./companies/savings-asset.md) · [VC/핀테크](./companies/vc-fintech.md) · [공공/인프라](./companies/public-infra.md)
+- [개요](./companies/index) · [은행](./companies/banks) · [증권사](./companies/securities) · [보험사](./companies/insurance)
+- [카드/캐피탈](./companies/cards-capital) · [저축은행/자산운용](./companies/savings-asset) · [VC/핀테크](./companies/vc-fintech) · [공공/인프라](./companies/public-infra)
 
 ---
 
@@ -143,13 +143,13 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 금융권 취업을 준비하는 분들을 위한 현실적이고 체계적인 가이드입니다.
 
-- **취업 종합 가이드** — 금융권 취업 전체 개요 → [바로가기](./career/index.md)
-- **직무 종류 및 특성** — 15개 섹터, 50개 이상 직무 상세 소개 → [바로가기](./career/job-categories.md)
-- **합격 요건 분석** — 학력, 자격증, 어학, 인턴 등 → [바로가기](./career/requirements.md)
-- **대회 & 포트폴리오** — 금융권 공모전 총정리 → [바로가기](./career/competitions.md)
-- **취업 로드맵** — 학년별, 시기별 준비 전략 → [바로가기](./career/roadmap.md)
-- **자격증 가이드** — 국내외 금융 자격증 총정리 (CPA, CFA, 계리사, FRM 등) → [바로가기](./certifications.md)
-- **금융 성향 테스트** — 20문항으로 나에게 맞는 섹터/직무 찾기 → [바로가기](./finance-mbti.mdx)
+- **취업 종합 가이드** — 금융권 취업 전체 개요 → [바로가기](./career/index)
+- **직무 종류 및 특성** — 15개 섹터, 50개 이상 직무 상세 소개 → [바로가기](./career/job-categories)
+- **합격 요건 분석** — 학력, 자격증, 어학, 인턴 등 → [바로가기](./career/requirements)
+- **대회 & 포트폴리오** — 금융권 공모전 총정리 → [바로가기](./career/competitions)
+- **취업 로드맵** — 학년별, 시기별 준비 전략 → [바로가기](./career/roadmap)
+- **자격증 가이드** — 국내외 금융 자격증 총정리 (CPA, CFA, 계리사, FRM 등) → [바로가기](./certifications)
+- **금융 성향 테스트** — 20문항으로 나에게 맞는 섹터/직무 찾기 → [바로가기](./finance-mbti)
 
 ---
 
@@ -187,9 +187,21 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 ## 인터랙티브 학습
 
-- [금융 성향 테스트 (Finance MBTI)](./finance-mbti.mdx) — 나에게 맞는 금융 섹터와 직무 찾기
-- [Market Survivor 투자 시뮬레이션](./market-survivor.mdx) — 역사적 시장 이벤트 기반 투자 게임
+**자가 진단**
+- [금융 성향 테스트 (Finance MBTI)](./finance-mbti) — 나에게 맞는 금융 섹터와 직무 찾기
+- [Market Survivor 투자 시뮬레이션](./market-survivor) — 역사적 시장 이벤트 기반 투자 게임
 - [회계 기초 퀴즈](/quiz/accounting-basics) · [재무분석 퀴즈](/quiz/financial-analysis) · [밸류에이션 퀴즈](/quiz/valuation)
+
+**분석 도구**
+- [실시간 시장 현황](./tools/market-overview) — 주요 지수, 환율, 금리 실시간 위젯
+- [경제 캘린더](./tools/economic-calendar) — FOMC, 금통위, CPI 등 경제 이벤트 일정
+- [기업 비교 도구](./tools/company-comparison) — 두 기업의 재무 지표 비교 분석
+- [포트폴리오 시뮬레이터](./tools/portfolio-simulator) — 자산 배분 백테스트 도구
+- [한국 금융사 타임라인](./tools/finance-timeline) — 1997년 IMF부터 현재까지 주요 이벤트
+- [분석 템플릿 다운로드](./tools/templates) — DCF, 3-Statement 모델 등 Excel 템플릿
+
+**학습 관리**
+- [학습 진도 추적](./tools/progress-tracker) — 학습 완료 현황 체크리스트
 
 ---
 
@@ -199,16 +211,16 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 **처음부터 체계적으로 배우고 싶다면**
 
-1. [기초 회계](./foundation/overview.md) → 2. [재무제표 분석](./financial-analysis/overview.md) → 3. [밸류에이션](/valuation/dcf/overview) → 4. [산업분석](./industry-analysis/overview.md) → 5. [기업분석](./company-analysis/overview.md)
+1. [기초 회계](./foundation/overview) → 2. [재무제표 분석](./financial-analysis/overview) → 3. [밸류에이션](/valuation/dcf/overview) → 4. [산업분석](./industry-analysis/overview) → 5. [기업분석](./company-analysis/overview)
 
 **거시경제 흐름을 먼저 이해하고 싶다면**
 
-1. [거시경제 개요](./macroeconomics/overview.md) → 2. [경제 지표](./macroeconomics/economic-indicators.md) → 3. [중앙은행](./macroeconomics/central-banks.md) → 4. [경기 순환과 투자](./macroeconomics/business-cycles.md)
+1. [거시경제 개요](./macroeconomics/overview) → 2. [경제 지표](./macroeconomics/economic-indicators) → 3. [중앙은행](./macroeconomics/central-banks) → 4. [경기 순환과 투자](./macroeconomics/business-cycles)
 
 **금융권 취업이 목적이라면**
 
-1. [금융 성향 테스트](./finance-mbti.mdx) → 2. [직무 종류](./career/job-categories.md) → 3. [합격 요건](./career/requirements.md) → 4. [자격증 가이드](./certifications.md) → 5. [기업 총람](./companies/index.md)
+1. [금융 성향 테스트](./finance-mbti) → 2. [직무 종류](./career/job-categories) → 3. [합격 요건](./career/requirements) → 4. [자격증 가이드](./certifications) → 5. [기업 총람](./companies/index)
 
 **실전 투자 역량을 키우고 싶다면**
 
-1. [매매 전략 개요](./trading-strategies/overview.md) → 2. [리스크 관리](/risk-management/overview) → 3. [Market Survivor 게임](./market-survivor.mdx) → 4. [케이스 스터디](./case-studies/samsung-electronics.md)
+1. [매매 전략 개요](./trading-strategies/overview) → 2. [리스크 관리](/risk-management/overview) → 3. [Market Survivor 게임](./market-survivor) → 4. [케이스 스터디](./case-studies/samsung-electronics)

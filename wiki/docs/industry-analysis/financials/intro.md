@@ -454,4 +454,4 @@ $$P = BPS_0 + \sum_{t=1}^{n} \frac{(ROE_t - K_e) \times BPS_{t-1}}{(1+K_e)^t}$$
 
 ---
 
-**상위**: [산업분석 개요](../overview.md)
+**상위**: [산업분석 개요](../overview)

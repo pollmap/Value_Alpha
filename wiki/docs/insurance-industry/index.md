@@ -190,7 +190,7 @@ P × n = S × n × q
 
 ## 3. 보험사의 수익구조
 
-보험사의 손익은 크게 **보험영업손익**과 **투자영업손익**으로 구분됩니다. 보험사의 수익구조를 이해하는 것은 보험사 [재무 분석](/docs/financial-analysis/overview)과 [기업가치 평가](/docs/valuation)에 필수적입니다.
+보험사의 손익은 크게 **보험영업손익**과 **투자영업손익**으로 구분됩니다. 보험사의 수익구조를 이해하는 것은 보험사 [재무 분석](/financial-analysis/overview)과 [기업가치 평가](/docs/valuation)에 필수적입니다.
 
 ### 3.1 보험영업이익 (Underwriting Profit)
 
@@ -352,7 +352,7 @@ K-ICS 비율 = 가용자본 / 요구자본 × 100
 
 ### 4.6 계리 (Actuarial Science)
 
-계리사(Actuary)는 보험료 산출, 책임준비금 평가, 수익성 분석 등 보험의 수리적 기반을 담당하는 전문가입니다. 상세한 내용은 [보험 계리 개요](/docs/actuarial/overview) 페이지를 참고하세요.
+계리사(Actuary)는 보험료 산출, 책임준비금 평가, 수익성 분석 등 보험의 수리적 기반을 담당하는 전문가입니다. 상세한 내용은 [보험 계리 개요](/actuarial/overview) 페이지를 참고하세요.
 
 - **보험료 산출** — 예정기초율을 적용하여 순보험료·영업보험료 산출
 - **책임준비금 평가** — 보험부채의 적정성 평가, IFRS 17 부채 산출
@@ -402,7 +402,7 @@ GA(General Agency)는 보험사에 소속되지 않고 독립적으로 보험상
 
 ### 5.3 K-ICS (한국형 지급여력제도)
 
-K-ICS는 2023년부터 시행된 보험회사 건전성 규제로, 유럽의 Solvency II를 참고하여 설계되었습니다. 보험사의 [리스크 관리](/docs/risk-management/overview)와 직결되는 핵심 제도입니다.
+K-ICS는 2023년부터 시행된 보험회사 건전성 규제로, 유럽의 Solvency II를 참고하여 설계되었습니다. 보험사의 [리스크 관리](/risk-management/overview)와 직결되는 핵심 제도입니다.
 
 #### K-ICS의 구조
 
@@ -424,7 +424,7 @@ K-ICS는 2023년부터 시행된 보험회사 건전성 규제로, 유럽의 Sol
 
 ### 5.4 IFRS 17 (보험계약 회계기준)
 
-IFRS 17은 보험계약에 적용되는 국제회계기준으로, 한국에서는 2023년 1월 1일부터 시행되었습니다. 상세한 내용은 [IFRS 17 상세 가이드](/docs/actuarial/ifrs17) 페이지를 참고하세요.
+IFRS 17은 보험계약에 적용되는 국제회계기준으로, 한국에서는 2023년 1월 1일부터 시행되었습니다. 상세한 내용은 [IFRS 17 상세 가이드](/actuarial/ifrs17) 페이지를 참고하세요.
 
 #### IFRS 17 핵심 요약
 
@@ -470,7 +470,7 @@ IFRS 17 도입 이후, 보험사 분석에서 CSM 관련 지표(CSM 잔액, CSM 
 
 ## 6. 보험 관련 자격증
 
-보험업 취업과 전문성 인정에 관련된 주요 자격증을 정리합니다. [자격증 가이드](/docs/certifications)도 함께 참고하세요.
+보험업 취업과 전문성 인정에 관련된 주요 자격증을 정리합니다. [자격증 가이드](/certifications)도 함께 참고하세요.
 
 ### 6.1 보험계리사
 
@@ -615,11 +615,11 @@ IFRS 17 도입 이후, 보험사 분석에서 CSM 관련 지표(CSM 잔액, CSM 
 
 ## 관련 페이지
 
-- [보험 계리 개요](/docs/actuarial/overview) - 보험계리학 상세 학습
-- [IFRS 17 상세 가이드](/docs/actuarial/ifrs17) - IFRS 17 회계기준 심화
-- [리스크 자본과 K-ICS](/docs/actuarial/risk-capital) - 보험사 건전성 규제 심화
-- [은행 산업 완벽 가이드](/docs/banking-industry) - 은행업 심화 학습
-- [금융 산업 분석](/docs/industry-analysis/financials/intro) - 금융 섹터 전반의 산업 분석
-- [리스크 관리 개요](/docs/risk-management/overview) - 금융 리스크 관리 프레임워크
-- [재무 분석 개요](/docs/financial-analysis/overview) - 보험사 재무제표 분석
-- [자격증 가이드](/docs/certifications) - 금융 관련 자격증 종합 안내
+- [보험 계리 개요](/actuarial/overview) - 보험계리학 상세 학습
+- [IFRS 17 상세 가이드](/actuarial/ifrs17) - IFRS 17 회계기준 심화
+- [리스크 자본과 K-ICS](/actuarial/risk-capital) - 보험사 건전성 규제 심화
+- [은행 산업 완벽 가이드](/banking-industry) - 은행업 심화 학습
+- [금융 산업 분석](/industry-analysis/financials/intro) - 금융 섹터 전반의 산업 분석
+- [리스크 관리 개요](/risk-management/overview) - 금융 리스크 관리 프레임워크
+- [재무 분석 개요](/financial-analysis/overview) - 보험사 재무제표 분석
+- [자격증 가이드](/certifications) - 금융 관련 자격증 종합 안내

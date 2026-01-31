@@ -472,4 +472,4 @@ Layer 4: 기업을 종합 분석하고 투자 판단을 내린다
 
 ---
 
-**상위**: [기업분석 개요](../overview.md) | **Layer 2**: [재무제표 분석](../../financial-analysis/overview.md)
+**상위**: [기업분석 개요](../overview) | **Layer 2**: [재무제표 분석](../../financial-analysis/overview)

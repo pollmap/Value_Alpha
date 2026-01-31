@@ -446,4 +446,4 @@ ROE > Ke이면 PBR > 1이 정당화됩니다.
 
 ---
 
-**다음**: [DuPont 분석](./dupont.md) | **이전**: [마진 분석](./margin-analysis.md)
+**다음**: [DuPont 분석](./dupont) | **이전**: [마진 분석](./margin-analysis)

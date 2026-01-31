@@ -131,20 +131,20 @@ FCF 산출 → DCF 밸류에이션
 ## 학습 로드맵
 
 ### 입문
-1. [비즈니스 모델 분석](./qualitative/business-model.md)
-2. [경쟁 우위 분석](./qualitative/competitive-advantage.md)
+1. [비즈니스 모델 분석](./qualitative/business-model)
+2. [경쟁 우위 분석](./qualitative/competitive-advantage)
 
 ### 중급
-3. [경영진 분석](./qualitative/management.md)
-4. [지배구조 분석](./qualitative/governance.md)
-5. [재무 모델링 기초](./quantitative/financial-modeling.md)
-6. [시나리오 분석](./quantitative/scenario-analysis.md)
+3. [경영진 분석](./qualitative/management)
+4. [지배구조 분석](./qualitative/governance)
+5. [재무 모델링 기초](./quantitative/financial-modeling)
+6. [시나리오 분석](./quantitative/scenario-analysis)
 
 ### 심화
-7. [DCF 실전 적용](./valuation-practice/dcf-practice.md)
-8. [SOTP 밸류에이션](./valuation-practice/sotp.md)
-9. [투자 보고서 작성](./report-writing/equity-research.md)
+7. [DCF 실전 적용](./valuation-practice/dcf-practice)
+8. [SOTP 밸류에이션](./valuation-practice/sotp)
+9. [투자 보고서 작성](./report-writing/equity-research)
 
 ---
 
-**다음**: [비즈니스 모델 분석](./qualitative/business-model.md)으로 시작하십시오.
+**다음**: [비즈니스 모델 분석](./qualitative/business-model)으로 시작하십시오.

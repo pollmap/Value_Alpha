@@ -377,4 +377,4 @@ DCF 모델에서 회전일수 가정을 ±5일 변경했을 때 기업가치가 
 
 ---
 
-**다음**: [밸류에이션 멀티플 개요](../valuation-multiples/overview.md) | **이전**: [유동성 분석](../stability/liquidity.md)
+**다음**: [밸류에이션 멀티플 개요](../valuation-multiples/overview) | **이전**: [유동성 분석](../stability/liquidity)

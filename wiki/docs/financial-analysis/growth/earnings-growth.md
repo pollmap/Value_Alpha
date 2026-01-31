@@ -505,4 +505,4 @@ PEG는 성장을 고려한 밸류에이션 지표로, 피터 린치가 대중화
 
 ---
 
-**다음**: [지속가능성장률 (SGR)](./sustainable-growth.md) | **이전**: [매출 성장률](./revenue-growth.md)
+**다음**: [지속가능성장률 (SGR)](./sustainable-growth) | **이전**: [매출 성장률](./revenue-growth)

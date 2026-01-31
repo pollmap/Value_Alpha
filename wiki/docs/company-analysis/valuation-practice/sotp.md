@@ -432,4 +432,4 @@ SOTP 분석에서 가치 괴리를 발견한 것만으로는 투자 논거가 �
 
 ---
 
-**다음**: [투자 보고서 작성](../report-writing/equity-research.md) | **이전**: [DCF 실전](./dcf-practice.md)
+**다음**: [투자 보고서 작성](../report-writing/equity-research) | **이전**: [DCF 실전](./dcf-practice)

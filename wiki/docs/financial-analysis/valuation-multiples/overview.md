@@ -482,4 +482,4 @@ EV/EBITDA는 M&A 거래에서 가장 많이 사용되는 멀티플입니다.
 
 ---
 
-**상위**: [재무제표 분석 개요](../overview.md) | **관련**: [DCF 분석](../../valuation/dcf/overview.md), [상대가치평가](../../valuation/relative/overview.md)
+**상위**: [재무제표 분석 개요](../overview) | **관련**: [DCF 분석](../../valuation/dcf/overview), [상대가치평가](../../valuation/relative/overview)

@@ -442,4 +442,4 @@ SGR 분석을 종합적으로 활용하는 투자 의사결정 프레임워크�
 
 ---
 
-**다음**: [안정성 분석 - 부채비율](../stability/debt-ratio.md) | **이전**: [이익 성장률](./earnings-growth.md)
+**다음**: [안정성 분석 - 부채비율](../stability/debt-ratio) | **이전**: [이익 성장률](./earnings-growth)

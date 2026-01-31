@@ -419,4 +419,4 @@ DuPont 분석으로 ROE의 지속가능성을 판단하면:
 
 ---
 
-**다음**: [성장성 분석 - 매출 성장률](../growth/revenue-growth.md) | **이전**: [수익률 분석](./return-analysis.md)
+**다음**: [성장성 분석 - 매출 성장률](../growth/revenue-growth) | **이전**: [수익률 분석](./return-analysis)
