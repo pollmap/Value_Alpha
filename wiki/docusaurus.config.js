@@ -186,6 +186,11 @@ module.exports = async function createConfigAsync() {
               ],
             },
             {
+              to: '/community',
+              label: '커뮤니티',
+              position: 'right',
+            },
+            {
               href: 'https://github.com/pollmap/Value_Alpha',
               label: 'GitHub',
               position: 'right',
@@ -224,6 +229,7 @@ module.exports = async function createConfigAsync() {
             {
               title: '커뮤니티',
               items: [
+                { label: '토론 게시판', to: '/community' },
                 { label: 'GitHub', href: 'https://github.com/pollmap/Value_Alpha' },
                 { label: '금융자격증 카페', href: 'https://cafe.naver.com/dokkm' },
               ],
