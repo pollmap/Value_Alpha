@@ -53,6 +53,23 @@ module.exports = async function createConfigAsync() {
       ],
     ],
 
+    themes: [
+      [
+        '@easyops-cn/docusaurus-search-local',
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        ({
+          hashed: true,
+          language: ['ko', 'en'],
+          highlightSearchTermsOnTargetPage: true,
+          explicitSearchResultPath: true,
+          docsRouteBasePath: '/',
+          indexBlog: false,
+          searchBarShortcutHint: true,
+          searchBarPosition: 'right',
+        }),
+      ],
+    ],
+
     stylesheets: [
       {
         href: 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css',
