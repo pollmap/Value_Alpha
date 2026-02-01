@@ -225,8 +225,8 @@ $$\max(S_1 - S_2 - K, 0)$$
 
 ## 관련 페이지
 
-- [옵션 기초](/docs/assets/derivatives/options-basics) - 바닐라 옵션 기본
-- [옵션 가격결정 모델](/docs/assets/derivatives/options-pricing) - 몬테카를로, BSM
-- [변동성 분석](/docs/assets/derivatives/volatility) - 변동성 표면과 스큐
-- [구조화 상품](/docs/assets/derivatives/structured-products) - ELS/DLS 투자 가이드
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - 이색옵션 헤지
+- [옵션 기초](/assets/derivatives/options-basics) - 바닐라 옵션 기본
+- [옵션 가격결정 모델](/assets/derivatives/options-pricing) - 몬테카를로, BSM
+- [변동성 분석](/assets/derivatives/volatility) - 변동성 표면과 스큐
+- [구조화 상품](/assets/derivatives/structured-products) - ELS/DLS 투자 가이드
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - 이색옵션 헤지

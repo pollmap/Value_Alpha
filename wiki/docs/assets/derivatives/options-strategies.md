@@ -340,9 +340,9 @@ keywords: [옵션전략, 스프레드, 아이언콘도르, 아이언버터플라
 
 ## 관련 페이지
 
-- [옵션 기초](/docs/assets/derivatives/options-basics) - 옵션의 기본 개념
-- [그릭스](/docs/assets/derivatives/greeks) - 옵션 민감도 지표 상세
-- [변동성 분석](/docs/assets/derivatives/volatility) - 변동성 트레이딩
-- [옵션 가격결정 모델](/docs/assets/derivatives/options-pricing) - 이론적 가격 산출
-- [이색옵션](/docs/assets/derivatives/exotic-options) - 경로의존형 옵션
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - 포지션 리스크 관리
+- [옵션 기초](/assets/derivatives/options-basics) - 옵션의 기본 개념
+- [그릭스](/assets/derivatives/greeks) - 옵션 민감도 지표 상세
+- [변동성 분석](/assets/derivatives/volatility) - 변동성 트레이딩
+- [옵션 가격결정 모델](/assets/derivatives/options-pricing) - 이론적 가격 산출
+- [이색옵션](/assets/derivatives/exotic-options) - 경로의존형 옵션
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - 포지션 리스크 관리

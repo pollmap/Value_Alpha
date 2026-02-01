@@ -323,6 +323,6 @@ $$
 
 ## 관련 페이지
 
-- [부동산 섹터 분석 개요](/docs/industry-analysis/real-estate-sector/intro)
-- [부동산 밸류체인](/docs/industry-analysis/real-estate-sector/value-chain)
-- [밸류에이션 기초](/docs/valuation/intro)
+- [부동산 섹터 분석 개요](/industry-analysis/real-estate-sector/intro)
+- [부동산 밸류체인](/industry-analysis/real-estate-sector/value-chain)
+- [밸류에이션 기초](/valuation/dcf/overview)

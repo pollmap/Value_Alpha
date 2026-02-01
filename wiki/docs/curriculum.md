@@ -188,12 +188,12 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 **밸류에이션 계산기**
 
 - [DCF 계산기](/calculators/dcf) · [WACC 계산기](/calculators/wacc) · [그레이엄 넘버](/calculators/graham-number)
-- [DuPont 분석기](/calculators/dupont-calculator) · [ROIC 계산기](/calculators/roic-calculator) · [DDM 계산기](/calculators/ddm-calculator)
-- [PER 밴드](/calculators/per-band-calculator) · [Football Field](/calculators/football-field-calculator) · [PEG 스크리너](/calculators/peg-screener)
+- [DuPont 분석기](/calculators/dupont) · [ROIC 계산기](/calculators/roic) · [DDM 계산기](/calculators/ddm)
+- [PER 밴드](/calculators/per-band) · [Football Field](/calculators/football-field) · [PEG 스크리너](/calculators/peg-screener)
 
 **리스크 & 채권 계산기**
 
-- [켈리 비율](/calculators/kelly-calculator) · [채권 가치평가](/calculators/bond-calculator) · [옵션 그릭스](/calculators/option-greeks)
+- [켈리 비율](/calculators/kelly) · [채권 가치평가](/calculators/bond) · [옵션 그릭스](/calculators/option-greeks)
 
 **기타 도구**
 

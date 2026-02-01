@@ -288,6 +288,6 @@ IFRS 17 도입 후 **CSM(계약서비스마진)**이 보험사 가치평가의 �
 
 ## 관련 페이지
 
-- [금융 섹터 분석 개요](/docs/industry-analysis/financials/intro)
-- [금융 밸류체인 & 경쟁구도](/docs/industry-analysis/financials/value-chain)
-- [ROE 분석 도구](/docs/tools/roe-calculator)
+- [금융 섹터 분석 개요](/industry-analysis/financials/intro)
+- [금융 밸류체인 & 경쟁구도](/industry-analysis/financials/value-chain)
+- [DuPont 분석기](/calculators/dupont)

@@ -290,8 +290,8 @@ DeFi 보험의 연간 보험료는 보장 금액의 2~10% 수준입니다. 대�
 
 ## 관련 페이지
 
-- [DeFi 가이드](/docs/assets/crypto/defi) — DeFi 보안 리스크 상세
-- [레이어2 & 확장성](/docs/assets/crypto/layer2-scaling) — 브릿지 보안
-- [암호화폐 트레이딩](/docs/assets/crypto/crypto-trading) — 거래소 선택과 보안
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — 거래소 규제와 투자자 보호
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 기초
+- [DeFi 가이드](/assets/crypto/defi) — DeFi 보안 리스크 상세
+- [레이어2 & 확장성](/assets/crypto/layer2-scaling) — 브릿지 보안
+- [암호화폐 트레이딩](/assets/crypto/crypto-trading) — 거래소 선택과 보안
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — 거래소 규제와 투자자 보호
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 기초

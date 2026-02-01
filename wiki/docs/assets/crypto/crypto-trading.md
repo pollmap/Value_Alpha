@@ -353,9 +353,9 @@ $48,000 매수 → $49,000 매도 → $1,000 × 수량 수익
 
 ## 관련 페이지
 
-- [크립토 개요](/docs/assets/crypto/intro) — 온체인 분석과 밸류에이션
-- [비트코인](/docs/assets/crypto/bitcoin) — 비트코인 트레이딩 특수성
-- [DeFi 가이드](/docs/assets/crypto/defi) — DEX 트레이딩 상세
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — 거래소 보안과 지갑 관리
-- [암호화폐 매크로](/docs/assets/crypto/crypto-macro) — 매크로 기반 트레이딩 전략
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — 트레이딩 관련 세금과 규제
+- [크립토 개요](/assets/crypto/intro) — 온체인 분석과 밸류에이션
+- [비트코인](/assets/crypto/bitcoin) — 비트코인 트레이딩 특수성
+- [DeFi 가이드](/assets/crypto/defi) — DEX 트레이딩 상세
+- [암호화폐 보안](/assets/crypto/crypto-security) — 거래소 보안과 지갑 관리
+- [암호화폐 매크로](/assets/crypto/crypto-macro) — 매크로 기반 트레이딩 전략
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — 트레이딩 관련 세금과 규제

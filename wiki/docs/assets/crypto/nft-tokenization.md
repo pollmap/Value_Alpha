@@ -283,8 +283,8 @@ NFT 거래가 활발한 투자자는 반드시 모든 거래 기록(민팅, 구�
 
 ## 관련 페이지
 
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 분석 프레임워크
-- [이더리움](/docs/assets/crypto/ethereum) — NFT의 핵심 플랫폼
-- [DeFi 가이드](/docs/assets/crypto/defi) — NFTfi와 DeFi 연계
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — NFT/STO 규제 상세
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — NFT 보안과 사기 방지
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 분석 프레임워크
+- [이더리움](/assets/crypto/ethereum) — NFT의 핵심 플랫폼
+- [DeFi 가이드](/assets/crypto/defi) — NFTfi와 DeFi 연계
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — NFT/STO 규제 상세
+- [암호화폐 보안](/assets/crypto/crypto-security) — NFT 보안과 사기 방지

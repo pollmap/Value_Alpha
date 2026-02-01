@@ -275,6 +275,6 @@ $$
 
 ## 관련 페이지
 
-- [유틸리티 섹터 분석 개요](/docs/industry-analysis/utilities/intro)
-- [유틸리티 밸류체인](/docs/industry-analysis/utilities/value-chain)
-- [밸류에이션 기초](/docs/valuation/intro)
+- [유틸리티 섹터 분석 개요](/industry-analysis/utilities/intro)
+- [유틸리티 밸류체인](/industry-analysis/utilities/value-chain)
+- [밸류에이션 기초](/valuation/dcf/overview)

@@ -179,6 +179,6 @@ K-IFRS에서 투자부동산은 두 가지 모형 중 선택하여 측정합니�
 ## 관련 문서
 
 - [유형자산](/foundation/balance-sheet/assets/non-current-assets)
-- [부동산 섹터 분석](/industry-analysis/gics-sectors/real-estate/overview)
+- [부동산 섹터 분석](/industry-analysis/real-estate-sector/intro)
 - [PBR 밸류에이션](/valuation/relative/pbr)
 - [자산가치 평가](/valuation/residual-income)

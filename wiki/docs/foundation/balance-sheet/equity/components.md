@@ -197,5 +197,5 @@ keywords: [자본, 자본금, 자본잉여금, 이익잉여금, 기타포괄손�
 
 - [이익잉여금과 배당](/foundation/balance-sheet/equity/retained-earnings)
 - [자기주식](/foundation/balance-sheet/equity/treasury-stock)
-- [ROE 분석](/financial-analysis/profitability/return-analysis/roe)
-- [배당 분석](/foundation/cash-flow/financing-cf/dividends)
+- [ROE 분석](/financial-analysis/profitability/return-analysis)
+- [배당 분석](/foundation/cash-flow/intro)

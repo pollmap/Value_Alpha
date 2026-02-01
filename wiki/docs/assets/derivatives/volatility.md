@@ -296,8 +296,8 @@ $$\sigma_t^2 = \omega + \alpha \cdot r_{t-1}^2 + \beta \cdot \sigma_{t-1}^2$$
 
 ## 관련 페이지
 
-- [옵션 기초](/docs/assets/derivatives/options-basics) - 옵션 기본 개념
-- [그릭스](/docs/assets/derivatives/greeks) - 베가와 변동성 민감도
-- [옵션 전략 심화](/docs/assets/derivatives/options-strategies) - 변동성 기반 전략
-- [옵션 가격결정 모델](/docs/assets/derivatives/options-pricing) - 확률적 변동성 모델
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - 베가 리스크 관리
+- [옵션 기초](/assets/derivatives/options-basics) - 옵션 기본 개념
+- [그릭스](/assets/derivatives/greeks) - 베가와 변동성 민감도
+- [옵션 전략 심화](/assets/derivatives/options-strategies) - 변동성 기반 전략
+- [옵션 가격결정 모델](/assets/derivatives/options-pricing) - 확률적 변동성 모델
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - 베가 리스크 관리

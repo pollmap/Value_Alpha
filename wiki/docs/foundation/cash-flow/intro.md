@@ -190,7 +190,5 @@ keywords: [현금흐름표, 영업활동, 투자활동, 재무활동, FCF, 잉�
 
 ## 관련 문서
 
-- [영업활동현금흐름](/foundation/cash-flow/operating-cf/direct-vs-indirect)
-- [투자활동현금흐름](/foundation/cash-flow/investing-cf/capex)
 - [FCF 도출](/foundation/cash-flow/fcf-derivation)
 - [DCF 밸류에이션](/valuation/dcf/fcff-fcfe)

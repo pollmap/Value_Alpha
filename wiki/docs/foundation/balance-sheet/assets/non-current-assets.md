@@ -149,5 +149,5 @@ CAPEX가 크면 FCF가 작아지고, 이는 기업가치를 낮춥니다. 그러
 
 - [무형자산과 영업권](/foundation/balance-sheet/assets/intangibles)
 - [투자부동산](/foundation/balance-sheet/assets/investment-property)
-- [현금흐름표 - 투자활동](/foundation/cash-flow/investing-cf/capex)
+- [현금흐름표 - 투자활동](/foundation/cash-flow/intro)
 - [DCF의 FCF 추정](/valuation/dcf/fcff-fcfe)

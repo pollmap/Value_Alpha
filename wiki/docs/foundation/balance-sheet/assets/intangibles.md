@@ -168,6 +168,6 @@ keywords: [무형자산, 영업권, 특허권, 상표권, 손상차손, M&A]
 ## 관련 문서
 
 - [비유동자산](/foundation/balance-sheet/assets/non-current-assets)
-- [사업결합과 M&A](/company-analysis/growth-strategy/inorganic-growth/ma-strategy)
-- [이익의 질](/financial-analysis/earnings-quality/intro)
-- [연구개발비](/foundation/income-statement/costs/r-and-d)
+- [사업결합과 M&A](/company-analysis/overview)
+- [이익의 질](/financial-analysis/overview)
+- [연구개발비](/foundation/income-statement/operating-income)

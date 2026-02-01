@@ -199,5 +199,5 @@ DART에서 "자기주식" 검색으로 확인 가능합니다.
 
 - [자본의 구성요소](/foundation/balance-sheet/equity/components)
 - [이익잉여금과 배당](/foundation/balance-sheet/equity/retained-earnings)
-- [EPS와 희석주당이익](/financial-analysis/growth/earnings-growth/eps-growth)
-- [ROE 분석](/financial-analysis/profitability/return-analysis/roe)
+- [EPS와 희석주당이익](/financial-analysis/growth/earnings-growth)
+- [ROE 분석](/financial-analysis/profitability/return-analysis)

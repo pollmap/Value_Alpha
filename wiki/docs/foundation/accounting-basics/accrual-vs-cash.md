@@ -149,6 +149,6 @@ keywords: [발생주의, 현금주의, 회계기준, 수익인식, 비용인식]
 ## 관련 문서
 
 - [현금흐름표 해부](/foundation/cash-flow/intro)
-- [영업활동현금흐름](/foundation/cash-flow/operating-cf/direct-vs-indirect)
-- [이익의 질 분석](/financial-analysis/earnings-quality/intro)
-- [발생액 분석](/financial-analysis/earnings-quality/accruals/total-accruals)
+- [영업활동현금흐름](/foundation/cash-flow/intro)
+- [이익의 질 분석](/financial-analysis/overview)
+- [발생액 분석](/financial-analysis/overview)

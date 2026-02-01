@@ -283,5 +283,5 @@ ATR은 과거 변동성을 기준으로 하므로, 변동성이 급격히 확대
 - [VaR & 리스크 지표](./var-risk-metrics) -- 손절 기준의 정량적 근거
 - [드로다운 관리](./drawdown-management) -- 손절의 궁극적 목표인 드로다운 통제
 - [행동재무학 & 투자 심리](./behavioral-finance) -- 손절을 어렵게 만드는 심리 편향
-- [ATR 지표](/docs/technical/atr) -- 변동성 기반 손절의 핵심 지표
-- [볼린저 밴드](/docs/technical/bollinger) -- 기술적 손절의 참고 지표
+- [ATR 지표](/technical/atr) -- 변동성 기반 손절의 핵심 지표
+- [볼린저 밴드](/technical/bollinger) -- 기술적 손절의 참고 지표

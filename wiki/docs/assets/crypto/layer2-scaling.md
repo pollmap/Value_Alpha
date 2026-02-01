@@ -242,8 +242,8 @@ Base: 연간 수수료 수입 ~$40M+, Coinbase로 수익 귀속
 
 ## 관련 페이지
 
-- [이더리움](/docs/assets/crypto/ethereum) — L2의 기반 레이어
-- [DeFi 가이드](/docs/assets/crypto/defi) — L2 위의 DeFi 생태계
-- [암호화폐 트레이딩](/docs/assets/crypto/crypto-trading) — L2에서의 트레이딩
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — 브릿지 리스크와 보안
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 분석 프레임워크
+- [이더리움](/assets/crypto/ethereum) — L2의 기반 레이어
+- [DeFi 가이드](/assets/crypto/defi) — L2 위의 DeFi 생태계
+- [암호화폐 트레이딩](/assets/crypto/crypto-trading) — L2에서의 트레이딩
+- [암호화폐 보안](/assets/crypto/crypto-security) — 브릿지 리스크와 보안
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 분석 프레임워크

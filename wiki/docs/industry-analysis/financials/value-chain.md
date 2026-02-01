@@ -298,6 +298,6 @@ $$
 
 ## 관련 페이지
 
-- [금융 섹터 분석 개요](/docs/industry-analysis/financials/intro)
-- [금융 핵심 지표 심화](/docs/industry-analysis/financials/key-metrics)
-- [부동산 섹터 분석](/docs/industry-analysis/real-estate-sector/intro)
+- [금융 섹터 분석 개요](/industry-analysis/financials/intro)
+- [금융 핵심 지표 심화](/industry-analysis/financials/key-metrics)
+- [부동산 섹터 분석](/industry-analysis/real-estate-sector/intro)

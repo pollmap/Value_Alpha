@@ -314,8 +314,8 @@ $$dW_1 \cdot dW_2 = \rho \, dt$$
 
 ## 관련 페이지
 
-- [옵션 기초](/docs/assets/derivatives/options-basics) - 옵션 기본 개념
-- [그릭스](/docs/assets/derivatives/greeks) - BSM에서 유도되는 그릭스
-- [변동성 분석](/docs/assets/derivatives/volatility) - 변동성 표면과 모델링
-- [이색옵션](/docs/assets/derivatives/exotic-options) - 복잡한 구조의 가격결정
-- [구조화 상품](/docs/assets/derivatives/structured-products) - ELS 등 구조화상품의 가격결정
+- [옵션 기초](/assets/derivatives/options-basics) - 옵션 기본 개념
+- [그릭스](/assets/derivatives/greeks) - BSM에서 유도되는 그릭스
+- [변동성 분석](/assets/derivatives/volatility) - 변동성 표면과 모델링
+- [이색옵션](/assets/derivatives/exotic-options) - 복잡한 구조의 가격결정
+- [구조화 상품](/assets/derivatives/structured-products) - ELS 등 구조화상품의 가격결정

@@ -288,6 +288,6 @@ $$
 
 ## 관련 페이지
 
-- [경기소비재 섹터 분석 개요](/docs/industry-analysis/consumer-discretionary/intro)
-- [경기소비재 밸류체인 & 경쟁구도](/docs/industry-analysis/consumer-discretionary/value-chain)
-- [필수소비재 핵심 지표 심화](/docs/industry-analysis/consumer-staples/key-metrics)
+- [경기소비재 섹터 분석 개요](/industry-analysis/consumer-discretionary/intro)
+- [경기소비재 밸류체인 & 경쟁구도](/industry-analysis/consumer-discretionary/value-chain)
+- [필수소비재 핵심 지표 심화](/industry-analysis/consumer-staples/key-metrics)

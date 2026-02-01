@@ -293,8 +293,8 @@ EU ETS는 세계 최대의 탄소 배출권 거래 시장입니다.
 
 ## 관련 페이지
 
-- [선물](/docs/assets/derivatives/futures) - 선물 계약의 기초
-- [옵션 전략 심화](/docs/assets/derivatives/options-strategies) - 원자재 옵션 전략
-- [스왑](/docs/assets/derivatives/swaps) - 원자재 스왑
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - 원자재 포지션 리스크 관리
-- [구조화 상품](/docs/assets/derivatives/structured-products) - 원자재 연계 구조화상품
+- [선물](/assets/derivatives/futures) - 선물 계약의 기초
+- [옵션 전략 심화](/assets/derivatives/options-strategies) - 원자재 옵션 전략
+- [스왑](/assets/derivatives/swaps) - 원자재 스왑
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - 원자재 포지션 리스크 관리
+- [구조화 상품](/assets/derivatives/structured-products) - 원자재 연계 구조화상품

@@ -133,4 +133,4 @@ C 기업의 재무상태표상 부채비율은 50%로 안정적으로 보였습�
 - [발생주의 vs 현금주의](/foundation/accounting-basics/accrual-vs-cash)
 - [회계등식의 의미](/foundation/accounting-basics/accounting-equation)
 - [재무제표 3표 연결](/foundation/three-statement-link/intro)
-- [이익의 질 분석](/financial-analysis/earnings-quality/intro)
+- [이익의 질 분석](/financial-analysis/overview)

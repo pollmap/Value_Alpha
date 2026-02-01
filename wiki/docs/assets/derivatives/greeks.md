@@ -208,4 +208,4 @@ VIX 지수(S&P 500 옵션의 IV), V-KOSPI 지수(KOSPI200 옵션의 IV)는 시�
 
 ## 관련 학습
 
-옵션의 기본 개념과 거래 전략을 복습하려면 [옵션 기초](/assets/derivatives/options-basics)를 참조하십시오. 옵션 가격 결정의 이론적 배경인 Black-Scholes 모형은 [Black-Scholes 모형](/assets/derivatives/black-scholes)에서 학습할 수 있습니다. 실제 그릭스 값을 계산하고 포지션을 분석하려면 [옵션 그릭스 계산기](/calculators/option-greeks)를 활용해 보시기 바랍니다.
+옵션의 기본 개념과 거래 전략을 복습하려면 [옵션 기초](/assets/derivatives/options-basics)를 참조하십시오. 옵션 가격 결정의 이론적 배경인 Black-Scholes 모형은 [Black-Scholes 모형](/assets/derivatives/options-pricing)에서 학습할 수 있습니다. 실제 그릭스 값을 계산하고 포지션을 분석하려면 [옵션 그릭스 계산기](/calculators/option-greeks)를 활용해 보시기 바랍니다.

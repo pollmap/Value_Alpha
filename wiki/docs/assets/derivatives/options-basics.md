@@ -214,4 +214,4 @@ keywords: [옵션, 콜옵션, 풋옵션, 행사가, 프리미엄, 내재가치, 
 
 ## 관련 학습
 
-옵션의 가격 결정과 민감도 지표를 더 깊이 학습하려면 [옵션 그릭스](/assets/derivatives/greeks)를 참조하십시오. 델타, 감마, 세타, 베가, 로 등 그릭스를 이해하면 옵션 포지션을 더 정교하게 관리할 수 있습니다. 옵션 가격 결정의 이론적 기초인 Black-Scholes 모형은 [Black-Scholes 모형](/assets/derivatives/black-scholes)에서 학습할 수 있습니다. 실제 옵션 가격과 그릭스 계산을 연습하려면 [옵션 그릭스 계산기](/calculators/option-greeks)를 활용해 보시기 바랍니다.
+옵션의 가격 결정과 민감도 지표를 더 깊이 학습하려면 [옵션 그릭스](/assets/derivatives/greeks)를 참조하십시오. 델타, 감마, 세타, 베가, 로 등 그릭스를 이해하면 옵션 포지션을 더 정교하게 관리할 수 있습니다. 옵션 가격 결정의 이론적 기초인 Black-Scholes 모형은 [Black-Scholes 모형](/assets/derivatives/options-pricing)에서 학습할 수 있습니다. 실제 옵션 가격과 그릭스 계산을 연습하려면 [옵션 그릭스 계산기](/calculators/option-greeks)를 활용해 보시기 바랍니다.

@@ -191,6 +191,6 @@ SGR은 외부 자금 조달 없이 자기자본만으로 달성할 수 있는 �
 ## 관련 문서
 
 - [자본의 구성요소](/foundation/balance-sheet/equity/components)
-- [배당금 지급](/foundation/cash-flow/financing-cf/dividends)
-- [ROE 분석](/financial-analysis/profitability/return-analysis/roe)
+- [배당금 지급](/foundation/cash-flow/intro)
+- [ROE 분석](/financial-analysis/profitability/return-analysis)
 - [지속가능성장률](/financial-analysis/growth/sustainable-growth)

@@ -330,9 +330,9 @@ DeFi 프로토콜에 투자하거나 자금을 예치하기 전에 다음 항목
 
 ## 관련 페이지
 
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 분석 프레임워크
-- [이더리움](/docs/assets/crypto/ethereum) — DeFi의 핵심 플랫폼
-- [레이어2 & 확장성](/docs/assets/crypto/layer2-scaling) — DeFi를 지탱하는 확장성 솔루션
-- [스테이킹 & 수익 전략](/docs/assets/crypto/staking-yield) — DeFi 수익 전략 심화
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — DeFi 보안 리스크 관리
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — DeFi 규제 동향 상세
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 분석 프레임워크
+- [이더리움](/assets/crypto/ethereum) — DeFi의 핵심 플랫폼
+- [레이어2 & 확장성](/assets/crypto/layer2-scaling) — DeFi를 지탱하는 확장성 솔루션
+- [스테이킹 & 수익 전략](/assets/crypto/staking-yield) — DeFi 수익 전략 심화
+- [암호화폐 보안](/assets/crypto/crypto-security) — DeFi 보안 리스크 관리
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — DeFi 규제 동향 상세

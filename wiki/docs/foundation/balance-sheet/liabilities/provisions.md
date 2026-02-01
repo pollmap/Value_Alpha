@@ -174,6 +174,6 @@ keywords: [충당부채, 우발부채, 소송, 보증, 환경부채, 제품보�
 ## 관련 문서
 
 - [유동부채](/foundation/balance-sheet/liabilities/current-liabilities)
-- [주석 분석](/foundation/notes-analysis/contingencies)
-- [이익의 질](/financial-analysis/earnings-quality/intro)
-- [리스크 평가](/company-analysis/risk-assessment/intro)
+- [주석 분석](/foundation/overview)
+- [이익의 질](/financial-analysis/overview)
+- [리스크 평가](/company-analysis/quantitative/scenario-analysis)

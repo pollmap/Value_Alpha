@@ -167,6 +167,6 @@ CCC = 재고자산 회전일수 + 매출채권 회전일수 - 매입채무 회�
 ## 관련 문서
 
 - [비유동자산](/foundation/balance-sheet/assets/non-current-assets)
-- [효율성 분석](/financial-analysis/efficiency/intro)
-- [현금전환주기](/financial-analysis/efficiency/ccc)
-- [이익의 질](/financial-analysis/earnings-quality/intro)
+- [효율성 분석](/financial-analysis/efficiency/asset-turnover)
+- [현금전환주기](/financial-analysis/efficiency/asset-turnover)
+- [이익의 질](/financial-analysis/overview)

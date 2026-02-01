@@ -20,16 +20,16 @@ Value Alpha는 투자 분석과 학습을 돕기 위한 다양한 **인터랙티
 
 | 도구 | 설명 | 바로가기 |
 |:-----|:-----|:--------:|
-| **DCF 계산기** | 미래 현금흐름을 현재가치로 할인하여 기업의 내재가치를 산출합니다 | [사용하기](/docs/calculators/dcf) |
-| **Guided DCF** | 단계별 안내와 함께 DCF 분석을 수행할 수 있는 가이드형 계산기입니다 | [사용하기](/docs/calculators/guided-dcf) |
-| **WACC 계산기** | 자기자본비용과 타인자본비용을 가중평균하여 할인율을 산출합니다 | [사용하기](/docs/calculators/wacc) |
-| **Graham Number** | 벤저민 그레이엄의 공식으로 주식의 적정가격 상한선을 계산합니다 | [사용하기](/docs/calculators/graham-number) |
-| **DuPont 분석** | ROE를 수익성, 효율성, 레버리지 3요소로 분해하여 분석합니다 | [사용하기](/docs/calculators/dupont) |
-| **ROIC 계산기** | 투하자본수익률을 산출하여 기업의 자본 효율성을 평가합니다 | [사용하기](/docs/calculators/roic) |
-| **DDM 계산기** | 배당할인모델로 배당주의 내재가치를 산출합니다 | [사용하기](/docs/calculators/ddm) |
-| **PER Band** | 과거 PER 밴드 대비 현재 주가의 위치를 시각적으로 확인합니다 | [사용하기](/docs/calculators/per-band) |
-| **Football Field** | 복수의 밸류에이션 방법론 결과를 한 차트에 비교합니다 | [사용하기](/docs/calculators/football-field) |
-| **PEG Screener** | PEG 비율로 성장 대비 저평가된 종목을 스크리닝합니다 | [사용하기](/docs/calculators/peg-screener) |
+| **DCF 계산기** | 미래 현금흐름을 현재가치로 할인하여 기업의 내재가치를 산출합니다 | [사용하기](/calculators/dcf) |
+| **Guided DCF** | 단계별 안내와 함께 DCF 분석을 수행할 수 있는 가이드형 계산기입니다 | [사용하기](/calculators/guided-dcf) |
+| **WACC 계산기** | 자기자본비용과 타인자본비용을 가중평균하여 할인율을 산출합니다 | [사용하기](/calculators/wacc) |
+| **Graham Number** | 벤저민 그레이엄의 공식으로 주식의 적정가격 상한선을 계산합니다 | [사용하기](/calculators/graham-number) |
+| **DuPont 분석** | ROE를 수익성, 효율성, 레버리지 3요소로 분해하여 분석합니다 | [사용하기](/calculators/dupont) |
+| **ROIC 계산기** | 투하자본수익률을 산출하여 기업의 자본 효율성을 평가합니다 | [사용하기](/calculators/roic) |
+| **DDM 계산기** | 배당할인모델로 배당주의 내재가치를 산출합니다 | [사용하기](/calculators/ddm) |
+| **PER Band** | 과거 PER 밴드 대비 현재 주가의 위치를 시각적으로 확인합니다 | [사용하기](/calculators/per-band) |
+| **Football Field** | 복수의 밸류에이션 방법론 결과를 한 차트에 비교합니다 | [사용하기](/calculators/football-field) |
+| **PEG Screener** | PEG 비율로 성장 대비 저평가된 종목을 스크리닝합니다 | [사용하기](/calculators/peg-screener) |
 
 :::tip 활용 팁
 단일 밸류에이션 모델에 의존하지 마세요. **DCF + PER Band + Football Field**를 조합하면 보다 견고한 적정가치 범위를 도출할 수 있습니다.
@@ -43,9 +43,9 @@ Value Alpha는 투자 분석과 학습을 돕기 위한 다양한 **인터랙티
 
 | 도구 | 설명 | 바로가기 |
 |:-----|:-----|:--------:|
-| **Kelly Criterion** | 켈리 공식으로 수학적 최적 베팅 비율을 계산합니다 | [사용하기](/docs/calculators/kelly) |
-| **Bond 계산기** | 채권의 현재가치, 수익률, 듀레이션을 분석합니다 | [사용하기](/docs/calculators/bond) |
-| **Option Greeks** | 옵션의 델타, 감마, 세타, 베가를 실시간으로 계산합니다 | [사용하기](/docs/calculators/option-greeks) |
+| **Kelly Criterion** | 켈리 공식으로 수학적 최적 베팅 비율을 계산합니다 | [사용하기](/calculators/kelly) |
+| **Bond 계산기** | 채권의 현재가치, 수익률, 듀레이션을 분석합니다 | [사용하기](/calculators/bond) |
+| **Option Greeks** | 옵션의 델타, 감마, 세타, 베가를 실시간으로 계산합니다 | [사용하기](/calculators/option-greeks) |
 
 :::caution 유의사항
 Kelly Criterion은 이론적 최적 비율을 제시하지만, 실전에서는 **Half-Kelly (50%)** 이하로 적용하는 것이 일반적입니다. 과도한 집중 투자는 큰 손실로 이어질 수 있습니다.
@@ -59,8 +59,8 @@ Kelly Criterion은 이론적 최적 비율을 제시하지만, 실전에서는 *
 
 | 도구 | 설명 | 바로가기 |
 |:-----|:-----|:--------:|
-| **Finance MBTI** | 16가지 투자 성향 유형 중 자신의 유형을 진단합니다 | [사용하기](/docs/finance-mbti) |
-| **Market Survivor** | 10라운드의 시장 시나리오에서 생존 전략을 테스트합니다 | [사용하기](/docs/market-survivor) |
+| **Finance MBTI** | 16가지 투자 성향 유형 중 자신의 유형을 진단합니다 | [사용하기](/finance-mbti) |
+| **Market Survivor** | 10라운드의 시장 시나리오에서 생존 전략을 테스트합니다 | [사용하기](/market-survivor) |
 
 :::tip 추천 순서
 **Finance MBTI**로 자신의 투자 성향을 먼저 파악한 뒤, **Market Survivor**에서 실전 감각을 테스트해 보세요.
@@ -74,12 +74,12 @@ Kelly Criterion은 이론적 최적 비율을 제시하지만, 실전에서는 *
 
 | 도구 | 설명 | 바로가기 |
 |:-----|:-----|:--------:|
-| **Market Overview** | 주요 지수, 환율, 원자재 등 글로벌 시장 현황을 한눈에 확인합니다 | [사용하기](/docs/tools/market-overview) |
-| **Economic Calendar** | 주요 경제 이벤트와 지표 발표 일정을 추적합니다 | [사용하기](/docs/tools/economic-calendar) |
-| **Company Comparison** | 복수 기업의 재무지표를 나란히 비교 분석합니다 | [사용하기](/docs/tools/company-comparison) |
-| **Portfolio Simulator** | 자산 배분 전략의 과거 성과를 백테스트합니다 | [사용하기](/docs/tools/portfolio-simulator) |
-| **Finance Timeline** | 금융 역사의 주요 사건을 타임라인으로 학습합니다 | [사용하기](/docs/tools/finance-timeline) |
-| **Progress Tracker** | 커리큘럼 학습 진도를 추적하고 관리합니다 | [사용하기](/docs/tools/progress-tracker) |
+| **Market Overview** | 주요 지수, 환율, 원자재 등 글로벌 시장 현황을 한눈에 확인합니다 | [사용하기](/tools/market-overview) |
+| **Economic Calendar** | 주요 경제 이벤트와 지표 발표 일정을 추적합니다 | [사용하기](/tools/economic-calendar) |
+| **Company Comparison** | 복수 기업의 재무지표를 나란히 비교 분석합니다 | [사용하기](/tools/company-comparison) |
+| **Portfolio Simulator** | 자산 배분 전략의 과거 성과를 백테스트합니다 | [사용하기](/tools/portfolio-simulator) |
+| **Finance Timeline** | 금융 역사의 주요 사건을 타임라인으로 학습합니다 | [사용하기](/tools/finance-timeline) |
+| **Progress Tracker** | 커리큘럼 학습 진도를 추적하고 관리합니다 | [사용하기](/tools/progress-tracker) |
 
 ---
 
@@ -89,7 +89,7 @@ Kelly Criterion은 이론적 최적 비율을 제시하지만, 실전에서는 *
 
 | 도구 | 설명 | 바로가기 |
 |:-----|:-----|:--------:|
-| **Excel Templates** | DCF, 3-Statement Model, 재무비율 분석 등 실무 템플릿 모음 | [사용하기](/docs/tools/templates) |
+| **Excel Templates** | DCF, 3-Statement Model, 재무비율 분석 등 실무 템플릿 모음 | [사용하기](/tools/templates) |
 
 ---
 
@@ -124,7 +124,7 @@ Kelly Criterion은 이론적 최적 비율을 제시하지만, 실전에서는 *
 
 **Q. 계산기에 입력하는 데이터는 어디서 구하나요?**
 
-DART 전자공시시스템, 네이버 금융, KRX 정보데이터시스템 등에서 재무 데이터를 확인할 수 있습니다. [DART 공시 분석 가이드](/docs/company-analysis/dart-guide)를 참고하세요.
+DART 전자공시시스템, 네이버 금융, KRX 정보데이터시스템 등에서 재무 데이터를 확인할 수 있습니다. [DART 공시 분석 가이드](/company-analysis/dart-guide)를 참고하세요.
 
 **Q. 계산 결과를 투자 판단에 바로 사용해도 되나요?**
 

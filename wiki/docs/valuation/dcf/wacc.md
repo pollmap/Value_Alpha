@@ -161,10 +161,10 @@ WACC는 DCF 모델에서 기업가치의 60-80%를 차지하는 **터미널 가�
 
 ## 용어 사전
 
-- [베타 (β)](/glossary/d-f#beta)
-- [CAPM](/glossary/a-c#capm)
-- [무위험이자율](/glossary/m-r#risk-free-rate)
-- [시장위험프리미엄](/glossary/m-r#market-risk-premium)
+- [베타 (β)](/glossary/a-c#beta-베타)
+- [CAPM](/glossary/a-c#capm-capital-asset-pricing-model-자본자산가격결정모형)
+- [무위험이자율](/glossary/m-r#risk-free-rate-무위험이자율)
+- [시장위험프리미엄](/glossary/m-r#risk-premium-위험-프리미엄)
 
 ## 참고자료
 

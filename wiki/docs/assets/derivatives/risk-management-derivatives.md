@@ -363,9 +363,9 @@ $$EAD = \alpha \times (RC + PFE)$$
 
 ## 관련 페이지
 
-- [그릭스](/docs/assets/derivatives/greeks) - 옵션 민감도 지표
-- [옵션 전략 심화](/docs/assets/derivatives/options-strategies) - 전략별 리스크 프로파일
-- [변동성 분석](/docs/assets/derivatives/volatility) - 베가 리스크와 변동성 관리
-- [스왑](/docs/assets/derivatives/swaps) - CVA, 거래상대방 리스크
-- [신용파생상품](/docs/assets/derivatives/credit-derivatives) - 신용 리스크 관리
-- [이색옵션](/docs/assets/derivatives/exotic-options) - 배리어 헤지의 어려움
+- [그릭스](/assets/derivatives/greeks) - 옵션 민감도 지표
+- [옵션 전략 심화](/assets/derivatives/options-strategies) - 전략별 리스크 프로파일
+- [변동성 분석](/assets/derivatives/volatility) - 베가 리스크와 변동성 관리
+- [스왑](/assets/derivatives/swaps) - CVA, 거래상대방 리스크
+- [신용파생상품](/assets/derivatives/credit-derivatives) - 신용 리스크 관리
+- [이색옵션](/assets/derivatives/exotic-options) - 배리어 헤지의 어려움

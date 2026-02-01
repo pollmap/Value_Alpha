@@ -287,6 +287,6 @@ $$
 
 ## 관련 페이지
 
-- [커뮤니케이션 서비스 섹터 분석 개요](/docs/industry-analysis/communication-services/intro)
-- [커뮤니케이션 밸류체인](/docs/industry-analysis/communication-services/value-chain)
-- [밸류에이션 기초](/docs/valuation/intro)
+- [커뮤니케이션 서비스 섹터 분석 개요](/industry-analysis/communication-services/intro)
+- [커뮤니케이션 밸류체인](/industry-analysis/communication-services/value-chain)
+- [밸류에이션 기초](/valuation/dcf/overview)

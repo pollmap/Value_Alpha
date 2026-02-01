@@ -200,6 +200,6 @@ keywords: [비유동부채, 장기차입금, 사채, 회사채, 퇴직급여부�
 ## 관련 문서
 
 - [유동부채](/foundation/balance-sheet/liabilities/current-liabilities)
-- [레버리지 분석](/financial-analysis/stability/leverage/debt-ratio)
-- [이자보상배율](/financial-analysis/stability/coverage/interest-coverage)
+- [레버리지 분석](/financial-analysis/stability/debt-ratio)
+- [이자보상배율](/financial-analysis/stability/debt-ratio)
 - [WACC 계산](/valuation/dcf/wacc)

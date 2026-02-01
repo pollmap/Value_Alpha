@@ -45,7 +45,7 @@ keywords: [투자 스크리닝, 그레이엄 넘버, PEG, CANSLIM, Magic Formula
 | 이익 성장 | 10년간 최소 33% | 연평균 약 3% 성장 |
 | 부채비율 | < 100% | 장기부채 / 순유동자산 기준 |
 
-**그레이엄 넘버 계산**: [Graham Number 계산기](/docs/calculators/graham-number)에서 적정가격을 바로 산출할 수 있습니다.
+**그레이엄 넘버 계산**: [Graham Number 계산기](/calculators/graham-number)에서 적정가격을 바로 산출할 수 있습니다.
 
 ```
 Graham Number = √(22.5 × EPS × BPS)
@@ -80,7 +80,7 @@ Graham Number = √(22.5 × EPS × BPS)
 | 규제 진입장벽 | 인허가, 라이선스 필요 | 금융, 통신, 제약 |
 
 :::tip 버핏 스크리닝 핵심
-버핏은 "훌륭한 기업을 적정 가격에 사라"고 합니다. 정량 기준을 통과한 기업이 **일시적 악재로 주가가 하락**했을 때가 매수 적기입니다. [DCF 계산기](/docs/calculators/dcf)로 적정가치를 산출하고, 20~30% 안전마진을 확보하세요.
+버핏은 "훌륭한 기업을 적정 가격에 사라"고 합니다. 정량 기준을 통과한 기업이 **일시적 악재로 주가가 하락**했을 때가 매수 적기입니다. [DCF 계산기](/calculators/dcf)로 적정가치를 산출하고, 20~30% 안전마진을 확보하세요.
 :::
 
 ---
@@ -112,7 +112,7 @@ Graham Number = √(22.5 × EPS × BPS)
 | 턴어라운드 (Turnarounds) | 위기 후 회복 기업 | 구조조정 진행, 부채 감소 |
 | 자산주 (Asset Plays) | 숨겨진 자산 보유 | 순자산가치 대비 할인 |
 
-**PEG 스크리닝**: [PEG Screener](/docs/calculators/peg-screener)에서 PEG 기반 스크리닝을 바로 수행할 수 있습니다.
+**PEG 스크리닝**: [PEG Screener](/calculators/peg-screener)에서 PEG 기반 스크리닝을 바로 수행할 수 있습니다.
 
 ---
 
@@ -174,7 +174,7 @@ Graham Number = √(22.5 × EPS × BPS)
 | 이익 안정성 | 최근 3년 중 적자 연도 없음 |
 | 거래량 | 일평균 거래대금 > 5억 원 |
 
-**ROIC 계산**: [ROIC 계산기](/docs/calculators/roic)에서 개별 기업의 ROIC를 산출할 수 있습니다.
+**ROIC 계산**: [ROIC 계산기](/calculators/roic)에서 개별 기업의 ROIC를 산출할 수 있습니다.
 
 :::tip Magic Formula 실전 적용
 그린블라트는 최소 3년 이상 기계적으로 운용해야 효과를 볼 수 있다고 강조합니다. 단기적으로 시장을 언더퍼폼하는 구간이 반드시 존재하므로, **규칙을 바꾸지 않는 인내심**이 핵심입니다.
@@ -263,16 +263,16 @@ CANSLIM은 **강세장에서 극대화**되는 전략입니다. 약세장이나 
 
 1. 그레이엄 방어적 투자자 기준으로 1차 필터링
 2. 버핏의 ROE > 15%, 이익 일관성 기준 추가 적용
-3. [Graham Number 계산기](/docs/calculators/graham-number)로 적정가격 확인
-4. [DCF 계산기](/docs/calculators/dcf)로 내재가치 교차 검증
+3. [Graham Number 계산기](/calculators/graham-number)로 적정가격 확인
+4. [DCF 계산기](/calculators/dcf)로 내재가치 교차 검증
 
 **성장+가치 조합 (린치 + 그린블라트)**
 
 1. PEG < 1.5 기준으로 성장 대비 저평가 종목 추출
 2. Magic Formula 순위로 품질 + 저평가 동시 확인
-3. [PEG Screener](/docs/calculators/peg-screener)로 1차 스크리닝
-4. [ROIC 계산기](/docs/calculators/roic)로 자본 효율성 검증
+3. [PEG Screener](/calculators/peg-screener)로 1차 스크리닝
+4. [ROIC 계산기](/calculators/roic)로 자본 효율성 검증
 
 :::tip 스크리닝은 시작일 뿐입니다
-정량적 스크리닝은 분석 대상을 좁히는 첫 단계입니다. 스크리닝을 통과한 종목에 대해 반드시 **사업보고서 정독, 경쟁 우위 분석, 경영진 평가** 등 정성적 분석을 수행하세요. [DART 공시 분석 가이드](/docs/company-analysis/dart-guide)를 참고하여 공시 원문을 직접 확인하는 것을 권장합니다.
+정량적 스크리닝은 분석 대상을 좁히는 첫 단계입니다. 스크리닝을 통과한 종목에 대해 반드시 **사업보고서 정독, 경쟁 우위 분석, 경영진 평가** 등 정성적 분석을 수행하세요. [DART 공시 분석 가이드](/company-analysis/dart-guide)를 참고하여 공시 원문을 직접 확인하는 것을 권장합니다.
 :::

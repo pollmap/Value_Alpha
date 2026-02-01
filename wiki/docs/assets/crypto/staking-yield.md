@@ -278,8 +278,8 @@ stETH를 Aave에 담보로 넣고 ETH를 빌려 다시 stETH를 만드는 "루�
 
 ## 관련 페이지
 
-- [이더리움](/docs/assets/crypto/ethereum) — 스테이킹의 핵심 플랫폼
-- [DeFi 가이드](/docs/assets/crypto/defi) — 스테이킹과 DeFi 결합 전략
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — 지갑과 키 관리
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — 스테이킹 관련 세금과 규제
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 분석 프레임워크
+- [이더리움](/assets/crypto/ethereum) — 스테이킹의 핵심 플랫폼
+- [DeFi 가이드](/assets/crypto/defi) — 스테이킹과 DeFi 결합 전략
+- [암호화폐 보안](/assets/crypto/crypto-security) — 지갑과 키 관리
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — 스테이킹 관련 세금과 규제
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 분석 프레임워크

@@ -182,7 +182,7 @@ K-IFRS 16 적용으로 부채비율이 급등했지만, 실질적인 기업가�
 
 ## 관련 문서
 
-- [연결 vs 별도재무제표](/foundation/korean-specifics/consolidated-vs-separate)
-- [재벌 그룹 회계](/foundation/korean-specifics/chaebols)
-- [DART 공시 읽는 법](/foundation/korean-specifics/dart-filing)
+- [연결 vs 별도재무제표](/foundation/overview)
+- [재벌 그룹 회계](/foundation/overview)
+- [DART 공시 읽는 법](/company-analysis/dart-guide)
 - [리스부채](/foundation/balance-sheet/liabilities/lease-liabilities)

@@ -244,6 +244,6 @@ keywords: [경기소비재 밸류체인, 현대차, 전기차, 유통, 이마트
 
 ## 관련 페이지
 
-- [경기소비재 섹터 분석 개요](/docs/industry-analysis/consumer-discretionary/intro)
-- [경기소비재 핵심 지표 심화](/docs/industry-analysis/consumer-discretionary/key-metrics)
-- [필수소비재 밸류체인](/docs/industry-analysis/consumer-staples/value-chain)
+- [경기소비재 섹터 분석 개요](/industry-analysis/consumer-discretionary/intro)
+- [경기소비재 핵심 지표 심화](/industry-analysis/consumer-discretionary/key-metrics)
+- [필수소비재 밸류체인](/industry-analysis/consumer-staples/value-chain)

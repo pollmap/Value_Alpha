@@ -278,7 +278,7 @@ DART 공시를 활용한 체계적인 종목 스크리닝 프로세스입니다.
 
 - 영업이익률, ROE, 부채비율 등 재무비율 기준 필터링
 - 3~5년 연속 실적 성장 기업 추출
-- [ROIC 계산기](/docs/calculators/roic)로 자본 효율성 검증
+- [ROIC 계산기](/calculators/roic)로 자본 효율성 검증
 
 ### 3단계: 공시 품질 확인
 
@@ -294,9 +294,9 @@ DART 공시를 활용한 체계적인 종목 스크리닝 프로세스입니다.
 
 ### 5단계: 밸류에이션
 
-- [DCF 계산기](/docs/calculators/dcf)로 내재가치 산출
-- [PER Band](/docs/calculators/per-band)로 역사적 밸류에이션 확인
-- [Football Field](/docs/calculators/football-field)로 종합 적정가치 범위 도출
+- [DCF 계산기](/calculators/dcf)로 내재가치 산출
+- [PER Band](/calculators/per-band)로 역사적 밸류에이션 확인
+- [Football Field](/calculators/football-field)로 종합 적정가치 범위 도출
 
 ---
 
@@ -325,7 +325,7 @@ DART 공시를 활용한 체계적인 종목 스크리닝 프로세스입니다.
 :::
 
 :::tip 비교 분석 활용법
-동일 업종 내 3~5개 기업의 사업보고서를 나란히 비교하면, 개별 기업만 봤을 때 놓칠 수 있는 업종 공통 트렌드와 기업별 차별점을 동시에 파악할 수 있습니다. [Company Comparison 도구](/docs/tools/company-comparison)를 함께 활용하세요.
+동일 업종 내 3~5개 기업의 사업보고서를 나란히 비교하면, 개별 기업만 봤을 때 놓칠 수 있는 업종 공통 트렌드와 기업별 차별점을 동시에 파악할 수 있습니다. [Company Comparison 도구](/tools/company-comparison)를 함께 활용하세요.
 :::
 
 :::caution DART 데이터의 한계

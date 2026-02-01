@@ -157,6 +157,4 @@ EBITDA는 **현금 창출 능력의 대용치**로 사용됩니다. 감가상각
 ## 관련 문서
 
 - [손익계산서 구조](/foundation/income-statement/intro)
-- [매출원가](/foundation/income-statement/costs/cogs)
-- [판관비](/foundation/income-statement/costs/sg-and-a)
-- [수익성 분석](/financial-analysis/profitability/margin-analysis/operating-margin)
+- [수익성 분석](/financial-analysis/profitability/margin-analysis)

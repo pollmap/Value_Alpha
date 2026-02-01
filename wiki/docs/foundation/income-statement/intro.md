@@ -181,7 +181,5 @@ OPM - NPM = 영업외 부담 + 세금
 
 ## 관련 문서
 
-- [수익인식](/foundation/income-statement/revenue/recognition)
-- [매출원가](/foundation/income-statement/costs/cogs)
 - [영업이익의 의미](/foundation/income-statement/operating-income)
-- [수익성 분석](/financial-analysis/profitability/intro)
+- [수익성 분석](/financial-analysis/profitability/margin-analysis)

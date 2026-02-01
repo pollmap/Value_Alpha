@@ -190,5 +190,5 @@ K-IFRS 16에서 예외 인정되는 리스:
 
 - [비유동부채](/foundation/balance-sheet/liabilities/non-current-liabilities)
 - [비유동자산](/foundation/balance-sheet/assets/non-current-assets)
-- [부채비율 분석](/financial-analysis/stability/leverage/debt-ratio)
-- [EBITDA 마진](/financial-analysis/profitability/margin-analysis/ebitda-margin)
+- [부채비율 분석](/financial-analysis/stability/debt-ratio)
+- [EBITDA 마진](/financial-analysis/profitability/margin-analysis)

@@ -302,8 +302,8 @@ DeFi의 핵심 특성인 탈중앙화는 전통적 규제 체계와 근본적으
 
 ## 관련 페이지
 
-- [크립토 개요](/docs/assets/crypto/intro) — 디지털자산 기초
-- [DeFi 가이드](/docs/assets/crypto/defi) — DeFi 규제 관련
-- [NFT & 토큰화](/docs/assets/crypto/nft-tokenization) — STO/NFT 규제
-- [암호화폐 보안](/docs/assets/crypto/crypto-security) — 거래소 규제 요건
-- [암호화폐 트레이딩](/docs/assets/crypto/crypto-trading) — 거래소 이용 시 규제 고려사항
+- [크립토 개요](/assets/crypto/intro) — 디지털자산 기초
+- [DeFi 가이드](/assets/crypto/defi) — DeFi 규제 관련
+- [NFT & 토큰화](/assets/crypto/nft-tokenization) — STO/NFT 규제
+- [암호화폐 보안](/assets/crypto/crypto-security) — 거래소 규제 요건
+- [암호화폐 트레이딩](/assets/crypto/crypto-trading) — 거래소 이용 시 규제 고려사항

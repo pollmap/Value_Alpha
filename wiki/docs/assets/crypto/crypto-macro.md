@@ -376,8 +376,8 @@ Reserve Risk 높음 → 차익 실현 고려 (낮은 신뢰, 높은 가격)
 
 ## 관련 페이지
 
-- [비트코인](/docs/assets/crypto/bitcoin) — 비트코인 반감기와 밸류에이션
-- [크립토 개요](/docs/assets/crypto/intro) — 온체인 분석 기초
-- [암호화폐 트레이딩](/docs/assets/crypto/crypto-trading) — 매크로 기반 트레이딩
-- [암호화폐 규제](/docs/assets/crypto/crypto-regulation) — 규제와 시장 영향
-- [스테이킹 & 수익](/docs/assets/crypto/staking-yield) — 매크로 환경별 수익 전략
+- [비트코인](/assets/crypto/bitcoin) — 비트코인 반감기와 밸류에이션
+- [크립토 개요](/assets/crypto/intro) — 온체인 분석 기초
+- [암호화폐 트레이딩](/assets/crypto/crypto-trading) — 매크로 기반 트레이딩
+- [암호화폐 규제](/assets/crypto/crypto-regulation) — 규제와 시장 영향
+- [스테이킹 & 수익](/assets/crypto/staking-yield) — 매크로 환경별 수익 전략

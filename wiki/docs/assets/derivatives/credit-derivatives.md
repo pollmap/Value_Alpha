@@ -256,7 +256,7 @@ Nth-to-Default로 확장 가능: Second-to-Default, Third-to-Default 등.
 
 ## 관련 페이지
 
-- [스왑](/docs/assets/derivatives/swaps) - CDS의 기본 구조와 스왑 개요
-- [구조화 상품](/docs/assets/derivatives/structured-products) - CDO, CLN 등 구조화 신용상품
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - CVA, 거래상대방 리스크
-- [선물](/docs/assets/derivatives/futures) - 신용지수 선물
+- [스왑](/assets/derivatives/swaps) - CDS의 기본 구조와 스왑 개요
+- [구조화 상품](/assets/derivatives/structured-products) - CDO, CLN 등 구조화 신용상품
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - CVA, 거래상대방 리스크
+- [선물](/assets/derivatives/futures) - 신용지수 선물

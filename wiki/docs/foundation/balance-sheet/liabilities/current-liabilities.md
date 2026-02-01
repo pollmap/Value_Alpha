@@ -190,6 +190,6 @@ keywords: [유동부채, 매입채무, 단기차입금, 유동비율, 운전자�
 ## 관련 문서
 
 - [비유동부채](/foundation/balance-sheet/liabilities/non-current-liabilities)
-- [유동성 분석](/financial-analysis/stability/liquidity/current-ratio)
-- [운전자본 관리](/financial-analysis/efficiency/working-capital-mgmt)
+- [유동성 분석](/financial-analysis/stability/liquidity)
+- [운전자본 관리](/financial-analysis/efficiency/asset-turnover)
 - [유동자산](/foundation/balance-sheet/assets/current-assets)

@@ -146,7 +146,7 @@ CDS는 참조 기업의 신용 이벤트(부도, 구조조정 등) 발생 시 �
 - 보호 매도자(Protection Seller): 신용 이벤트 발생 시 손실 보전
 - 신용 이벤트 미발생 시: 매수자는 프리미엄만 지급하고 종료
 
-자세한 내용은 [신용파생상품](/docs/assets/derivatives/credit-derivatives) 문서를 참조하십시오.
+자세한 내용은 [신용파생상품](/assets/derivatives/credit-derivatives) 문서를 참조하십시오.
 
 ## 분산 스왑 (Variance Swap)
 
@@ -159,7 +159,7 @@ $$\text{Payoff} = N_{var} \times (\sigma_{realized}^2 - K_{var}^2)$$
 - $\sigma_{realized}^2$: 실현 분산 (일별 로그 수익률의 제곱합 × 252/n)
 - $K_{var}^2$: 행사 분산
 
-자세한 내용은 [변동성 분석](/docs/assets/derivatives/volatility) 문서를 참조하십시오.
+자세한 내용은 [변동성 분석](/assets/derivatives/volatility) 문서를 참조하십시오.
 
 ## 스왑 가치평가의 실무
 
@@ -254,8 +254,8 @@ $$CVA = \sum_{i=1}^{n} EE(t_i) \times PD(t_{i-1}, t_i) \times (1 - R)$$
 
 ## 관련 페이지
 
-- [선물](/docs/assets/derivatives/futures) - 선물 계약의 기초
-- [신용파생상품](/docs/assets/derivatives/credit-derivatives) - CDS 심화
-- [변동성 분석](/docs/assets/derivatives/volatility) - 분산스왑과 변동성 거래
-- [파생상품 리스크 관리](/docs/assets/derivatives/risk-management-derivatives) - CVA, 규제자본
-- [구조화 상품](/docs/assets/derivatives/structured-products) - 스왑 내재 구조화 상품
+- [선물](/assets/derivatives/futures) - 선물 계약의 기초
+- [신용파생상품](/assets/derivatives/credit-derivatives) - CDS 심화
+- [변동성 분석](/assets/derivatives/volatility) - 분산스왑과 변동성 거래
+- [파생상품 리스크 관리](/assets/derivatives/risk-management-derivatives) - CVA, 규제자본
+- [구조화 상품](/assets/derivatives/structured-products) - 스왑 내재 구조화 상품
