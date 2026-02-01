@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback, useMemo, useRef } from 'react';
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -44,6 +44,7 @@ interface Ranking {
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const INITIAL_CAPITAL = 100_000_000;
+const ROUNDS_PER_GAME = 10;
 
 const ASSET_LABELS: Record<AssetClass, string> = {
   stocks: '주식',
@@ -61,7 +62,7 @@ const ASSET_COLORS: Record<AssetClass, string> = {
   realestate: '#9b59b6',
 };
 
-// 50개 시나리오: 1929년 대공황부터 2024년까지 100년
+// 50개 시나리오 풀: 1929년 대공황부터 2024년까지 100년 (매 게임 10개 랜덤 선택)
 const scenarios: Scenario[] = [
   // 1920s-1930s: 대공황
   { id: 1, year: '1929년 10월', title: '검은 목요일 - 대공황 시작', period: '1929 대공황', headline: '월가 대폭락! 주식시장 역사상 최악의 붕괴', description: '뉴욕 증시가 하루에 11% 폭락했습니다. 투기 열풍이 끝나고 거대한 거품이 터지기 시작합니다.', marketContext: '다우존스 381 → 급락', returns: { stocks: -45, bonds: 5, gold: 15, cash: 0, realestate: -20 }, bestAllocation: { stocks: 0, bonds: 30, gold: 50, cash: 20, realestate: 0 }, actualOutcome: '1929-1932년 다우존스 89% 폭락', explanation: '대공황으로 주식시장은 89% 하락했고, 금은 안전자산으로 각광받았습니다.' },
@@ -125,14 +126,23 @@ const scenarios: Scenario[] = [
   { id: 50, year: '2024년 8월', title: '엔캐리 청산 쇼크', period: '2024 엔캐리', headline: '일본 금리인상! 글로벌 캐리 트레이드 청산', description: '일본은행의 깜짝 금리인상으로 엔캐리 트레이드 청산이 발생하며 글로벌 증시가 급락했습니다.', marketContext: '닛케이 -12%, KOSPI -8%', returns: { stocks: -10, bonds: 5, gold: 5, cash: 2, realestate: -5 }, bestAllocation: { stocks: 30, bonds: 35, gold: 20, cash: 15, realestate: 0 }, actualOutcome: '단기 충격 후 회복', explanation: '엔캐리 청산 충격은 단기에 그쳤습니다.' },
 ];
 
+function selectRandomScenarios(count: number): Scenario[] {
+  const shuffled = [...scenarios];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, count).sort((a, b) => a.id - b.id);
+}
+
 const rankings: Ranking[] = [
-  { title: '전설의 투자자', grade: 'S', description: '워런 버핏에 비견되는 탁월한 투자 감각입니다.', minReturn: 500 },
-  { title: '마스터 투자자', grade: 'A+', description: '시장의 흐름을 정확히 읽어내는 능력이 뛰어납니다.', minReturn: 300 },
-  { title: '숙련된 펀드매니저', grade: 'A', description: '리스크 관리와 수익 추구의 균형이 우수합니다.', minReturn: 150 },
-  { title: '유능한 트레이더', grade: 'B+', description: '평균 이상의 투자 판단력을 보여주셨습니다.', minReturn: 80 },
-  { title: '준수한 투자자', grade: 'B', description: '시장 사이클에 대한 이해가 양호합니다.', minReturn: 40 },
+  { title: '전설의 투자자', grade: 'S', description: '워런 버핏에 비견되는 탁월한 투자 감각입니다.', minReturn: 200 },
+  { title: '마스터 투자자', grade: 'A+', description: '시장의 흐름을 정확히 읽어내는 능력이 뛰어납니다.', minReturn: 100 },
+  { title: '숙련된 펀드매니저', grade: 'A', description: '리스크 관리와 수익 추구의 균형이 우수합니다.', minReturn: 50 },
+  { title: '유능한 트레이더', grade: 'B+', description: '평균 이상의 투자 판단력을 보여주셨습니다.', minReturn: 25 },
+  { title: '준수한 투자자', grade: 'B', description: '시장 사이클에 대한 이해가 양호합니다.', minReturn: 10 },
   { title: '평범한 투자자', grade: 'C', description: '시장 평균 수준의 성과입니다.', minReturn: 0 },
-  { title: '초보 투자자', grade: 'D', description: '손실을 경험했지만 중요한 교훈을 얻었습니다.', minReturn: -30 },
+  { title: '초보 투자자', grade: 'D', description: '손실을 경험했지만 중요한 교훈을 얻었습니다.', minReturn: -20 },
   { title: '위기의 투자자', grade: 'F', description: '큰 손실을 기록했습니다. 실전이 아니어서 다행입니다.', minReturn: -Infinity },
 ];
 
@@ -214,12 +224,14 @@ export default function MarketSurvivor(): JSX.Element {
   const [showingResult, setShowingResult] = useState(false);
   const [currentChange, setCurrentChange] = useState(0);
   const [portfolioHistory, setPortfolioHistory] = useState<number[]>([INITIAL_CAPITAL]);
+  const activeScenarios = useRef<Scenario[]>(selectRandomScenarios(ROUNDS_PER_GAME));
 
   const totalAllocation = useMemo(() => {
     return allocation.stocks + allocation.bonds + allocation.gold + allocation.cash + allocation.realestate;
   }, [allocation]);
 
   const resetGame = useCallback(() => {
+    activeScenarios.current = selectRandomScenarios(ROUNDS_PER_GAME);
     setPhase('intro');
     setCurrentRound(0);
     setPortfolio(INITIAL_CAPITAL);
@@ -248,7 +260,7 @@ export default function MarketSurvivor(): JSX.Element {
   const submitDecision = useCallback(() => {
     if (totalAllocation !== 100) return;
 
-    const scenario = scenarios[currentRound];
+    const scenario = activeScenarios.current[currentRound];
     const returnPercent = calculatePortfolioReturn(allocation, scenario.returns);
     const changeAmount = Math.round(portfolio * (returnPercent / 100));
     const newPortfolio = Math.max(0, portfolio + changeAmount);
@@ -267,7 +279,7 @@ export default function MarketSurvivor(): JSX.Element {
   }, [allocation, currentRound, portfolio, totalAllocation]);
 
   const nextRound = useCallback(() => {
-    if (currentRound + 1 >= scenarios.length) {
+    if (currentRound + 1 >= activeScenarios.current.length) {
       setPhase('summary');
     } else {
       setCurrentRound(prev => prev + 1);
@@ -318,7 +330,7 @@ export default function MarketSurvivor(): JSX.Element {
         </svg>
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'var(--ifm-color-emphasis-600)', marginTop: 4 }}>
           <span>시작</span>
-          <span>현재 (R{currentRound + 1}/{scenarios.length})</span>
+          <span>현재 (R{currentRound + 1}/{activeScenarios.current.length})</span>
         </div>
       </div>
     );
@@ -335,15 +347,15 @@ export default function MarketSurvivor(): JSX.Element {
           </div>
 
           <p style={styles.descriptionText}>
-            1929년 대공황부터 2024년까지, 100년간 금융 역사의 결정적 순간 50개를 경험하세요.
-            각 라운드에서 5가지 자산군(주식, 채권, 금, 현금, 부동산)에 자산을 배분하고 결과를 확인합니다.
+            1929년 대공황부터 2024년까지, 100년간 금융 역사의 결정적 순간 50개 중 무작위로 10개를 시간순으로 경험합니다.
+            플레이할 때마다 다른 시나리오가 선택되어 매번 새로운 도전이 됩니다.
           </p>
 
           <div style={{ background: 'var(--ifm-color-emphasis-100)', borderRadius: 8, padding: 16, marginBottom: 16 }}>
             <div style={{ fontWeight: 700, marginBottom: 8 }}>게임 정보</div>
             <ul style={{ margin: 0, paddingLeft: 20, fontSize: 14, lineHeight: 1.8 }}>
               <li><strong>시작 자본:</strong> 1억원</li>
-              <li><strong>총 라운드:</strong> 50라운드 (1929-2024)</li>
+              <li><strong>총 라운드:</strong> 10라운드 (50개 중 랜덤 선택, 시간순 진행)</li>
               <li><strong>자산군:</strong> 주식, 채권, 금, 현금, 부동산</li>
               <li><strong>목표:</strong> 최대 수익률 달성</li>
             </ul>
@@ -395,7 +407,7 @@ export default function MarketSurvivor(): JSX.Element {
               <p style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-600)', margin: '4px 0 0' }}>최종 자산</p>
             </div>
             <div>
-              <p style={{ fontSize: 24, fontWeight: 800, margin: 0 }}>{scenarios.length}R</p>
+              <p style={{ fontSize: 24, fontWeight: 800, margin: 0 }}>{activeScenarios.current.length}R</p>
               <p style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-600)', margin: '4px 0 0' }}>총 라운드</p>
             </div>
           </div>
@@ -411,12 +423,12 @@ export default function MarketSurvivor(): JSX.Element {
   }
 
   // Playing Screen
-  const scenario = scenarios[currentRound];
+  const scenario = activeScenarios.current[currentRound];
 
   return (
     <div style={styles.container}>
       <div style={styles.progressBar}>
-        <div style={{ ...styles.progressFill, width: `${((currentRound + (showingResult ? 1 : 0)) / scenarios.length) * 100}%` }} />
+        <div style={{ ...styles.progressFill, width: `${((currentRound + (showingResult ? 1 : 0)) / activeScenarios.current.length) * 100}%` }} />
       </div>
 
       <div style={styles.portfolioBar}>
@@ -438,7 +450,7 @@ export default function MarketSurvivor(): JSX.Element {
 
       <div style={styles.card}>
         <div>
-          <span style={styles.roundBadge}>Round {currentRound + 1} / {scenarios.length}</span>
+          <span style={styles.roundBadge}>Round {currentRound + 1} / {activeScenarios.current.length}</span>
           <span style={styles.yearBadge}>{scenario.year}</span>
         </div>
 
@@ -523,7 +535,7 @@ export default function MarketSurvivor(): JSX.Element {
             </div>
 
             <button style={styles.nextButton} onClick={nextRound}>
-              {currentRound + 1 < scenarios.length ? `다음 라운드 (Round ${currentRound + 2})` : '최종 결과 보기'}
+              {currentRound + 1 < activeScenarios.current.length ? `다음 라운드 (Round ${currentRound + 2})` : '최종 결과 보기'}
             </button>
           </>
         )}
