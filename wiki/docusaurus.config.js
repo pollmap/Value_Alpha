@@ -235,7 +235,7 @@ module.exports = async function createConfigAsync() {
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} 금융 위키. Built with Docusaurus.<br/><img src="https://visitor-badge.laobi.icu/badge?page_id=pollmap.Value_Alpha&left_text=Total%20Visitors" alt="visitor badge"/>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 금융 위키 · 저자: 이찬희. Built with Docusaurus.<br/><img src="https://visitor-badge.laobi.icu/badge?page_id=pollmap.Value_Alpha&left_text=Total%20Visitors" alt="visitor badge"/>`,
         },
         prism: {
           theme: themes.github,

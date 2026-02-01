@@ -42,7 +42,7 @@ Layer 1에서 재무제표의 구조와 항목을 배웠다면, Layer 2에서는
 
 같은 기업의 과거 데이터를 시계열로 비교합니다.
 
-- 최소 3~5년 데이터 필요
+- 최소 3\~5년 데이터 필요
 - 일관된 추세 vs 변동성 확인
 - 추세의 방향과 속도 판단
 - 한국 기업: DART에서 5개년 비교 재무제표 확인
@@ -80,7 +80,7 @@ Layer 4: 개별 기업을 '분석'한다
 ### 각 재무제표에서 추출하는 분석 정보
 
 - **재무상태표** — Layer 1에서 배운 것: 자산/부채/자본 구조, Layer 2에서 분석하는 것: 안정성, 효율성 비율
-- **손익계산서** — Layer 1에서 배운 것: 매출~순이익 흐름, Layer 2에서 분석하는 것: 수익성, 성장성 비율
+- **손익계산서** — Layer 1에서 배운 것: 매출\~순이익 흐름, Layer 2에서 분석하는 것: 수익성, 성장성 비율
 - **현금흐름표** — Layer 1에서 배운 것: 영업/투자/재무 CF, Layer 2에서 분석하는 것: FCF 기반 밸류에이션
 - **3표 연결** — Layer 1에서 배운 것: 항목 간 연결, Layer 2에서 분석하는 것: 종합 분석 (DuPont 등)
 
@@ -106,19 +106,19 @@ Layer 4: 개별 기업을 '분석'한다
 
 ## 학습 로드맵
 
-### 입문 (1~2주)
+### 입문 (1\~2주)
 1. [수익성 분석](./profitability/margin-analysis) - 마진율 이해
 2. [성장성 분석](./growth/revenue-growth) - 매출/이익 성장률
 3. [안정성 분석](./stability/debt-ratio) - 부채비율 기초
 
-### 중급 (2~3주)
+### 중급 (2\~3주)
 4. [ROE/ROIC 심화](./profitability/return-analysis) - 수익률 분석
 5. [DuPont 분석](./profitability/dupont) - ROE 분해
 6. [지속가능성장률](./growth/sustainable-growth) - SGR 모델
 7. [유동성 분석](./stability/liquidity) - 단기 안전성
 8. [효율성 분석](./efficiency/asset-turnover) - 자산 활용도
 
-### 심화 (3~4주)
+### 심화 (3\~4주)
 9. [밸류에이션 멀티플](./valuation-multiples/overview) - PER/PBR/EV 연결
 10. 종합 사례 분석 - 실제 한국 기업 적용
 
