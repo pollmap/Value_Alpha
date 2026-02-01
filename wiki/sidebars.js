@@ -413,6 +413,7 @@ const sidebars = {
             'calculators/per-band-calculator',
             'calculators/football-field-calculator',
             'calculators/peg-screener',
+            'calculators/guided-dcf',
           ],
         },
         {
