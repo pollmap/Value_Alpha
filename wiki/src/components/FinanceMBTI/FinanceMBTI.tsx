@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // ─── Type Definitions ────────────────────────────────────────────────
 
@@ -421,6 +422,11 @@ const typeProfiles: Record<string, TypeProfile> = {
 // ─── Component ───────────────────────────────────────────────────────
 
 const FinanceMBTI: React.FC = () => {
+  const baseUrl = useBaseUrl('/');
+  const resolveUrl = (path: string) => {
+    const base = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+    return `${base}${path}`;
+  };
   const [currentQ, setCurrentQ] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, 'A' | 'B'>>({});
   const [result, setResult] = useState<TypeProfile | null>(null);
@@ -785,39 +791,53 @@ const FinanceMBTI: React.FC = () => {
         {dimConfig.map((dim) => {
           const total = dims[dim.key].a + dims[dim.key].b;
           const leftPct = total > 0 ? (dims[dim.key].a / total) * 100 : 50;
+          const rightPct = 100 - leftPct;
           const isLeft = leftPct >= 50;
           return (
             <div key={dim.key} style={styles.dimensionBar}>
               <span
                 style={{
                   ...styles.dimLabel,
-                  color: isLeft ? '#2563eb' : '#9ca3af',
+                  color: isLeft ? '#2563eb' : '#94a3b8',
+                  fontWeight: isLeft ? 700 : 400,
                   fontSize: 13,
-                  width: 70,
+                  width: 80,
                   textAlign: 'right' as const,
                 }}
               >
-                {dim.left}
+                {dim.left} {Math.round(leftPct)}%
               </span>
-              <div style={styles.dimBarOuter}>
+              <div style={{...styles.dimBarOuter, display: 'flex', backgroundColor: 'transparent'}}>
                 <div
                   style={{
-                    ...styles.dimBarInner,
+                    height: '100%',
                     width: `${leftPct}%`,
-                    background: 'linear-gradient(90deg, #2563eb, #7c3aed)',
+                    background: '#2563eb',
+                    borderRadius: '5px 0 0 5px',
+                    transition: 'width 0.6s ease',
+                  }}
+                />
+                <div
+                  style={{
+                    height: '100%',
+                    width: `${rightPct}%`,
+                    background: '#7c3aed',
+                    borderRadius: '0 5px 5px 0',
+                    transition: 'width 0.6s ease',
                   }}
                 />
               </div>
               <span
                 style={{
                   ...styles.dimLabel,
-                  color: !isLeft ? '#7c3aed' : '#9ca3af',
+                  color: !isLeft ? '#7c3aed' : '#94a3b8',
+                  fontWeight: !isLeft ? 700 : 400,
                   fontSize: 13,
-                  width: 70,
+                  width: 80,
                   textAlign: 'left' as const,
                 }}
               >
-                {dim.right}
+                {Math.round(rightPct)}% {dim.right}
               </span>
             </div>
           );
@@ -827,13 +847,12 @@ const FinanceMBTI: React.FC = () => {
         <div style={styles.sectionTitle}>추천 섹터</div>
         <div>
           {result.sectors.map((sector, i) => (
-            <a
+            <span
               key={i}
-              href={result.sectorLinks[i] || '#'}
               style={{ ...styles.tag, ...styles.sectorTag }}
             >
               {sector}
-            </a>
+            </span>
           ))}
         </div>
 
@@ -869,16 +888,16 @@ const FinanceMBTI: React.FC = () => {
         {/* Links */}
         <div style={styles.linkRow}>
           <p style={styles.linkRowTitle}>더 알아보기</p>
-          <a href="/companies" style={styles.link}>
+          <a href={resolveUrl('/companies')} style={styles.link}>
             금융권 기업 총람
           </a>
-          <a href="/career/job-categories" style={styles.link}>
+          <a href={resolveUrl('/career/job-categories')} style={styles.link}>
             직무 종류 및 특성
           </a>
-          <a href="/career/requirements" style={styles.link}>
+          <a href={resolveUrl('/career/requirements')} style={styles.link}>
             합격 요건 분석
           </a>
-          <a href="/career/roadmap" style={styles.link}>
+          <a href={resolveUrl('/career/roadmap')} style={styles.link}>
             취업 로드맵
           </a>
         </div>

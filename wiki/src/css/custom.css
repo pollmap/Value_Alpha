@@ -302,6 +302,56 @@ code {
 }
 
 /* ========================================
+   검색 모달 개선
+   ======================================== */
+.navbar__search-input {
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 6px 12px 6px 32px;
+  transition: width 0.3s ease, box-shadow 0.2s;
+}
+
+.navbar__search-input:focus {
+  box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.15);
+  width: 280px;
+}
+
+@media (max-width: 768px) {
+  .navbar__search-input:focus {
+    width: 200px;
+  }
+}
+
+/* 검색 드롭다운 스타일 강화 */
+[class*='searchResultsColumn'] {
+  font-size: 14px;
+}
+
+[class*='searchResultItem'] {
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  transition: background 0.15s;
+}
+
+mark {
+  background-color: #fef08a;
+  padding: 0 2px;
+  border-radius: 2px;
+  color: inherit;
+}
+
+[data-theme='dark'] mark {
+  background-color: #854d0e;
+  color: #fef3c7;
+}
+
+/* 검색 결과 페이지 하이라이트 */
+[data-search-term] {
+  scroll-margin-top: 80px;
+}
+
+/* ========================================
    네비게이션 개선
    ======================================== */
 .navbar__link--active {
