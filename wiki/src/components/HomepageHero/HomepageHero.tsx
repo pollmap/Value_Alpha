@@ -1,5 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+function useVisitorCount() {
+  const [total, setTotal] = useState(0);
+  const [today, setToday] = useState(0);
+
+  useEffect(() => {
+    try {
+      const now = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+      const stored = localStorage.getItem('va_visitor');
+      let data = stored ? JSON.parse(stored) : { total: 0, today: 0, date: now };
+
+      // Reset daily count if date changed
+      if (data.date !== now) {
+        data.today = 0;
+        data.date = now;
+      }
+
+      // Increment only once per session
+      if (!sessionStorage.getItem('va_counted')) {
+        data.total += 1;
+        data.today += 1;
+        sessionStorage.setItem('va_counted', '1');
+      }
+
+      localStorage.setItem('va_visitor', JSON.stringify(data));
+      setTotal(data.total);
+      setToday(data.today);
+    } catch {
+      // localStorage unavailable
+    }
+  }, []);
+
+  return { total, today };
+}
 
 const features = [
   {
@@ -49,6 +84,7 @@ const stats = [
 
 export default function HomepageHero(): JSX.Element {
   const base = useBaseUrl('/');
+  const { total, today } = useVisitorCount();
   const resolve = (path: string) => {
     const b = base.endsWith('/') ? base.slice(0, -1) : base;
     return `${b}${path}`;
@@ -88,6 +124,25 @@ export default function HomepageHero(): JSX.Element {
             </div>
           ))}
         </div>
+        <BrowserOnly>
+          {() => (total > 0 ? (
+            <div
+              style={{
+                marginTop: 20,
+                padding: '8px 20px',
+                background: 'rgba(255,255,255,0.15)',
+                borderRadius: 20,
+                display: 'inline-flex',
+                gap: 16,
+                fontSize: 13,
+              }}
+            >
+              <span>Total <strong>{total.toLocaleString()}</strong></span>
+              <span style={{ opacity: 0.5 }}>|</span>
+              <span>Today <strong>{today.toLocaleString()}</strong></span>
+            </div>
+          ) : null)}
+        </BrowserOnly>
       </div>
 
       {/* Feature Cards */}
