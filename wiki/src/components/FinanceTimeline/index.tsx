@@ -12,30 +12,46 @@ interface TimelineEvent {
 }
 
 const TIMELINE_EVENTS: TimelineEvent[] = [
-  { year: 1997, month: 11, title: 'IMF 외환위기', description: '외환보유고 고갈로 IMF 구제금융 신청. 원/달러 환율 급등, 대기업 연쇄 부도, 금융기관 대규모 구조조정', category: 'crisis', impact: 'high', kospiChange: '-42%' },
-  { year: 1998, month: 6, title: '금융지주회사법 제정', description: '금융산업 구조조정의 일환으로 금융지주회사 설립 근거 마련', category: 'regulation', impact: 'medium' },
-  { year: 1999, month: 1, title: '외국인 투자 전면 개방', description: '외국인 주식 투자한도 완전 폐지. 국제 자본시장 편입 가속화', category: 'policy', impact: 'high' },
-  { year: 2000, month: 3, title: 'IT 버블 정점', description: 'KOSDAQ 사상 최고치(2,834pt) 기록 후 폭락. 닷컴 버블 붕괴', category: 'crisis', impact: 'high', kospiChange: '-51%' },
-  { year: 2001, month: 1, title: '금융지주회사 출범', description: '우리금융지주 출범. 이후 신한, KB, 하나금융지주 설립', category: 'institution', impact: 'medium' },
-  { year: 2003, month: 3, title: '카드 사태', description: 'LG카드 유동성 위기. 신용카드 연체율 급등, 소비자 신용 위기', category: 'crisis', impact: 'medium' },
-  { year: 2005, month: 1, title: 'KOSPI 1,000pt 회복', description: '외환위기 이후 7년 만에 KOSPI 1,000pt 회복', category: 'market', impact: 'low' },
-  { year: 2007, month: 10, title: 'KOSPI 사상 최고치', description: 'KOSPI 2,064pt로 사상 최고치 경신. 글로벌 유동성 장세', category: 'market', impact: 'medium' },
-  { year: 2008, month: 9, title: '글로벌 금융위기', description: '리먼브라더스 파산. 전 세계 금융시장 붕괴. 한국 KOSPI 900pt대 폭락', category: 'crisis', impact: 'high', kospiChange: '-54%' },
-  { year: 2009, month: 3, title: '양적완화 시작', description: '미국 Fed 양적완화(QE1) 시작. 글로벌 유동성 공급 확대', category: 'policy', impact: 'high' },
-  { year: 2011, month: 2, title: '저축은행 사태', description: '부산저축은행 등 대규모 부실 사태. 16개 저축은행 영업정지', category: 'crisis', impact: 'medium' },
-  { year: 2013, month: 5, title: '테이퍼 탠트럼', description: 'Fed 양적완화 축소 시사에 신흥국 자금 이탈. 원화 약세', category: 'policy', impact: 'medium', kospiChange: '-10%' },
-  { year: 2015, month: 8, title: '중국 위안화 절하', description: '중국 위안화 평가절하로 글로벌 금융시장 혼란', category: 'crisis', impact: 'medium', kospiChange: '-15%' },
-  { year: 2016, month: 11, title: '트럼프 당선', description: '트럼프 미국 대통령 당선. 보호무역주의 우려', category: 'policy', impact: 'medium' },
-  { year: 2017, month: 5, title: '문재인 정부 출범', description: '문재인 정부 출범. 소득주도성장, 금융규제 강화 정책', category: 'policy', impact: 'low' },
-  { year: 2018, month: 10, title: '미중 무역전쟁 심화', description: '미중 무역분쟁 격화. 반도체 업종 타격', category: 'crisis', impact: 'medium', kospiChange: '-17%' },
-  { year: 2020, month: 3, title: '코로나19 팬데믹', description: '코로나19 팬데믹으로 KOSPI 1,400pt대 폭락. 서킷브레이커 발동', category: 'crisis', impact: 'high', kospiChange: '-35%' },
-  { year: 2020, month: 5, title: '동학개미운동', description: '개인투자자 대규모 순매수. KOSPI V자 반등 주도', category: 'market', impact: 'medium' },
-  { year: 2021, month: 1, title: 'KOSPI 3,000pt 돌파', description: 'KOSPI 사상 첫 3,000pt 돌파. 유동성 장세 정점', category: 'market', impact: 'medium' },
-  { year: 2022, month: 3, title: '금리 인상 사이클 시작', description: '미국 Fed 금리 인상 시작. 긴축 사이클 돌입', category: 'policy', impact: 'high', kospiChange: '-24%' },
-  { year: 2022, month: 10, title: '레고랜드 사태', description: '강원도 레고랜드 ABCP 디폴트. 채권시장 경색', category: 'crisis', impact: 'medium' },
-  { year: 2023, month: 1, title: 'IFRS17 시행', description: '보험업 새 회계기준 IFRS17 시행. 보험사 재무제표 대변혁', category: 'regulation', impact: 'medium' },
-  { year: 2023, month: 3, title: 'SVB 사태', description: '미국 실리콘밸리은행 파산. 은행 위기 우려 확산', category: 'crisis', impact: 'medium' },
-  { year: 2024, month: 1, title: '밸류업 프로그램', description: '한국거래소 기업 밸류업 프로그램 발표. 주주환원 정책 강화', category: 'policy', impact: 'medium' },
+  // 1990년대
+  { year: 1997, month: 11, title: 'IMF 외환위기', description: '외환보유고 고갈로 IMF 구제금융 신청. 원/달러 환율 850원→1,960원 급등, 30대 재벌 중 16개 부도, 금융기관 대규모 구조조정', category: 'crisis', impact: 'high', kospiChange: '-72%' },
+  { year: 1998, month: 4, title: '예금자보호법 시행', description: '예금보험공사 설립, 1인당 5천만원 한도 예금자 보호 제도 도입', category: 'regulation', impact: 'high' },
+  { year: 1998, month: 9, title: '대우그룹 해체', description: '대우그룹 워크아웃 시작, 1999년 공식 해체. 부채 80조원 규모 사상 최대 기업 부도', category: 'crisis', impact: 'high' },
+  { year: 1999, month: 5, title: '외국인 투자 전면 개방', description: '외국인 주식 투자한도 완전 폐지. MSCI 선진국 지수 편입 추진 시작', category: 'policy', impact: 'high' },
+
+  // 2000년대
+  { year: 2000, month: 3, title: 'IT 버블 정점', description: 'KOSDAQ 2,834pt 사상 최고치 후 폭락. 새롬기술 시총 삼성전자 추월 후 상폐', category: 'crisis', impact: 'high', kospiChange: '-51%' },
+  { year: 2001, month: 4, title: '금융지주회사 출범', description: '우리금융지주 설립으로 한국형 금융지주회사 시대 개막. 이후 신한, KB, 하나금융 출범', category: 'institution', impact: 'high' },
+  { year: 2003, month: 3, title: '카드대란', description: 'LG카드 유동성 위기, 카드사 연체율 14% 돌파. 400만명 신용불량자 발생', category: 'crisis', impact: 'medium', kospiChange: '-15%' },
+  { year: 2005, month: 7, title: '삼성-소버린 경영권 분쟁', description: '영국계 펀드 소버린의 삼성물산 지분 매집. 외국계 투기자본 논쟁 촉발', category: 'market', impact: 'medium' },
+  { year: 2007, month: 7, title: 'KOSPI 2,000pt 돌파', description: '사상 첫 KOSPI 2,000pt 돌파. 글로벌 유동성 랠리, 중국 특수', category: 'market', impact: 'medium' },
+  { year: 2008, month: 9, title: '글로벌 금융위기', description: '리먼브라더스 파산, 서브프라임 사태. KOSPI 892pt까지 폭락, 환율 1,500원 돌파', category: 'crisis', impact: 'high', kospiChange: '-54%' },
+  { year: 2009, month: 3, title: '미국 양적완화 시작', description: 'Fed QE1 시작, 1.75조 달러 유동성 공급. 글로벌 증시 반등 시작', category: 'policy', impact: 'high' },
+
+  // 2010년대
+  { year: 2011, month: 2, title: '저축은행 사태', description: '부산저축은행 등 16개 저축은행 영업정지. 부동산 PF 부실, 분식회계 적발', category: 'crisis', impact: 'medium' },
+  { year: 2013, month: 5, title: '테이퍼 탠트럼', description: 'Fed 양적완화 축소 시사에 신흥국 자금 이탈. 원화 10% 절하', category: 'policy', impact: 'medium', kospiChange: '-10%' },
+  { year: 2014, month: 4, title: '세월호 참사', description: '세월호 침몰 사고. 소비심리 위축, 내수 경기 악화', category: 'crisis', impact: 'low' },
+  { year: 2015, month: 8, title: '중국 위안화 절하', description: '중국 인민은행 위안화 평가절하. 차이나 쇼크로 글로벌 증시 동반 하락', category: 'crisis', impact: 'medium', kospiChange: '-15%' },
+  { year: 2016, month: 1, title: 'MSCI EM 지수 중국 A주 편입 발표', description: 'MSCI 신흥국 지수에 중국 A주 편입. 한국 비중 희석 우려', category: 'market', impact: 'medium' },
+  { year: 2017, month: 11, title: '비트코인 광풍', description: '비트코인 2만 달러 돌파, 김치 프리미엄 30% 발생. 가상자산 투자 열풍', category: 'market', impact: 'medium' },
+  { year: 2018, month: 10, title: '미중 무역분쟁 격화', description: '미중 관세 전쟁 심화. 반도체 다운사이클 진입, 수출 감소', category: 'crisis', impact: 'medium', kospiChange: '-17%' },
+  { year: 2019, month: 7, title: '일본 수출규제', description: '일본 반도체 소재 수출규제. 소부장 국산화 정책 본격화', category: 'policy', impact: 'medium' },
+
+  // 2020년대
+  { year: 2020, month: 3, title: '코로나19 팬데믹', description: '팬데믹 선언, KOSPI 1,439pt 폭락. 서킷브레이커 4회 발동', category: 'crisis', impact: 'high', kospiChange: '-35%' },
+  { year: 2020, month: 5, title: '동학개미운동', description: '개인투자자 대규모 순매수(80조원+). 코스피 V자 반등 견인', category: 'market', impact: 'high' },
+  { year: 2021, month: 1, title: 'KOSPI 3,000pt 돌파', description: '사상 첫 3,000pt 돌파. 3,316pt 역대 최고치 기록(21년 7월)', category: 'market', impact: 'high' },
+  { year: 2021, month: 4, title: '쿠팡 NYSE 상장', description: '쿠팡 뉴욕증시 상장, 시총 100조원. 한국 스타트업 최대 규모 IPO', category: 'institution', impact: 'medium' },
+  { year: 2022, month: 3, title: 'Fed 금리 인상 시작', description: 'Fed 기준금리 인상 시작. 5.5%까지 급속 긴축, 글로벌 자산가격 조정', category: 'policy', impact: 'high', kospiChange: '-24%' },
+  { year: 2022, month: 5, title: '테라-루나 폭락', description: '알고리즘 스테이블코인 테라/루나 붕괴. 60조원 증발, 국내 투자자 피해 막대', category: 'crisis', impact: 'high' },
+  { year: 2022, month: 10, title: '레고랜드 사태', description: '강원도 레고랜드 ABCP 디폴트. 채권시장 경색, 자금시장 신용경색', category: 'crisis', impact: 'medium' },
+  { year: 2023, month: 1, title: 'IFRS17 시행', description: '보험업 새 회계기준 IFRS17 본격 시행. 보험사 재무제표 대변혁', category: 'regulation', impact: 'medium' },
+  { year: 2023, month: 3, title: 'SVB 파산', description: '미국 실리콘밸리은행 파산. 2008년 이후 최대 은행 파산, 금리 리스크 부각', category: 'crisis', impact: 'medium' },
+  { year: 2023, month: 7, title: 'AI 반도체 랠리', description: 'ChatGPT 열풍으로 엔비디아 시총 1조달러 돌파. HBM 등 AI 반도체 수혜', category: 'market', impact: 'high' },
+  { year: 2024, month: 2, title: '밸류업 프로그램 발표', description: '코리아 디스카운트 해소 위한 기업 밸류업 프로그램. 주주환원 강화 정책', category: 'policy', impact: 'medium' },
+  { year: 2024, month: 9, title: 'Fed 금리 인하 시작', description: 'Fed 4년여 만에 금리 인하 시작. 50bp 빅컷으로 피벗 신호', category: 'policy', impact: 'high' },
+  { year: 2025, month: 1, title: '금융투자소득세 시행', description: '금융투자소득세 본격 시행. 주식 양도차익 과세 체계 전면 개편', category: 'regulation', impact: 'high' },
+  { year: 2025, month: 6, title: '국민연금 주주권 강화', description: '국민연금 스튜어드십 코드 2.0. 적극적 주주권 행사, ESG 투자 확대', category: 'policy', impact: 'medium' },
 ];
 
 const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {

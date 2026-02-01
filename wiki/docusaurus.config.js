@@ -7,7 +7,7 @@ module.exports = async function createConfigAsync() {
   const katex = (await import('rehype-katex')).default;
 
   return {
-    title: '이찬희의 금융 위키',
+    title: '금융 위키',
     tagline: '투자분석부터 금융권 취업까지, 금융 학습의 모든 것',
     favicon: 'img/favicon.ico',
 
@@ -49,6 +49,27 @@ module.exports = async function createConfigAsync() {
           theme: {
             customCss: './src/css/custom.css',
           },
+          gtag: {
+            trackingID: 'G-XXXXXXXXXX', // TODO: Google Analytics에서 측정 ID 발급 후 교체
+            anonymizeIP: true, // IP 익명화 (GDPR 준수)
+          },
+        }),
+      ],
+    ],
+
+    themes: [
+      [
+        '@easyops-cn/docusaurus-search-local',
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        ({
+          hashed: true,
+          language: ['ko', 'en'],
+          highlightSearchTermsOnTargetPage: true,
+          explicitSearchResultPath: true,
+          docsRouteBasePath: '/',
+          indexBlog: false,
+          searchBarShortcutHint: true,
+          searchBarPosition: 'right',
         }),
       ],
     ],
@@ -67,7 +88,7 @@ module.exports = async function createConfigAsync() {
       ({
         image: 'img/valuation-academy-social.png',
         navbar: {
-          title: '이찬희의 금융 위키',
+          title: '금융 위키',
           items: [
             {
               type: 'dropdown',
@@ -165,6 +186,11 @@ module.exports = async function createConfigAsync() {
               ],
             },
             {
+              to: '/community',
+              label: '커뮤니티',
+              position: 'right',
+            },
+            {
               href: 'https://github.com/pollmap/Value_Alpha',
               label: 'GitHub',
               position: 'right',
@@ -203,12 +229,13 @@ module.exports = async function createConfigAsync() {
             {
               title: '커뮤니티',
               items: [
+                { label: '토론 게시판', to: '/community' },
                 { label: 'GitHub', href: 'https://github.com/pollmap/Value_Alpha' },
                 { label: '금융자격증 카페', href: 'https://cafe.naver.com/dokkm' },
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} 이찬희 (Chanhee Lee). Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} 금융 위키. Built with Docusaurus.<br/><img src="https://visitor-badge.laobi.icu/badge?page_id=pollmap.Value_Alpha&left_text=Total%20Visitors" alt="visitor badge"/>`,
         },
         prism: {
           theme: themes.github,

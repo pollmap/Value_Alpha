@@ -352,6 +352,7 @@ const sidebars = {
             'companies/companies-savings-asset',
             'companies/companies-vc-fintech',
             'companies/companies-public-infra',
+            'companies/companies-crypto',
           ],
         },
       ],

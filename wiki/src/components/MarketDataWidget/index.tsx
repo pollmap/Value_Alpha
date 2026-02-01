@@ -37,25 +37,25 @@ const MarketDataWidgetInner: React.FC<MarketDataWidgetProps> = ({
         {
           name: '한국 시장',
           symbols: [
-            { name: 'KRX:KOSPI', displayName: 'KOSPI' },
+            { name: 'TVC:KOSPI', displayName: 'KOSPI' },
             { name: 'KRX:KOSDAQ', displayName: 'KOSDAQ' },
-            { name: 'FX_IDC:USDKRW', displayName: 'USD/KRW' },
+            { name: 'FX:USDKRW', displayName: 'USD/KRW 환율' },
           ],
         },
         {
           name: '미국 시장',
           symbols: [
-            { name: 'SP:SPX', displayName: 'S&P 500' },
-            { name: 'NASDAQ:QQQ', displayName: 'NASDAQ' },
-            { name: 'DJ:DJI', displayName: 'Dow Jones' },
+            { name: 'FOREXCOM:SPXUSD', displayName: 'S&P 500' },
+            { name: 'NASDAQ:NDX', displayName: 'NASDAQ 100' },
+            { name: 'TVC:DJI', displayName: 'Dow Jones' },
           ],
         },
         {
           name: '금리 & 원자재',
           symbols: [
             { name: 'TVC:US10Y', displayName: '미국 10년 금리' },
-            { name: 'TVC:GOLD', displayName: '금' },
-            { name: 'NYMEX:CL1!', displayName: 'WTI 원유' },
+            { name: 'FOREXCOM:XAUUSD', displayName: '금 (XAUUSD)' },
+            { name: 'TVC:USOIL', displayName: 'WTI 원유' },
           ],
         },
       ],

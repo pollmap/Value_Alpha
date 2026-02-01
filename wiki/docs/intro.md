@@ -1,14 +1,14 @@
 ---
 id: intro
-title: 이찬희의 금융 위키에 오신 것을 환영합니다
+title: 금융 위키에 오신 것을 환영합니다
 sidebar_label: 시작하기
 slug: /
 description: 가치평가부터 금융권 취업까지, 금융 학습의 모든 것
 ---
 
-# 이찬희의 금융 위키 소개
+# 금융 위키 소개
 
-이찬희의 금융 위키는 **투자 분석**과 **금융권 커리어**를 아우르는 종합 금융 학습 플랫폼입니다. 기초 회계부터 기업 밸류에이션까지의 투자분석 체계는 물론, 금융 산업 지식, 170개 이상의 금융권 기업 정보, 취업 가이드, 매매 전략까지 금융에 관한 폭넓은 지식을 체계적으로 다룹니다.
+금융 위키는 **투자 분석**과 **금융권 커리어**를 아우르는 종합 금융 학습 플랫폼입니다. 기초 회계부터 기업 밸류에이션까지의 투자분석 체계는 물론, 금융 산업 지식, 170개 이상의 금융권 기업 정보, 취업 가이드, 매매 전략까지 금융에 관한 폭넓은 지식을 체계적으로 다룹니다.
 
 ## 이 위키에서 다루는 것
 
@@ -93,7 +93,7 @@ GICS 11대 섹터별 분석 프레임워크를 학습합니다. 각 산업마다
 **투자 분석을 배우고 싶다면**
 - 입문: [기초 회계](./foundation/overview) → [재무제표 분석](./financial-analysis/overview) → [밸류에이션](./valuation/dcf/overview)
 - 중급: [산업분석](./industry-analysis/overview) → [기업분석](./company-analysis/overview) → [케이스 스터디](./case-studies/samsung-electronics)
-- 실습: [DCF 계산기](/calculators/dcf) · [WACC 계산기](/calculators/wacc) · [그레이엄 넘버 계산기](/calculators/graham-number)
+- 실습: [DCF 계산기](./calculators/dcf) · [WACC 계산기](./calculators/wacc) · [그레이엄 넘버 계산기](./calculators/graham-number)
 
 **금융권 취업을 준비한다면**
 - [금융 성향 테스트](./finance-mbti)로 적성 파악 → [직무 종류](./career/job-categories)에서 관심 직무 확인

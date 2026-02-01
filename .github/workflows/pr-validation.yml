@@ -1,0 +1,47 @@
+name: PR Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: wiki/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./wiki
+        run: npm ci
+
+      - name: Build
+        working-directory: ./wiki
+        run: npm run build
+
+      - name: Check for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.pull_request.base.sha }}
+          head: ${{ github.event.pull_request.head.sha }}
+
+  label-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR title
+        run: |
+          TITLE="${{ github.event.pull_request.title }}"
+          if [[ ! "$TITLE" =~ ^(feat|fix|docs|style|refactor|test|chore)(\(.+\))?:\ .+ ]]; then
+            echo "PR title should follow conventional commits format"
+            echo "Example: feat(docs): add new banking guide"
+            exit 1
+          fi
