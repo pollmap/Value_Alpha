@@ -157,3 +157,28 @@ export interface UserProgress {
   score?: number;
   completedAt?: Date;
 }
+
+// 메모리 시스템 관련 타입
+export interface ChatSession {
+  id: string;
+  title: string;
+  messages: ChatMessage[];
+  summary?: string;
+  createdAt: string;
+  updatedAt: string;
+  currentPage?: string;
+  messageCount: number;
+}
+
+export interface ChatMemoryState {
+  sessions: ChatSession[];
+  activeSessions: string | null;
+  totalMessages: number;
+  lastActivity: string;
+}
+
+export interface ChatContextWithMemory extends ChatContext {
+  sessionHistory?: string;
+  progressSummary?: string;
+  recentTopics?: string[];
+}
