@@ -2,29 +2,12 @@
 id: stats
 title: 사이트 통계
 sidebar_label: 사이트 통계
-description: 금융 위키 방문자 통계 및 사이트 현황
+description: 금융 위키 콘텐츠 현황 및 기술 스택
 ---
 
 # 사이트 통계
 
-금융 위키의 방문자 통계 및 사이트 현황입니다.
-
-## 방문자 현황
-
-<div style={{textAlign: 'center', margin: '2rem 0'}}>
-  <div style={{marginBottom: '1rem'}}>
-    <a href="https://hits.seeyoufarm.com">
-      <img
-        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpollmap.github.io%2FValue_Alpha%2Ftools%2Fstats&count_bg=%234CAF50&title_bg=%23555555&icon=&emoji=&title=Today%2FTotal&edge_flat=false"
-        alt="오늘/전체 방문자"
-        style={{height: '28px'}}
-      />
-    </a>
-  </div>
-  <p style={{color: 'var(--ifm-color-emphasis-600)', fontSize: '0.9rem'}}>
-    오늘/전체 방문자 수 (GMT 기준 일별 초기화)
-  </p>
-</div>
+금융 위키의 콘텐츠 현황 및 기술 정보입니다.
 
 ## 콘텐츠 현황
 
@@ -56,42 +39,12 @@ description: 금융 위키 방문자 통계 및 사이트 현황
 |------|------|
 | 프레임워크 | Docusaurus 3.4 |
 | 언어 | TypeScript, MDX |
-| 호스팅 | GitHub Pages |
+| 호스팅 | GitHub Pages / Vercel |
 | 검색 | docusaurus-search-local |
 | 수식 | KaTeX |
 | 차트 | Recharts |
-| 분석 | Google Analytics |
-
-## 상세 분석 (관리자용)
-
-:::info Google Analytics 설정 필요
-상세한 방문자 분석(국가별 방문자, 페이지별 체류 시간, 유입 경로 등)을 보려면 Google Analytics를 설정해야 합니다.
-
-1. [Google Analytics](https://analytics.google.com)에서 계정 생성
-2. 속성 생성 후 측정 ID (G-XXXXXXXXXX) 발급
-3. `docusaurus.config.js`에서 `trackingID` 값을 발급받은 ID로 교체
-4. 배포 후 24-48시간 내 데이터 수집 시작
-:::
-
-### Google Analytics로 확인 가능한 정보
-
-- **실시간 방문자 수**: 현재 접속 중인 사용자
-- **일/주/월별 방문자 추이**: 시간대별 트래픽 분석
-- **국가/지역별 방문자**: 어디서 접속하는지 (도시 수준까지)
-- **디바이스 정보**: PC vs 모바일 비율
-- **인기 페이지**: 어떤 콘텐츠가 가장 많이 조회되는지
-- **유입 경로**: 검색 엔진, 직접 접속, 외부 링크 등
-- **이탈률/체류 시간**: 콘텐츠 품질 지표
-
-:::caution IP 주소 추적 제한
-GitHub Pages는 정적 호스팅이므로 **서버 로그에 접근할 수 없어 방문자 IP를 직접 확인하는 것은 불가능**합니다.
-Google Analytics를 활성화하면 GDPR 규정에 따라 IP가 익명화(마지막 옥텟 제거)되어 수집되지만, **국가/도시 수준의 위치 정보**는 확인 가능합니다.
-
-IP 수준의 로그가 필요하다면:
-1. **커스텀 도메인 + Cloudflare**: Cloudflare를 프록시로 사용하면 Analytics에서 IP별 트래픽 확인 가능
-2. **자체 서버 호스팅**: Vercel/Netlify 등으로 이전하면 서버 로그 접근 가능
-:::
+| AI 튜터 | Anthropic Claude API |
 
 ---
 
-*이 페이지의 통계는 실시간으로 업데이트됩니다.*
+*콘텐츠는 지속적으로 업데이트됩니다.*
