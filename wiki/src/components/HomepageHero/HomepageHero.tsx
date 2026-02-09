@@ -185,6 +185,35 @@ export default function HomepageHero(): JSX.Element {
           투자 시뮬레이터
         </a>
       </div>
+
+      {/* AI Disclaimer */}
+      <div
+        style={{
+          marginTop: 32,
+          padding: '20px 24px',
+          borderRadius: 12,
+          backgroundColor: 'rgba(251, 191, 36, 0.1)',
+          border: '1px solid rgba(251, 191, 36, 0.3)',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+          <span style={{ fontSize: 20 }}>✨</span>
+          <div>
+            <div style={{ fontWeight: 700, marginBottom: 8, color: 'var(--ifm-color-emphasis-800)' }}>
+              데이터 출처 및 투명성
+            </div>
+            <p style={{ margin: '0 0 8px', fontSize: 14, color: 'var(--ifm-color-emphasis-700)', lineHeight: 1.6 }}>
+              Value Alpha의 콘텐츠는 아래 자료를 참고하여 <strong>AI 기반으로 생성·정리</strong>되었습니다.
+              금융감독원, 한국은행, 금융투자협회 등 공공기관 발간물과 DART 전자공시시스템, 각 금융사 IR 자료,
+              학술 문헌 등을 참고해 구조화한 것입니다.
+            </p>
+            <p style={{ margin: 0, fontSize: 13, color: 'var(--ifm-color-emphasis-600)', lineHeight: 1.5 }}>
+              <strong>주의:</strong> AI 생성 콘텐츠는 단순화, 편향, 부정확성을 포함할 수 있습니다.
+              학술 연구나 실무 적용에는 반드시 원전과 전문 자료를 참조하세요.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

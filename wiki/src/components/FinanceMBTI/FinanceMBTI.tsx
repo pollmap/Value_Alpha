@@ -213,7 +213,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 안정성을 기반으로 하되, 창의적 사고로 새로운 방향을 제시하는 능력이 있습니다. 정성적 분석력과 혁신적 마인드를 결합하여, 기존 금융의 프레임워크를 개선하고 디지털 전환을 이끄는 역할에 적합합니다. 전통 금융과 핀테크의 가교 역할을 할 수 있는 인재입니다.',
     sectors: ['인터넷전문은행', '핀테크', '금융 IT'],
-    sectorLinks: ['/companies/banks', '/companies/vc-fintech', '/companies/vc-fintech'],
+    sectorLinks: ['/companies/banks', '/companies/vc-fintech', '/companies/securities'],
     jobs: [
       { title: '프로덕트매니저(PM)', desc: '금융 상품·서비스의 기획부터 출시까지 총괄합니다' },
       { title: '디지털전략', desc: '금융기관의 디지털 트랜스포메이션 전략을 수립합니다' },
@@ -273,7 +273,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 수리·기술적 역량과 혁신적 사고를 겸비한 유형입니다. 복잡한 시스템을 설계하고 기술로 금융의 새로운 가능성을 여는 데 관심이 많습니다. 독립적으로 깊이 있는 기술 작업을 수행하면서도 창의적 접근을 추구하는 환경에서 빛납니다.',
     sectors: ['핀테크', '금융인프라', '빅테크 금융'],
-    sectorLinks: ['/companies/vc-fintech', '/companies/vc-fintech', '/companies/vc-fintech'],
+    sectorLinks: ['/companies/vc-fintech', '/companies/public-infra', '/companies/securities'],
     jobs: [
       { title: '데이터사이언스', desc: 'ML/AI를 활용한 금융 모델을 개발합니다' },
       { title: '시스템개발', desc: '금융 거래 시스템과 인프라를 설계·개발합니다' },
@@ -333,7 +333,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 남들이 보지 못하는 가치를 발견하는 눈을 가진 유형입니다. 도전적이고 자율적인 환경에서 독립적으로 투자 대상을 분석하고, 창의적 시각으로 숨겨진 가치를 평가하는 데 강점이 있습니다. VC, PE, 자산운용 분야에서 탁월한 투자 전문가로 성장할 수 있습니다.',
     sectors: ['자산운용', 'VC/PEF', '사모펀드'],
-    sectorLinks: ['/companies/savings-asset', '/companies/vc-fintech', '/companies/vc-fintech'],
+    sectorLinks: ['/companies/savings-asset', '/companies/vc-fintech', '/companies/securities'],
     jobs: [
       { title: '펀드매니저', desc: '투자 포트폴리오를 구성하고 운용 전략을 실행합니다' },
       { title: '심사역(VC)', desc: '스타트업의 투자 가치를 평가하고 투자를 집행합니다' },
@@ -348,7 +348,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 시장의 역동적인 환경에서 빠른 판단력과 대인관계 능력으로 기회를 잡는 유형입니다. 정성적 감각과 소통 능력을 바탕으로 트레이딩과 세일즈 영역에서 뛰어난 성과를 발휘할 수 있습니다. 자유롭고 도전적인 금융시장의 최전선에서 가장 빛나는 인재입니다.',
     sectors: ['증권 S&T', '외환딜링', '선물사'],
-    sectorLinks: ['/companies/securities', '/companies/banks', '/companies/securities'],
+    sectorLinks: ['/companies/securities', '/companies/banks', '/companies/vc-fintech'],
     jobs: [
       { title: '트레이더', desc: '주식, 채권, 외환 등 금융상품을 직접 매매합니다' },
       { title: '세일즈(기관영업)', desc: '기관투자자에게 시장 뷰와 투자 아이디어를 제공합니다' },
@@ -393,7 +393,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 기술과 금융의 교차점에서 새로운 가치를 창출하는 유형입니다. 도전적이고 자율적인 환경에서 독립적으로 정량 모델과 알고리즘을 설계·구현하는 데 열정이 있습니다. 코딩과 수학적 사고를 결합하여 금융의 미래를 프로그래밍하는 인재입니다.',
     sectors: ['핀테크', '자산운용 퀀트', '크립토/블록체인'],
-    sectorLinks: ['/companies/vc-fintech', '/companies/savings-asset', '/companies/vc-fintech'],
+    sectorLinks: ['/companies/vc-fintech', '/companies/savings-asset', '/companies/securities'],
     jobs: [
       { title: '퀀트개발', desc: '투자 전략 알고리즘을 설계하고 시스템으로 구현합니다' },
       { title: '알고리즘트레이딩', desc: '자동화된 매매 시스템을 개발하고 운영합니다' },
@@ -408,7 +408,7 @@ const typeProfiles: Record<string, TypeProfile> = {
     description:
       '당신은 정량적 역량과 대인관계 능력, 그리고 창의적 사고를 모두 갖춘 다재다능한 유형입니다. 도전적 환경에서 다양한 이해관계자와 소통하며 복잡한 딜을 성사시키는 역할에 적합합니다. VC/PE와 자본시장 분야에서 전략적 네트워킹과 분석을 결합한 독보적 역할을 수행할 수 있습니다.',
     sectors: ['VC/PEF', '증권 IB', '벤처캐피탈'],
-    sectorLinks: ['/companies/vc-fintech', '/companies/securities', '/companies/vc-fintech'],
+    sectorLinks: ['/companies/vc-fintech', '/companies/securities', '/companies/savings-asset'],
     jobs: [
       { title: '심사역(PE)', desc: '투자 대상 기업의 가치를 평가하고 딜을 구조화합니다' },
       { title: 'ECM/DCM', desc: '주식/채권 발행을 통한 자본 조달을 주관합니다' },
