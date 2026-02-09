@@ -4,6 +4,7 @@
 
 **[pollmap.github.io/Value_Alpha](https://pollmap.github.io/Value_Alpha/)**
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpollmap.github.io%2FValue_Alpha&count_bg=%234CAF50&title_bg=%23555555&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GitHub Stars](https://img.shields.io/github/stars/pollmap/Value_Alpha?style=flat-square)](https://github.com/pollmap/Value_Alpha/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/pollmap/Value_Alpha?style=flat-square)](https://github.com/pollmap/Value_Alpha/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/pollmap/Value_Alpha?style=flat-square)](https://github.com/pollmap/Value_Alpha/commits)
@@ -132,3 +133,7 @@ Value_Alpha/
 ## 라이선스
 
 MIT License
+
+## 저자
+
+이찬희 ([@pollmap](https://github.com/pollmap))
