@@ -97,20 +97,13 @@ module.exports = async function createConfigAsync() {
           items: [
             {
               type: 'dropdown',
-              label: '투자분석 체계',
+              label: '투자 & 밸류에이션',
               position: 'left',
               items: [
                 { to: '/foundation/overview', label: 'Layer 1 · 기초 회계' },
                 { to: '/financial-analysis/overview', label: 'Layer 2 · 재무제표 분석' },
                 { to: '/industry-analysis/overview', label: 'Layer 3 · 산업분석' },
                 { to: '/company-analysis/overview', label: 'Layer 4 · 기업분석' },
-              ],
-            },
-            {
-              type: 'dropdown',
-              label: '밸류에이션',
-              position: 'left',
-              items: [
                 { to: '/valuation/dcf/overview', label: 'DCF 분석' },
                 { to: '/valuation/relative/overview', label: '상대가치평가' },
                 { to: '/valuation/lbo', label: 'LBO 모델링' },
@@ -119,7 +112,7 @@ module.exports = async function createConfigAsync() {
             },
             {
               type: 'dropdown',
-              label: '거시경제',
+              label: '거시경제 & 시장',
               position: 'left',
               items: [
                 { to: '/macroeconomics/overview', label: '거시경제 개요' },
@@ -128,6 +121,10 @@ module.exports = async function createConfigAsync() {
                 { to: '/macroeconomics/fiscal-policy', label: '재정정책 & 정부' },
                 { to: '/macroeconomics/money-and-currency', label: '화폐 & 환율' },
                 { to: '/macroeconomics/business-cycles', label: '경기 순환 & 투자' },
+                { to: '/trading-strategies/overview', label: '매매 전략' },
+                { to: '/assets/bonds/intro', label: '채권' },
+                { to: '/assets/real-estate/intro', label: '부동산' },
+                { to: '/assets/crypto/intro', label: '암호화폐' },
               ],
             },
             {
@@ -142,9 +139,6 @@ module.exports = async function createConfigAsync() {
                 { to: '/asset-management-industry/', label: '자산운용 산업 가이드' },
                 { to: '/actuarial/overview', label: '보험 계리' },
                 { to: '/companies', label: '금융권 기업 총람' },
-                { to: '/companies/banks', label: '은행' },
-                { to: '/companies/securities', label: '증권사' },
-                { to: '/companies/insurance', label: '보험사' },
               ],
             },
             {
@@ -164,28 +158,16 @@ module.exports = async function createConfigAsync() {
             },
             {
               type: 'dropdown',
-              label: '분석 도구',
+              label: '도구 & 자료',
               position: 'left',
               items: [
-                { to: '/technical/intro', label: '기술적 분석' },
                 { to: '/calculators/dcf', label: 'DCF 계산기' },
                 { to: '/calculators/wacc', label: 'WACC 계산기' },
                 { to: '/calculators/graham-number', label: '그레이엄 넘버' },
+                { to: '/technical/intro', label: '기술적 분석' },
                 { to: '/modeling-tools/overview', label: '모델링 도구' },
-              ],
-            },
-            {
-              type: 'dropdown',
-              label: '실전 & 참고',
-              position: 'left',
-              items: [
-                { to: '/case-studies/samsung-electronics', label: '기업 케이스 스터디' },
+                { to: '/case-studies/samsung-electronics', label: '케이스 스터디' },
                 { to: '/risk-management/overview', label: '리스크 관리' },
-                { to: '/trading-strategies/overview', label: '매매 전략' },
-                { to: '/assets/real-estate/intro', label: '부동산 투자 가이드' },
-                { to: '/assets/real-estate/practical-guide', label: '방 구하기 실전 가이드' },
-                { to: '/assets/crypto/intro', label: '암호화폐' },
-                { to: '/assets/bonds/intro', label: '채권' },
                 { to: '/masters/graham', label: '투자 대가' },
                 { to: '/glossary/a-c', label: '용어사전' },
                 { to: '/quiz/accounting-basics', label: '학습 퀴즈' },

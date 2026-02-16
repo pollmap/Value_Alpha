@@ -627,15 +627,17 @@ p, li, span {
 /* 링크 스타일 */
 a {
   color: var(--va-text-primary);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--va-text-secondary);
+  text-decoration: none;
 }
 
 [data-theme='dark'] a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 [data-theme='dark'] a:hover {
@@ -1080,7 +1082,7 @@ a:hover {
 .va-feature-card__num {
   font-size: 48px;
   font-weight: 700;
-  color: var(--va-border, #e5e5e5);
+  color: var(--va-text-secondary, #666);
   margin-bottom: 16px;
   font-family: monospace;
 }
@@ -1187,6 +1189,10 @@ a:hover {
 
 [data-theme='dark'] .va-feature-card:hover {
   background: var(--va-surface, #0a0a0a);
+}
+
+[data-theme='dark'] .va-feature-card__num {
+  color: #666;
 }
 
 [data-theme='dark'] .va-feature-card__desc {
