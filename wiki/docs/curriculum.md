@@ -204,23 +204,13 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 
 ## 인터랙티브 학습
 
-**[도구 허브](./tools/tools-hub)** — 모든 인터랙티브 도구를 카테고리별로 한눈에 확인
-
 **자가 진단**
 - [금융 성향 테스트 (Finance MBTI)](./finance-mbti) — 20문항 + 레이더 차트로 나에게 맞는 금융 섹터·직무 찾기
 - [Market Survivor 투자 시뮬레이션](./market-survivor) — 역사적 시장 이벤트 기반 투자 게임 (10라운드 랜덤 모드)
 - [회계 기초 퀴즈](/quiz/accounting-basics) · [재무분석 퀴즈](/quiz/financial-analysis) · [밸류에이션 퀴즈](/quiz/valuation)
 
-**분석 도구**
-- [실시간 시장 현황](./tools/market-overview) — KOSPI, S&P500, 환율, 금, 유가, BTC 실시간 위젯
-- [경제 캘린더](./tools/economic-calendar) — 194개 이벤트 (2025-2026), 5개국 경제지표, 월별 필터링
+**밸류에이션 도구**
 - [Guided DCF 밸류에이션](./calculators/guided-dcf) — 5단계 가이드 + WACC×성장률 민감도 분석
-- [기업 비교 도구](./tools/company-comparison) — 두 기업의 재무 지표 비교 분석
-- [포트폴리오 시뮬레이터](./tools/portfolio-simulator) — 13개 자산 클래스, 11년 백테스트, 5개 프리셋
-- [한국 금융사 타임라인](./tools/finance-timeline) — 1997년 IMF부터 현재까지 40+ 이벤트, 5개 카테고리
-
-**학습 관리**
-- [학습 진도 추적](./tools/progress-tracker) — 학습 완료 현황 체크리스트
 
 ---
 
@@ -249,4 +239,3 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 1. 관심 자산 선택: [부동산](/assets/real-estate/intro) · [암호화폐](/assets/crypto/intro) · [채권](/assets/bonds/intro) · [파생상품](/assets/derivatives/options-basics)
 2. 각 자산군의 입문 문서부터 순서대로 학습 (모든 자산군 10-16개 문서로 구성)
 3. 리스크 관리: [헤지 전략](/risk-management/hedging) · [상관관계·분산투자](/risk-management/correlation-diversification)
-4. 실습: [포트폴리오 시뮬레이터](./tools/portfolio-simulator)로 자산 배분 백테스트

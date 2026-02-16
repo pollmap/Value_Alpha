@@ -6,7 +6,6 @@ const sidebars = {
     // ─────────────────────────────────────────────
     'intro',
     'curriculum',
-    'tools/tools-hub',
 
     // ═════════════════════════════════════════════
     // 대 카테고리 1: 투자분석 체계
@@ -545,19 +544,6 @@ const sidebars = {
             'modeling-tools/excel-financial-modeling',
             'modeling-tools/python-for-finance',
             'modeling-tools/professional-analysis',
-          ],
-        },
-        {
-          type: 'category',
-          label: '분석 도구',
-          items: [
-            'tools/market-overview',
-            'tools/economic-calendar',
-            'tools/company-comparison',
-            'tools/portfolio-simulator',
-            'tools/finance-timeline',
-            'tools/progress-tracker',
-            'tools/stats',
           ],
         },
       ],
