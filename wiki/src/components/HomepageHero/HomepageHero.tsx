@@ -57,244 +57,70 @@ export default function HomepageHero(): JSX.Element {
   return (
     <div style={{ marginBottom: 48 }}>
       {/* Hero Section - Minimal Dark */}
-      <div
-        style={{
-          background: '#000',
-          padding: '80px 48px',
-          textAlign: 'center',
-          color: '#fff',
-          marginBottom: 48,
-        }}
-      >
-        <h1
-          style={{
-            fontSize: 'clamp(48px, 10vw, 96px)',
-            fontWeight: 800,
-            margin: '0 0 16px',
-            color: '#fff',
-            letterSpacing: '-0.03em',
-            lineHeight: 0.95,
-          }}
-        >
+      <div className="va-hero">
+        <h1 className="va-hero__title">
           VALUE ALPHA
         </h1>
-        <p
-          style={{
-            fontSize: 'clamp(14px, 2vw, 18px)',
-            margin: '0 0 48px',
-            color: '#888',
-            fontWeight: 400,
-            letterSpacing: '0.05em',
-          }}
-        >
+        <p className="va-hero__subtitle">
           투자분석부터 금융권 취업까지
         </p>
 
         {/* Stats Row */}
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: 0,
-            borderTop: '1px solid #222',
-            borderBottom: '1px solid #222',
-            maxWidth: 600,
-            margin: '0 auto',
-          }}
-        >
+        <div className="va-hero__stats">
           {stats.map((s, i) => (
             <div
               key={s.label}
+              className="va-hero__stat"
               style={{
-                flex: 1,
-                padding: '24px 16px',
-                borderRight: i < stats.length - 1 ? '1px solid #222' : 'none',
+                borderRight: i < stats.length - 1 ? '1px solid #333' : 'none',
               }}
             >
-              <div style={{ fontSize: 32, fontWeight: 700 }}>{s.value}</div>
-              <div style={{ fontSize: 11, color: '#666', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-                {s.label}
-              </div>
+              <div className="va-hero__stat-value">{s.value}</div>
+              <div className="va-hero__stat-label">{s.label}</div>
             </div>
           ))}
         </div>
       </div>
 
       {/* Feature Grid - Terminal Style */}
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-          gap: 0,
-          border: '1px solid var(--va-border, #e5e5e5)',
-        }}
-      >
+      <div className="va-feature-grid">
         {features.map((f) => (
           <a
             key={f.title}
             href={resolve(f.link)}
-            style={{
-              display: 'block',
-              padding: '32px 24px',
-              borderRight: '1px solid var(--va-border, #e5e5e5)',
-              borderBottom: '1px solid var(--va-border, #e5e5e5)',
-              background: 'var(--ifm-background-color, #fff)',
-              textDecoration: 'none',
-              color: 'inherit',
-              transition: 'background 150ms ease',
-              position: 'relative',
-            }}
-            onMouseOver={(e) => {
-              (e.currentTarget as HTMLElement).style.background = 'var(--va-surface, #fafafa)';
-            }}
-            onMouseOut={(e) => {
-              (e.currentTarget as HTMLElement).style.background = 'var(--ifm-background-color, #fff)';
-            }}
+            className="va-feature-card"
           >
-            <div
-              style={{
-                fontSize: 48,
-                fontWeight: 700,
-                color: 'var(--va-border, #e5e5e5)',
-                marginBottom: 16,
-                fontFamily: 'monospace',
-              }}
-            >
-              {f.num}
-            </div>
-            <div
-              style={{
-                fontSize: 18,
-                fontWeight: 700,
-                marginBottom: 8,
-                color: 'var(--va-text-primary, #000)',
-              }}
-            >
-              {f.title}
-            </div>
-            <div
-              style={{
-                fontSize: 14,
-                color: 'var(--va-text-secondary, #666)',
-                lineHeight: 1.5,
-              }}
-            >
-              {f.desc}
-            </div>
-            <div
-              style={{
-                position: 'absolute',
-                bottom: 24,
-                right: 24,
-                color: 'var(--va-text-muted, #999)',
-                fontSize: 18,
-              }}
-            >
-              →
-            </div>
+            <div className="va-feature-card__num">{f.num}</div>
+            <div className="va-feature-card__title">{f.title}</div>
+            <div className="va-feature-card__desc">{f.desc}</div>
+            <div className="va-feature-card__arrow">→</div>
           </a>
         ))}
       </div>
 
       {/* CTA Section */}
-      <div
-        style={{
-          display: 'flex',
-          gap: 0,
-          marginTop: 48,
-          border: '1px solid var(--va-border, #e5e5e5)',
-        }}
-      >
-        <a
-          href={resolve('/foundation/overview')}
-          style={{
-            flex: 1,
-            padding: '20px 24px',
-            background: 'var(--va-text-primary, #000)',
-            color: 'var(--va-bg, #fff)',
-            fontWeight: 600,
-            textDecoration: 'none',
-            textAlign: 'center',
-            fontSize: 14,
-            letterSpacing: '0.05em',
-            transition: 'opacity 150ms ease',
-          }}
-          onMouseOver={(e) => {
-            (e.currentTarget as HTMLElement).style.opacity = '0.8';
-          }}
-          onMouseOut={(e) => {
-            (e.currentTarget as HTMLElement).style.opacity = '1';
-          }}
-        >
+      <div className="va-cta">
+        <a href={resolve('/foundation/overview')} className="va-cta__link va-cta__link--primary">
           학습 시작하기 →
         </a>
-        <a
-          href={resolve('/finance-mbti')}
-          style={{
-            flex: 1,
-            padding: '20px 24px',
-            background: 'transparent',
-            color: 'var(--va-text-primary, #000)',
-            fontWeight: 600,
-            textDecoration: 'none',
-            textAlign: 'center',
-            fontSize: 14,
-            borderLeft: '1px solid var(--va-border, #e5e5e5)',
-            letterSpacing: '0.05em',
-            transition: 'background 150ms ease',
-          }}
-          onMouseOver={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'var(--va-surface, #fafafa)';
-          }}
-          onMouseOut={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'transparent';
-          }}
-        >
+        <a href={resolve('/finance-mbti')} className="va-cta__link va-cta__link--ghost">
           금융 성향 테스트
         </a>
-        <a
-          href={resolve('/market-survivor')}
-          style={{
-            flex: 1,
-            padding: '20px 24px',
-            background: 'transparent',
-            color: 'var(--va-text-primary, #000)',
-            fontWeight: 600,
-            textDecoration: 'none',
-            textAlign: 'center',
-            fontSize: 14,
-            borderLeft: '1px solid var(--va-border, #e5e5e5)',
-            letterSpacing: '0.05em',
-            transition: 'background 150ms ease',
-          }}
-          onMouseOver={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'var(--va-surface, #fafafa)';
-          }}
-          onMouseOut={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'transparent';
-          }}
-        >
+        <a href={resolve('/market-survivor')} className="va-cta__link va-cta__link--ghost">
           투자 시뮬레이터
         </a>
       </div>
 
       {/* AI Disclaimer - Minimal */}
-      <div
-        style={{
-          marginTop: 48,
-          padding: '24px',
-          border: '1px solid var(--va-border, #e5e5e5)',
-          borderLeft: '2px solid var(--va-text-primary, #000)',
-        }}
-      >
-        <div style={{ fontWeight: 700, marginBottom: 12, fontSize: 14 }}>
+      <div className="va-disclaimer">
+        <div className="va-disclaimer__title">
           데이터 출처 및 투명성
         </div>
-        <p style={{ margin: '0 0 12px', fontSize: 13, color: 'var(--va-text-secondary, #666)', lineHeight: 1.7 }}>
+        <p className="va-disclaimer__body">
           Value Alpha의 콘텐츠는 금융감독원, 한국은행, 금융투자협회 등 공공기관 발간물과
           DART 전자공시시스템, 각 금융사 IR 자료를 참고하여 AI 기반으로 생성·정리되었습니다.
         </p>
-        <p style={{ margin: 0, fontSize: 12, color: 'var(--va-text-muted, #999)', lineHeight: 1.6 }}>
+        <p className="va-disclaimer__note">
           주의: AI 생성 콘텐츠는 단순화, 편향, 부정확성을 포함할 수 있습니다.
           학술 연구나 실무 적용에는 반드시 원전과 전문 자료를 참조하세요.
         </p>

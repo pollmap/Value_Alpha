@@ -9,7 +9,7 @@ module.exports = async function createConfigAsync() {
   return {
     title: '금융 위키',
     tagline: '투자분석부터 금융권 취업까지, 금융 학습의 모든 것',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/favicon.svg',
 
     url: process.env.SITE_URL || 'https://pollmap.github.io',
     baseUrl: process.env.BASE_URL || '/Value_Alpha/',
@@ -88,6 +88,12 @@ module.exports = async function createConfigAsync() {
         image: 'img/valuation-academy-social.png',
         navbar: {
           title: '금융 위키',
+          logo: {
+            alt: 'Value Alpha',
+            src: 'img/va-logo.svg',
+            width: 80,
+            height: 28,
+          },
           items: [
             {
               type: 'dropdown',
