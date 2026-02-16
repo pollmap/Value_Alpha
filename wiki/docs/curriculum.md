@@ -218,7 +218,6 @@ GICS 11대 섹터별 분석 프레임워크를 배우고, 실제 기업에 밸�
 - [기업 비교 도구](./tools/company-comparison) — 두 기업의 재무 지표 비교 분석
 - [포트폴리오 시뮬레이터](./tools/portfolio-simulator) — 13개 자산 클래스, 11년 백테스트, 5개 프리셋
 - [한국 금융사 타임라인](./tools/finance-timeline) — 1997년 IMF부터 현재까지 40+ 이벤트, 5개 카테고리
-- [분석 템플릿 다운로드](./tools/templates) — DCF, 3-Statement, LBO 등 9종 Excel 템플릿
 
 **학습 관리**
 - [학습 진도 추적](./tools/progress-tracker) — 학습 완료 현황 체크리스트

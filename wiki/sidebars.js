@@ -560,7 +560,6 @@ const sidebars = {
             'tools/stats',
           ],
         },
-        'tools/templates',
       ],
     },
 
