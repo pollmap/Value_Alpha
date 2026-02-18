@@ -7,7 +7,7 @@ module.exports = async function createConfigAsync() {
   const katex = (await import('rehype-katex')).default;
 
   return {
-    title: '금융 위키',
+    title: 'CUFA wiki',
     tagline: '투자분석부터 금융권 취업까지, 금융 학습의 모든 것',
     favicon: 'img/favicon.ico',
 
@@ -87,9 +87,9 @@ module.exports = async function createConfigAsync() {
       ({
         image: 'img/valuation-academy-social.png',
         navbar: {
-          title: '금융 위키',
+          title: 'CUFA wiki',
           logo: {
-            alt: 'Value Alpha',
+            alt: 'CUFA wiki',
             src: 'img/VA-LOGO.png',
             width: 32,
             height: 32,
@@ -223,7 +223,7 @@ module.exports = async function createConfigAsync() {
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} Value Alpha. Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} CUFA wiki. Built with Docusaurus.`,
         },
         prism: {
           theme: themes.github,

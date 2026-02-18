@@ -1,4 +1,4 @@
-# Value Alpha - AI 밸류에이션 교육 플랫폼
+# CUFA wiki - AI 밸류에이션 교육 플랫폼
 
 ## 프로젝트 개요
 Docusaurus 기반 금융 교육 위키 + 인터랙티브 도구 플랫폼.
