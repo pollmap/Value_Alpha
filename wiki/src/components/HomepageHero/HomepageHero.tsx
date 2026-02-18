@@ -59,7 +59,7 @@ export default function HomepageHero(): JSX.Element {
       {/* Hero Section - Minimal Dark */}
       <div className="va-hero">
         <h1 className="va-hero__title">
-          VALUE ALPHA
+          CUFA wiki
         </h1>
         <p className="va-hero__subtitle">
           투자분석부터 금융권 취업까지
@@ -117,7 +117,7 @@ export default function HomepageHero(): JSX.Element {
           데이터 출처 및 투명성
         </div>
         <p className="va-disclaimer__body">
-          Value Alpha의 콘텐츠는 금융감독원, 한국은행, 금융투자협회 등 공공기관 발간물과
+          CUFA wiki의 콘텐츠는 금융감독원, 한국은행, 금융투자협회 등 공공기관 발간물과
           DART 전자공시시스템, 각 금융사 IR 자료를 참고하여 AI 기반으로 생성·정리되었습니다.
         </p>
         <p className="va-disclaimer__note">

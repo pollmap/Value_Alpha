@@ -1,6 +1,6 @@
-# Contributing to 금융 위키
+# Contributing to CUFA wiki
 
-금융 위키에 기여해 주셔서 감사합니다! 아래 가이드라인을 따라주세요.
+CUFA wiki에 기여해 주셔서 감사합니다! 아래 가이드라인을 따라주세요.
 
 ## 기여 방법
 
